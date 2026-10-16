@@ -14,7 +14,7 @@ function render(){
   const art=document.createElement('div');art.className='track-art';const img=document.createElement('img');img.src=track.artwork;img.alt=`${track.title} cover artwork`;img.loading='lazy';img.width=400;img.height=400;
   const play=document.createElement('button');play.className='track-play';play.dataset.play=index;play.addEventListener('click',()=>select(index));art.append(img,play);
   const row=document.createElement('div');row.className='track-title-row';const title=document.createElement('h3');title.textContent=track.title;const time=document.createElement('span');time.textContent=format(track.duration);row.append(title,time);
-  const meta=document.createElement('div');meta.className='track-meta';const tags=document.createElement('span');tags.textContent=`${track.artist || 'DiscoPrincess'} · ${track.likes ?? '—'} likes${track.plays != null ? ` · ${track.plays} plays` : ''}`;const link=document.createElement('a');link.href=track.url;link.textContent='↗';link.target='_blank';link.rel='noopener';link.setAttribute('aria-label',`Open ${track.title} on Treblo`);meta.append(tags,link);card.append(art,row,meta);$('tracks').append(card);
+  const meta=document.createElement('div');meta.className='track-meta';const tags=document.createElement('span');tags.textContent=`${track.artist || 'DiscoPrincess'} · ${track.likes ?? '—'} likes${track.plays != null ? ` · ${track.plays} plays` : ''}`;const link=document.createElement('a');link.href=track.url;link.className='track-treblo-link';link.textContent='↗';link.target='_blank';link.rel='noopener';link.setAttribute('aria-label',`Open ${track.title} on Treblo`);meta.append(tags);const links=document.createElement('div');links.className='track-links';links.append(link);card.append(art,row,links,meta);$('tracks').append(card);
  });sync();
 }
 function sync(){
@@ -29,7 +29,7 @@ function sync(){
 async function select(index,force=false){
  if(!tracks.length)return;
  if(index===current&&!force){if(audio.paused)await resume();else audio.pause();return;}
- current=(index+tracks.length)%tracks.length;const track=tracks[current];audio.src=track.audio;$('player-title').textContent=track.title;$('player-subtitle').textContent=`${track.artist || 'DiscoPrincess'} · Treblo`;$('player-art').src=track.artwork;$('song-link').href=track.url;$('duration').textContent=format(track.duration);$('elapsed').textContent='0:00';$('seek').value=0;
+ current=(index+tracks.length)%tracks.length;const track=tracks[current];audio.src=track.audio;$('player-title').textContent=track.title;$('player-subtitle').textContent=`${track.artist || 'DiscoPrincess'} · Treblo`;$('player-art').src=track.artwork;$('song-link').href=track.url;$('song-link').setAttribute('aria-label',`Open ${track.title} on Treblo`);$('duration').textContent=format(track.duration);$('elapsed').textContent='0:00';$('seek').value=0;
  if('mediaSession' in navigator&&'MediaMetadata' in window){navigator.mediaSession.metadata=new MediaMetadata({title:track.title,artist:track.artist || 'DiscoPrincess',album:'The unapologetic glow',artwork:[{src:track.artwork}]});}
  sync();await resume();
 }
