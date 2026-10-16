@@ -75,6 +75,9 @@ def build(playlists):
         for t in p['tracks']:unique.setdefault(t['id'],t)
     home=embed(home,list(unique.values()))
     outputs={'index.html':home,'tracks.json':json.dumps(list(unique.values()),ensure_ascii=False,indent=2)+'\n','playlists.json':json.dumps(playlists,ensure_ascii=False,indent=2)+'\n'}
+    manifesto=ROOT/'manifesto.html'
+    if manifesto.exists():
+        outputs['manifesto.html']=re.sub(r'href="style\.css(?:\?v=[^"]*)?"',f'href="style.css?v={version}"',manifesto.read_text())
     for p in playlists:
         page=home.replace('<head>','<head>\n<base href="../">',1)
         page=re.sub(r'<title>.*?</title>',lambda _: '<title>'+esc(p['title'])+' | DiscoPrincess</title>',page)
