@@ -2,6 +2,8 @@ name: Publish DiscoPrincess
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '17 6 * * *'
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,14 +23,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate and embed catalog
+      - name: Pull playlists and generate collection pages
         run: python scripts/refresh_tracks.py
+      - name: Test playlist importer
+        run: python -m unittest discover -s tests
       - name: Check player syntax
         run: node --check app.js
       - name: Prepare website
         run: |
           mkdir -p _site
-          cp index.html style.css app.js tracks.json _site/
+          cp index.html style.css app.js tracks.json playlists.json _site/
+          cp -r playlists _site/playlists
           cp -r assets _site/assets
           touch _site/.nojekyll
       - uses: actions/configure-pages@v5
