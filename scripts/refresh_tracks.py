@@ -1,5 +1,5 @@
 """Sync public Treblo playlists, preserving source order and failing before writes."""
-import json,re,urllib.request,html,os,tempfile
+import json,re,urllib.request,html,os,tempfile,hashlib
 from pathlib import Path
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1]
@@ -38,8 +38,22 @@ def duration(s):
     h,m=divmod(round(s/60),60)
     return f'{h} hr {m:02d} min' if h else f'{m} min'
 def stats(p):
+    icons={
+      'tracks':'M9 18V5l11-2v13M9 8l11-2M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM17 19a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z',
+      'listening':'M12 8v4l3 2M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z',
+      'playlist likes':'M20 5c-3-3-7-1-8 1C9 1 2 3 3 9c1 5 9 11 9 11s8-6 9-11c0-2 0-3-1-4Z',
+      'track likes':'m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z',
+      'track plays':'m9 5 11 7-11 7ZM4 5v14',
+      'artists':'M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M22 21v-2a4 4 0 0 0-3-3.9M15 3.1a4 4 0 0 1 0 7.8M13 7a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z',
+      'playlist comments':'M21 11a8 8 0 0 1-8 8H7l-4 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4ZM7 8h10M7 12h7'}
     pairs=[(p['trackCount'],'tracks'),(duration(p['duration']),'listening'),(p['likes'],'playlist likes'),(p['trackLikes'],'track likes'),(p['plays'],'track plays'),(p['artists'],'artists'),(p['comments'],'playlist comments')]
-    return '<div class="playlist-stats">'+''.join(f'<div><strong>{esc(v)}</strong><span>{label}</span></div>' for v,label in pairs if v is not None)+'</div>'
+    tiles=[]
+    for value,label in pairs:
+        if value is None: continue
+        display=f'{value:,}' if isinstance(value,int) else value
+        icon=f'<i class="stat-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="{icons[label]}"/></svg></i>'
+        tiles.append(f'<div class="stat-tile">{icon}<strong>{esc(display)}</strong><span>{label}</span></div>')
+    return '<div class="playlist-stats">'+''.join(tiles)+'</div>'
 def embed(h,tracks):
     data=json.dumps(tracks,ensure_ascii=False).replace('</','<\\/')
     h,n=re.subn(r'<script id="track-data" type="application/json">.*?</script>',lambda _:f'<script id="track-data" type="application/json">{data}</script>',h,flags=re.S)
@@ -48,6 +62,8 @@ def embed(h,tracks):
 
 def build(playlists):
     home=(ROOT/'index.html').read_text()
+    version=hashlib.sha256((ROOT/'style.css').read_bytes()).hexdigest()[:12]
+    home=re.sub(r'href="style\.css(?:\?v=[^"]*)?"',f'href="style.css?v={version}"',home)
     cards=''
     for i,p in enumerate(playlists):
         href='playlists/'+p['id']+'.html'
