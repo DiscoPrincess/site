@@ -45,3 +45,12 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
 if('mediaSession' in navigator){[['play',()=>current<0?select(0):resume()],['pause',()=>audio.pause()],['previoustrack',()=>step(-1)],['nexttrack',()=>step(1)],['seekto',details=>{if(Number.isFinite(details.seekTime))audio.currentTime=details.seekTime;}]].forEach(([action,handler])=>{try{navigator.mediaSession.setActionHandler(action,handler);}catch{}});}
 $('year').textContent=new Date().getFullYear();render();
 
+
+// Keep the brand generous at the top, then make room for the content.
+const siteHeader=document.querySelector('header');
+if(siteHeader){
+ const updateHeader=()=>siteHeader.classList.toggle('is-scrolled',window.scrollY>36);
+ window.addEventListener('scroll',updateHeader,{passive:true});
+ window.addEventListener('pageshow',updateHeader);
+ updateHeader();
+}

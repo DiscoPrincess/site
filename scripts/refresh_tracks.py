@@ -63,6 +63,8 @@ def embed(h,tracks):
 def build(playlists):
     home=(ROOT/'index.html').read_text()
     version=hashlib.sha256((ROOT/'style.css').read_bytes()).hexdigest()[:12]
+    script_version=hashlib.sha256((ROOT/'app.js').read_bytes()).hexdigest()[:12]
+    home=re.sub(r'src="app\.js(?:\?v=[^"]*)?"',f'src="app.js?v={script_version}"',home)
     home=re.sub(r'href="style\.css(?:\?v=[^"]*)?"',f'href="style.css?v={version}"',home)
     cards=''
     for i,p in enumerate(playlists):
@@ -77,7 +79,7 @@ def build(playlists):
     outputs={'index.html':home,'tracks.json':json.dumps(list(unique.values()),ensure_ascii=False,indent=2)+'\n','playlists.json':json.dumps(playlists,ensure_ascii=False,indent=2)+'\n'}
     manifesto=ROOT/'manifesto.html'
     if manifesto.exists():
-        outputs['manifesto.html']=re.sub(r'href="style\.css(?:\?v=[^"]*)?"',f'href="style.css?v={version}"',manifesto.read_text())
+        outputs['manifesto.html']=re.sub(r'href="style\.css(?:\?v=[^"]*)?"',f'href="style.css?v={version}"',re.sub(r'src="app\.js(?:\?v=[^"]*)?"',f'src="app.js?v={script_version}"',manifesto.read_text()))
     for p in playlists:
         page=home.replace('<head>','<head>\n<base href="../">',1)
         page=re.sub(r'<title>.*?</title>',lambda _: '<title>'+esc(p['title'])+' | DiscoPrincess</title>',page)
