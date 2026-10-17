@@ -55,6 +55,22 @@ if(siteHeader){
  updateHeader();
 }
 
+// First-visit entrance: load essentials without trapping slow connections.
+let siteEntered=!document.getElementById('hero-video');
+let entranceReady=()=>{};
+if(!siteEntered){
+ const gate=document.createElement('section');gate.className='entrance';gate.setAttribute('aria-label','Enter DiscoPrincess');
+ gate.innerHTML='<div class="entrance-inner"><p class="eyebrow">THE LATE-NIGHT FREQUENCY</p><div class="entrance-orbit"><img src="assets/mark.svg" alt="DiscoPrincess crown" width="130" height="130"><span></span></div><h1>Disco<em>Princess</em></h1><p class="entrance-tagline">A crown. A rhythm. Your own world.</p><div class="entrance-wave" aria-hidden="true">'+Array.from({length:17},(_,i)=>`<i style="--n:${i}"></i>`).join('')+'</div><p id="entrance-status" role="status" aria-live="polite">Tuning your frequency…</p><button id="enter-site" disabled>Preparing your world…</button><button id="skip-entrance" class="entrance-skip">Continue without waiting</button></div>';
+ document.body.append(gate);document.body.classList.add('entrance-locked');
+ const button=gate.querySelector('#enter-site'),status=gate.querySelector('#entrance-status');
+ let ready=false;
+ entranceReady=(fallback=false)=>{if(ready)return;ready=true;button.disabled=false;button.textContent='Enter her world ↗';status.textContent=fallback?'Your world is ready. Video will continue loading.':'Your frequency is ready.';gate.classList.add('is-ready');};
+ const enter=()=>{siteEntered=true;document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
+ button.addEventListener('click',enter);gate.querySelector('#skip-entrance').addEventListener('click',enter);
+ setTimeout(()=>entranceReady(true),12000);
+ Promise.allSettled([document.fonts.ready,new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src='assets/mark.svg';})]).then(()=>{window.dispatchEvent(new Event('entrance-assets-ready'));});
+}
+
 // Decorative video is always silent, independent of music-player volume.
 const heroVideo=document.getElementById('hero-video');
 const heroVideoData=document.getElementById('hero-video-data');
@@ -68,19 +84,44 @@ if(heroVideo&&heroVideoData){
  }
  function playHero(){
   heroVideo.muted=true;heroVideo.defaultMuted=true;heroVideo.volume=0;
+  if(!siteEntered)return;
   const promise=heroVideo.play();
   if(promise)promise.catch(()=>{heroVideo.classList.remove('is-playing');});
  }
  function nextHero(){
   if(!queue.length)refill();
-  if(!queue.length){heroVideo.classList.remove('is-playing');return;}
-  last=queue.shift();heroVideo.src=last;heroVideo.load();playHero();
+  if(!queue.length){heroVideo.classList.remove('is-playing');entranceReady(true);return;}
+  last=queue.shift();heroVideo.src=last;heroVideo.load();playHero();useCachedVideo(last);
  }
  heroVideo.addEventListener('volumechange',()=>{if(!heroVideo.muted||heroVideo.volume!==0){heroVideo.muted=true;heroVideo.volume=0;}});
  heroVideo.addEventListener('playing',()=>heroVideo.classList.add('is-playing'));
  heroVideo.addEventListener('ended',nextHero);
  heroVideo.addEventListener('error',()=>{failed.add(last);queue=queue.filter(src=>!failed.has(src));nextHero();});
  document.addEventListener('visibilitychange',()=>{if(document.hidden)heroVideo.pause();else if(last)playHero();});
- document.addEventListener('pointerdown',()=>{if(last&&heroVideo.paused)playHero();},{passive:true});
- if(sources.length)nextHero();
+ window.addEventListener('site-entered',()=>{playHero();warmVideos();},{once:true});
+ heroVideo.addEventListener('canplay',()=>entranceReady(),{once:true});
+ window.addEventListener('entrance-assets-ready',()=>{if(heroVideo.readyState>=3||!sources.length)entranceReady();},{once:true});
+ heroVideo.preload='auto';
+ // Persistent best-effort cache, one download at a time; respect data saver.
+ const cacheName='discoprincess-videos-v1';
+ async function warmVideos(){
+  if(!('caches' in window)||navigator.connection?.saveData)return;
+  try{
+   const cache=await caches.open(cacheName);
+   const urls=sources.map(src=>new URL(src,document.baseURI).href);
+   for(const request of await cache.keys())if(!urls.includes(request.url))await cache.delete(request);
+   for(const url of urls){
+    if(await cache.match(url))continue;
+    const response=await fetch(url,{cache:'force-cache'});
+    if(response.ok&&response.status===200)await cache.put(url,response);
+   }
+  }catch{/* Streaming remains available if storage or network is limited. */}
+ }
+ let videoBlobUrl=null;
+ async function useCachedVideo(src){
+  try{if(!('caches' in window))return;const cache=await caches.open(cacheName);const response=await cache.match(new URL(src,document.baseURI).href);
+   if(response&&last===src&&heroVideo.readyState<2){const blob=await response.blob();if(last!==src)return;if(videoBlobUrl)URL.revokeObjectURL(videoBlobUrl);videoBlobUrl=URL.createObjectURL(blob);heroVideo.src=videoBlobUrl;heroVideo.load();playHero();}
+  }catch{}
+ }
+ if(sources.length)nextHero();else entranceReady(true);
 }
