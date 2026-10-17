@@ -54,3 +54,33 @@ if(siteHeader){
  window.addEventListener('pageshow',updateHeader);
  updateHeader();
 }
+
+// Decorative video is always silent, independent of music-player volume.
+const heroVideo=document.getElementById('hero-video');
+const heroVideoData=document.getElementById('hero-video-data');
+if(heroVideo&&heroVideoData){
+ const sources=JSON.parse(heroVideoData.textContent);
+ let queue=[],last=null,failed=new Set();
+ function refill(){
+  queue=sources.filter(src=>!failed.has(src));
+  for(let i=queue.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[queue[i],queue[j]]=[queue[j],queue[i]];}
+  if(queue.length>1&&queue[0]===last)[queue[0],queue[1]]=[queue[1],queue[0]];
+ }
+ function playHero(){
+  heroVideo.muted=true;heroVideo.defaultMuted=true;heroVideo.volume=0;
+  const promise=heroVideo.play();
+  if(promise)promise.catch(()=>{heroVideo.classList.remove('is-playing');});
+ }
+ function nextHero(){
+  if(!queue.length)refill();
+  if(!queue.length){heroVideo.classList.remove('is-playing');return;}
+  last=queue.shift();heroVideo.src=last;heroVideo.load();playHero();
+ }
+ heroVideo.addEventListener('volumechange',()=>{if(!heroVideo.muted||heroVideo.volume!==0){heroVideo.muted=true;heroVideo.volume=0;}});
+ heroVideo.addEventListener('playing',()=>heroVideo.classList.add('is-playing'));
+ heroVideo.addEventListener('ended',nextHero);
+ heroVideo.addEventListener('error',()=>{failed.add(last);queue=queue.filter(src=>!failed.has(src));nextHero();});
+ document.addEventListener('visibilitychange',()=>{if(document.hidden)heroVideo.pause();else if(last)playHero();});
+ document.addEventListener('pointerdown',()=>{if(last&&heroVideo.paused)playHero();},{passive:true});
+ if(sources.length)nextHero();
+}

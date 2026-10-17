@@ -17,3 +17,6 @@ Validation: `python -m unittest discover -s tests` and `node --check app.js`.
 
 ## Hosting
 The GitHub Actions workflow validates and publishes the static site. In repository Settings > Pages, select GitHub Actions as source if not already enabled. There are no build dependencies. Serve the project directory with any static server for local preview.
+
+## Opening videos
+Upload MP4 or WebM videos under `assets/` (subdirectories supported). Each deployment discovers them with `scripts/build_videos.py`. The homepage shuffles the full collection per visit and each cycle, avoiding consecutive repeats when possible. Video audio is always muted; only the music player produces sound. Unsupported or broken videos are skipped. With no videos, a dark gradient remains. MP4 H.264 is recommended for browser compatibility.

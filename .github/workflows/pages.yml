@@ -23,6 +23,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Discover opening videos
+        run: python scripts/build_videos.py
       - name: Pull playlists and generate collection pages
         run: python scripts/refresh_tracks.py
       - name: Test playlist importer
