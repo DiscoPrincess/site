@@ -1,18 +1,20 @@
 'use strict';
 const tracks=JSON.parse(document.getElementById('track-data').textContent);
 const $=id=>document.getElementById(id), audio=$('audio');
+let viewIds=new Set(tracks.map(t=>t.id)), playbackIds=tracks.map(t=>t.id);
 let current=-1,shuffle=false,filter='all',lastVolume=.7,playRequest=0;
 audio.volume=lastVolume;
 const format=seconds=>{seconds=Number.isFinite(seconds)?Math.max(0,Math.floor(seconds)):0;return `${Math.floor(seconds/60)}:${String(seconds%60).padStart(2,'0')}`;};
 const isCategory=(track,category)=>category==='all'||(category==='chant'?track.tags.some(t=>/chant|tibetan|devotional/i.test(t)):category==='rhythm'?track.tags.some(t=>/percussion|bass|liquid/i.test(t)):track.tags.some(t=>/ambient|piano|ethereal|soft/i.test(t)));
 function render(){
+ if(!document.querySelector('main #tracks'))return;
  if(!tracks.length){ $('tracks').innerHTML='<div class="catalog-empty"><img src="assets/mark.svg" alt="" width="88" height="88"><p class="eyebrow">THE NEXT CHAPTER</p><h3>Good things take a little rhythm.</h3><p>A new collection is on its way.<br>Until then, make yourself at home.</p></div>'; ['play','shuffle','shuffle-all','next','prev','repeat','quiet-track','seek'].forEach(id=>$(id).disabled=true); return; }
  $('tracks').replaceChildren();
  tracks.forEach((track,index)=>{
-  if(!isCategory(track,filter))return;
+  if(!viewIds.has(track.id)||!isCategory(track,filter))return;
   const card=document.createElement('article');card.className='track-card';card.dataset.index=index;
   const art=document.createElement('div');art.className='track-art';const img=document.createElement('img');img.src=track.artwork;img.alt=`${track.title} cover artwork`;img.loading='lazy';img.width=400;img.height=400;
-  const play=document.createElement('button');play.className='track-play';play.dataset.play=index;play.addEventListener('click',()=>select(index));art.append(img,play);
+  const play=document.createElement('button');play.className='track-play';play.dataset.play=index;play.addEventListener('click',()=>{playbackIds=[...viewIds];select(index);});art.append(img,play);
   const row=document.createElement('div');row.className='track-title-row';const title=document.createElement('h3');title.textContent=track.title;const time=document.createElement('span');time.textContent=format(track.duration);row.append(title,time);
   const meta=document.createElement('div');meta.className='track-meta';const tags=document.createElement('span');tags.textContent=`${track.artist || 'DiscoPrincess'} · ${track.likes ?? '—'} likes${track.plays != null ? ` · ${track.plays} plays` : ''}`;const link=document.createElement('a');link.href=track.url;link.className='track-treblo-link';link.textContent='Treblo ↗';link.target='_blank';link.rel='noopener';link.setAttribute('aria-label',`Open ${track.title} on Treblo`);meta.append(link,tags);card.append(art,row,meta);$('tracks').append(card);
  });sync();
@@ -23,7 +25,7 @@ function sync(){
  document.querySelectorAll('.track-card').forEach(card=>card.classList.toggle('playing',Number(card.dataset.index)===current));
  document.querySelectorAll('[data-play]').forEach(button=>{const i=Number(button.dataset.play),active=i===current&&playing;button.textContent=active?'Ⅱ':'▶';button.setAttribute('aria-label',`${active?'Pause':'Play'} ${tracks[i].title}`);button.setAttribute('aria-pressed',String(active));});
  $('shuffle').setAttribute('aria-pressed',String(shuffle));$('shuffle').setAttribute('aria-label',shuffle?'Disable shuffle':'Enable shuffle');
- $('shuffle-all').textContent=shuffle?'⇄  Shuffle on':'⇄  Shuffle the collection';
+ if($('shuffle-all'))$('shuffle-all').textContent=shuffle?'⇄  Shuffle on':'⇄  Shuffle the collection';
  if('mediaSession' in navigator)navigator.mediaSession.playbackState=playing?'playing':'paused';
 }
 async function select(index,force=false){
@@ -34,14 +36,20 @@ async function select(index,force=false){
  sync();await resume();
 }
 async function resume(){const request=++playRequest;$('player-status').textContent='Loading your sound…';try{await audio.play();if(request===playRequest)$('player-status').textContent='';}catch(error){if(request===playRequest&&error.name!=='AbortError')$('player-status').textContent='Playback couldn’t start. Try Play again, or use ↗ to listen on Treblo.';}sync();}
-function step(direction){let index;if(shuffle&&tracks.length>1){index=Math.floor(Math.random()*(tracks.length-1));if(index>=current)index++;}else index=current<0?0:current+direction;select(index,true);}
-$('play').addEventListener('click',()=>current<0?select(0):select(current));$('begin').addEventListener('click',()=>tracks.length?(current<0?select(0):select(current)):document.getElementById('music').scrollIntoView({behavior:'smooth'}));$('quiet-track')?.addEventListener('click',()=>select(Math.max(0,tracks.findIndex(t=>t.artist==='discoprincess')),true));$('next').addEventListener('click',()=>step(1));$('prev').addEventListener('click',()=>audio.currentTime>3?(audio.currentTime=0):step(-1));
-$('shuffle').addEventListener('click',()=>{shuffle=!shuffle;sync();});$('shuffle-all').addEventListener('click',()=>{shuffle=true;step(1);sync();});$('repeat').addEventListener('click',()=>{audio.loop=!audio.loop;$('repeat').setAttribute('aria-pressed',String(audio.loop));});
+function step(direction){
+ const indices=playbackIds.map(id=>tracks.findIndex(t=>t.id===id)).filter(i=>i>=0);
+ if(!indices.length)return;
+ let position=indices.indexOf(current),next;
+ if(shuffle&&indices.length>1){const choices=indices.filter(i=>i!==current);next=choices[Math.floor(Math.random()*choices.length)];}
+ else next=indices[(position+direction+indices.length)%indices.length];
+ select(next,true);
+}
+$('play').addEventListener('click',()=>current<0?select(0):select(current));$('next').addEventListener('click',()=>step(1));$('prev').addEventListener('click',()=>audio.currentTime>3?(audio.currentTime=0):step(-1));
+$('shuffle').addEventListener('click',()=>{shuffle=!shuffle;sync();});$('repeat').addEventListener('click',()=>{audio.loop=!audio.loop;$('repeat').setAttribute('aria-pressed',String(audio.loop));});
 $('seek').addEventListener('input',event=>{if(Number.isFinite(audio.duration)&&audio.duration>0)audio.currentTime=Number(event.target.value)/100*audio.duration;});
 function syncVolume(){$('volume').value=audio.muted?0:audio.volume;$('mute').textContent=audio.muted||audio.volume===0?'♪':'♫';$('mute').setAttribute('aria-label',audio.muted||audio.volume===0?'Unmute':'Mute');}
 $('volume').addEventListener('input',event=>{audio.volume=Number(event.target.value);audio.muted=false;if(audio.volume>0)lastVolume=audio.volume;syncVolume();});$('mute').addEventListener('click',()=>{if(audio.volume===0){audio.volume=lastVolume;audio.muted=false;}else audio.muted=!audio.muted;syncVolume();});
 audio.addEventListener('timeupdate',()=>{$('elapsed').textContent=format(audio.currentTime);$('seek').value=audio.duration?audio.currentTime/audio.duration*100:0;});audio.addEventListener('loadedmetadata',()=>{$('duration').textContent=format(audio.duration);});audio.addEventListener('play',sync);audio.addEventListener('pause',sync);audio.addEventListener('ended',()=>{if(!audio.loop)step(1);});audio.addEventListener('waiting',()=>{$('player-status').textContent='Loading your sound…';});audio.addEventListener('playing',()=>{$('player-status').textContent='';sync();});audio.addEventListener('error',()=>{$('player-status').textContent='This stream is unavailable. Try another track or open the song on Treblo ↗.';sync();});
-document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();}));
 if('mediaSession' in navigator){[['play',()=>current<0?select(0):resume()],['pause',()=>audio.pause()],['previoustrack',()=>step(-1)],['nexttrack',()=>step(1)],['seekto',details=>{if(Number.isFinite(details.seekTime))audio.currentTime=details.seekTime;}]].forEach(([action,handler])=>{try{navigator.mediaSession.setActionHandler(action,handler);}catch{}});}
 $('year').textContent=new Date().getFullYear();render();
 
@@ -57,6 +65,7 @@ if(siteHeader){
 
 // First-visit entrance: load essentials without trapping slow connections.
 let siteEntered=!document.getElementById('hero-video');
+try{siteEntered=siteEntered||sessionStorage.getItem('dp-entered')==='1';}catch{}
 let entranceReady=()=>{};
 if(!siteEntered){
  const gate=document.createElement('section');gate.className='entrance';gate.setAttribute('aria-label','Enter DiscoPrincess');
@@ -65,7 +74,7 @@ if(!siteEntered){
  const button=gate.querySelector('#enter-site'),status=gate.querySelector('#entrance-status');
  let ready=false;
  entranceReady=(fallback=false)=>{if(ready)return;ready=true;button.disabled=false;button.textContent='Enter her world ↗';status.textContent=fallback?'Your world is ready. Video will continue loading.':'Your frequency is ready.';gate.classList.add('is-ready');};
- const enter=()=>{if(siteEntered)return;siteEntered=true;if(tracks.length){shuffle=true;if(current<0)select(Math.floor(Math.random()*tracks.length));else if(audio.paused)resume();sync();}document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
+ const enter=()=>{if(siteEntered)return;siteEntered=true;try{sessionStorage.setItem('dp-entered','1');}catch{}if(tracks.length){shuffle=true;if(current<0)select(Math.floor(Math.random()*tracks.length));else if(audio.paused)resume();sync();}document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
  button.addEventListener('click',enter);gate.querySelector('#skip-entrance').addEventListener('click',enter);
  setTimeout(()=>entranceReady(true),12000);
  Promise.allSettled([document.fonts.ready,new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src='assets/mark.svg';})]).then(()=>{window.dispatchEvent(new Event('entrance-assets-ready'));});
@@ -125,3 +134,58 @@ if(heroVideo&&heroVideoData){
  }
  if(sources.length)nextHero();else entranceReady(true);
 }
+
+
+// Same-document navigation preserves the audio element, playback queue and entrance state.
+let displayedPath=location.pathname;
+const pageMains=new Map([[location.pathname,document.querySelector('main')]]);
+let navigationRequest=0;
+function mainPlay(shuffled=false){
+ playbackIds=[...viewIds];if(!playbackIds.length)return;
+ if(shuffled)shuffle=true;
+ const id=shuffle?playbackIds[Math.floor(Math.random()*playbackIds.length)]:playbackIds[0];
+ select(tracks.findIndex(t=>t.id===id),true);sync();
+}
+document.addEventListener('click',event=>{
+ const button=event.target.closest('button');if(!button)return;
+ if(button.id==='begin'||button.id==='quiet-track')mainPlay();
+ if(button.id==='shuffle-all')mainPlay(true);
+ if(button.dataset.filter){filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();}
+});
+async function navigateSite(url,push=true){
+ const request=++navigationRequest;
+ try{
+  const response=await fetch(url.href);if(!response.ok)throw new Error('Page unavailable');
+  const page=new DOMParser().parseFromString(await response.text(),'text/html');
+  const incoming=page.querySelector('main');if(!incoming)throw new Error('Missing content');
+  const data=JSON.parse(page.getElementById('track-data')?.textContent||'[]');
+  if(request!==navigationRequest)return;
+  for(const track of data)if(!tracks.some(t=>t.id===track.id))tracks.push(track);
+  viewIds=new Set(data.map(t=>t.id));filter='all';
+  // Preserve the home video element and its attached shuffle handlers while off-page.
+  const old=document.querySelector('main');pageMains.set(displayedPath,old);
+  const next=pageMains.get(url.pathname)||incoming;
+  // Generated playlist documents use a base URL; normalize links before inserting them.
+  const base=new URL(page.querySelector('base')?.getAttribute('href')||url.href,url);
+  if(next===incoming)for(const el of next.querySelectorAll('[href],[src]'))for(const attr of ['href','src'])if(el.hasAttribute(attr))el.setAttribute(attr,new URL(el.getAttribute(attr),base).href);
+  old.replaceWith(next);displayedPath=url.pathname;
+  const currentHeader=document.querySelector('header');const newHeader=page.querySelector('header');
+  if(newHeader){for(const el of newHeader.querySelectorAll('[href],[src]'))for(const attr of ['href','src'])if(el.hasAttribute(attr))el.setAttribute(attr,new URL(el.getAttribute(attr),base).href);currentHeader.innerHTML=newHeader.innerHTML;}
+  document.title=page.title;
+  for(const id of ['begin','shuffle-all','tracks'])for(const el of document.querySelectorAll('#'+id))if(!el.closest('main'))el.remove();
+  if(push)history.pushState({},'',url);
+  render();sync();
+  if(heroVideo&&next.contains(heroVideo)){if(siteEntered)heroVideo.play().catch(()=>{});}else heroVideo?.pause();
+  const target=url.hash?document.getElementById(decodeURIComponent(url.hash.slice(1))):null;
+  if(target)target.scrollIntoView();else window.scrollTo(0,0);
+  window.dispatchEvent(new Event('scroll'));
+ }catch(error){$('player-status').textContent='This page could not load. Please try again. Your music is still playing.';}
+}
+document.addEventListener('click',event=>{
+ const link=event.target.closest('a[href]');if(!link||event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey||link.target==='_blank'||link.hasAttribute('download'))return;
+ const url=new URL(link.href);if(url.origin!==location.origin||!url.pathname.startsWith(new URL('.',location.href).pathname.split('/playlists/')[0]))return;
+ if(!(/\.html$/.test(url.pathname)||url.pathname.endsWith('/')))return;
+ if(url.pathname===location.pathname)return;
+ event.preventDefault();navigateSite(url);
+});
+window.addEventListener('popstate',()=>navigateSite(new URL(location.href),false));
