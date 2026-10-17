@@ -1,1 +1,11 @@
-{"mode":"playlists","playlists":[{"id":"fc9c7ed2-6dad-46bc-946e-d6cd061907c8"}]}
+{
+  "mode": "playlists",
+  "playlists": [
+    {
+      "id": "263cdc48-365a-4272-9ef1-d09d95783ced"
+    },
+    {
+      "id": "fc9c7ed2-6dad-46bc-946e-d6cd061907c8"
+    }
+  ]
+}

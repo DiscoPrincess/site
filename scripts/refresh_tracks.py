@@ -75,7 +75,7 @@ def build(playlists):
     unique={}
     for p in playlists:
         for t in p['tracks']:unique.setdefault(t['id'],t)
-    home=embed(home,list(unique.values()))
+    home=embed(home,playlists[0]['tracks'] if playlists else [])
     outputs={'index.html':home,'tracks.json':json.dumps(list(unique.values()),ensure_ascii=False,indent=2)+'\n','playlists.json':json.dumps(playlists,ensure_ascii=False,indent=2)+'\n'}
     manifesto=ROOT/'manifesto.html'
     if manifesto.exists():
