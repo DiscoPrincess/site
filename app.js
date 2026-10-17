@@ -65,7 +65,8 @@ if(siteHeader){
 
 // First-visit entrance: load essentials without trapping slow connections.
 let siteEntered=!document.getElementById('hero-video');
-try{siteEntered=siteEntered||sessionStorage.getItem('dp-entered')==='1';}catch{}
+// A fresh document needs an entrance click to unlock browser audio.
+// Internal navigation swaps content and never reinitializes this entrance.
 let entranceReady=()=>{};
 if(!siteEntered){
  const gate=document.createElement('section');gate.className='entrance';gate.setAttribute('aria-label','Enter DiscoPrincess');
