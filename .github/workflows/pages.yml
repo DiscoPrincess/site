@@ -34,7 +34,7 @@ jobs:
       - name: Prepare website
         run: |
           mkdir -p _site
-          cp index.html manifesto.html style.css app.js tracks.json playlists.json _site/
+          cp manifest.webmanifest sw.js offline.html index.html manifesto.html style.css app.js tracks.json playlists.json _site/
           cp -r playlists _site/playlists
           cp -r assets _site/assets
           touch _site/.nojekyll

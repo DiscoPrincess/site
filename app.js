@@ -190,3 +190,26 @@ document.addEventListener('click',event=>{
  event.preventDefault();navigateSite(url);
 });
 window.addEventListener('popstate',()=>navigateSite(new URL(location.href),false));
+
+
+// Install only when offered by the browser; keep it out of standalone mode.
+let installPrompt=null;
+const standalone=()=>matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+const ios=()=>/iphone|ipad|ipod/i.test(navigator.userAgent)||navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1;
+function mountInstall(){
+ const nav=document.querySelector('header nav');if(!nav||standalone()||nav.querySelector('.install-app')||(!installPrompt&&!ios()))return;
+ const button=document.createElement('button');button.className='install-app';button.type='button';button.title='Install DiscoPrincess';button.setAttribute('aria-label','Install DiscoPrincess app');
+ button.innerHTML='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4M5 16v5h14v-5"/></svg><span>Install</span>';nav.append(button);
+}
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;mountInstall();});
+window.addEventListener('appinstalled',()=>{installPrompt=null;document.querySelector('.install-app')?.remove();});
+document.addEventListener('click',async event=>{
+ if(!event.target.closest('.install-app'))return;
+ if(installPrompt){const prompt=installPrompt;installPrompt=null;await prompt.prompt();await prompt.userChoice;document.querySelector('.install-app')?.remove();}
+ else if(ios()){
+  const dialog=document.createElement('dialog');dialog.className='install-guide';dialog.innerHTML='<img src="assets/icon-180.png" width="72" height="72" alt=""><h2>Take the glow with you.</h2><p>In Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong> and <strong>Add</strong>.</p><button type="button">Got it</button>';document.body.append(dialog);dialog.querySelector('button').onclick=()=>dialog.close();dialog.addEventListener('close',()=>dialog.remove());dialog.showModal();
+ }
+});
+new MutationObserver(mountInstall).observe(document.querySelector('header'),{childList:true,subtree:true});
+mountInstall();
+if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register(new URL('sw.js',document.baseURI)).catch(()=>{}));
