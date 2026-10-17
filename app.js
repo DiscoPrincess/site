@@ -65,7 +65,7 @@ if(!siteEntered){
  const button=gate.querySelector('#enter-site'),status=gate.querySelector('#entrance-status');
  let ready=false;
  entranceReady=(fallback=false)=>{if(ready)return;ready=true;button.disabled=false;button.textContent='Enter her world ↗';status.textContent=fallback?'Your world is ready. Video will continue loading.':'Your frequency is ready.';gate.classList.add('is-ready');};
- const enter=()=>{siteEntered=true;document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
+ const enter=()=>{if(siteEntered)return;siteEntered=true;if(tracks.length){if(current<0)select(0);else if(audio.paused)resume();}document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
  button.addEventListener('click',enter);gate.querySelector('#skip-entrance').addEventListener('click',enter);
  setTimeout(()=>entranceReady(true),12000);
  Promise.allSettled([document.fonts.ready,new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src='assets/mark.svg';})]).then(()=>{window.dispatchEvent(new Event('entrance-assets-ready'));});
