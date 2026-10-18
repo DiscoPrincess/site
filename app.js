@@ -213,3 +213,33 @@ document.addEventListener('click',async event=>{
 new MutationObserver(mountInstall).observe(document.querySelector('header'),{childList:true,subtree:true});
 mountInstall();
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register(new URL('sw.js',document.baseURI)).catch(()=>{}));
+
+
+// Lyric-video typography follows the audio clock, never the decorative video.
+let lyricTrack=null,lyricLines=[],lyricRequest=0,lyricEnabled=true,lyricLine=null;
+async function loadTrackLyrics(){
+ const track=tracks[current];if(!track||track.id===lyricTrack)return;
+ lyricTrack=track.id;lyricLines=[];lyricLine=null;const request=++lyricRequest;
+ try{const response=await fetch(new URL(`lyrics/${track.id}.json`,document.baseURI));if(!response.ok)return;const data=await response.json();if(request===lyricRequest)lyricLines=data.lines||[];}catch{}
+}
+audio.addEventListener('loadstart',loadTrackLyrics);
+function animateLyrics(){
+ const hero=document.querySelector('main .hero');
+ if(hero){
+  let overlay=hero.querySelector('.lyric-stage');
+  if(!overlay){overlay=document.createElement('div');overlay.className='lyric-stage';overlay.setAttribute('aria-label','Current lyrics');hero.append(overlay);const toggle=document.createElement('button');toggle.className='lyric-toggle';toggle.textContent='Lyrics';toggle.setAttribute('aria-pressed',String(lyricEnabled));toggle.addEventListener('click',()=>{lyricEnabled=!lyricEnabled;toggle.setAttribute('aria-pressed',String(lyricEnabled));});hero.append(toggle);}
+  const time=audio.currentTime;
+  const active=lyricEnabled?lyricLines.filter(l=>l.start<=time&&time<l.end).at(-1):null;
+  hero.classList.toggle('has-active-lyrics',!!active);
+  if(overlay._line!==active){
+   overlay._line=active;overlay.replaceChildren();
+   if(active){
+    const timed=active.words?.length>0;overlay.classList.toggle('line-only',!timed);
+    for(const word of timed?active.words:active.text.split(/\s+/).map(text=>({text}))){const span=document.createElement('span');span.textContent=word.text;span._word=word;overlay.append(span,document.createTextNode(' '));}
+   }
+  }
+  if(active?.words?.length)for(const span of overlay.querySelectorAll('span')){const word=span._word;const progress=Math.max(0,Math.min(1,(time-word.start)/(word.end-word.start)));span.style.setProperty('--word-fill',`${progress*100}%`);span.classList.toggle('is-current',time>=word.start&&time<word.end);span.classList.toggle('is-sung',time>=word.end);}
+ }
+ requestAnimationFrame(animateLyrics);
+}
+requestAnimationFrame(animateLyrics);

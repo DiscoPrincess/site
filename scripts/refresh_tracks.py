@@ -28,7 +28,7 @@ def extract_playlist(page,pid):
         if d['id'] in seen:continue
         seen.add(d['id'])
         if not d.get('songPath','').startswith('https://cdn.treblo.com/'):raise ValueError('Missing playable stream: '+d['id'])
-        songs.append(dict(id=d['id'],title=d['title'],artist=d.get('artistUsername','Unknown artist'),audio=d['songPath'],artwork=image(d.get('artwork')),duration=d.get('duration',0),tags=d.get('tags',[]),likes=d.get('likes'),plays=d.get('playCount'),comments=d.get('commentsCount'),url='https://treblo.com/song/'+d['id']))
+        songs.append(dict(id=d['id'],title=d['title'],artist=d.get('artistUsername','Unknown artist'),audio=d['songPath'],artwork=image(d.get('artwork')),duration=d.get('duration',0),tags=d.get('tags',[]),alignedLyrics=d.get('alignedLyrics',[]),lyrics=d.get('lyrics',''),likes=d.get('likes'),plays=d.get('playCount'),comments=d.get('commentsCount'),url='https://treblo.com/song/'+d['id']))
     # Explicitly check count fields when supplied: never silently publish a partial page.
     count=source.get('songCount',source.get('songsCount'))
     if isinstance(count,int) and count!=len(source['songs']):raise ValueError('Incomplete playlist payload')
@@ -108,3 +108,4 @@ def main():
         if file.stem not in ids:file.unlink()
     print('Synced:',', '.join(f"{p['title']} ({p['trackCount']} tracks)" for p in playlists))
 if __name__=='__main__':main()
+
