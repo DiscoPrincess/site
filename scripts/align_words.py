@@ -1,7 +1,7 @@
 """Experimental English singing alignment, CPU wav2vec2 CTC, one line at a time."""
 import json,re,sys,subprocess,tempfile,unicodedata
 from pathlib import Path
-import torch,torchaudio
+import torch,torchaudio,imageio_ffmpeg
 from lyrics_common import accepted_words
 
 def run(source,destination):
@@ -10,7 +10,7 @@ def run(source,destination):
     model=bundle.get_model().eval();labels={c:i for i,c in enumerate(bundle.get_labels())}
     with tempfile.TemporaryDirectory() as tmp:
         wav=Path(tmp)/'audio.wav'
-        subprocess.run(['ffmpeg','-v','error','-i',data['audio'],'-ac','1','-ar','16000',str(wav)],check=True,timeout=90)
+        subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(),'-v','error','-i',data['audio'],'-ac','1','-ar','16000',str(wav)],check=True,timeout=90)
         audio,sr=torchaudio.load(str(wav))
         for line in data['lines']:
             original=line['text'].split();normalized=[re.sub("[^A-Z']",'',unicodedata.normalize('NFKD',word).encode('ascii','ignore').decode().upper()) for word in original]
