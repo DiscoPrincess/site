@@ -39,7 +39,7 @@ jobs:
       - name: Install CPU alignment dependencies
         run: |
           pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
-          pip install 'numpy<3' soundfile imageio-ffmpeg==0.6.0
+          pip install 'numpy<3' soundfile
       - name: Build lyric timing and align entry playlist words
         run: python scripts/build_lyrics.py
       - name: Test playlist importer

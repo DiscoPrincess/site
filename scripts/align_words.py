@@ -1,7 +1,7 @@
 """Experimental English singing alignment, CPU wav2vec2 CTC, one line at a time."""
 import json,re,sys,subprocess,tempfile,unicodedata
 from pathlib import Path
-import torch,torchaudio,imageio_ffmpeg
+import torch,torchaudio,soundfile,urllib.request
 from lyrics_common import accepted_words
 
 def run(source,destination):
@@ -9,9 +9,13 @@ def run(source,destination):
     bundle=torchaudio.pipelines.WAV2VEC2_ASR_BASE_960H
     model=bundle.get_model().eval();labels={c:i for i,c in enumerate(bundle.get_labels())}
     with tempfile.TemporaryDirectory() as tmp:
-        wav=Path(tmp)/'audio.wav'
-        subprocess.run([imageio_ffmpeg.get_ffmpeg_exe(),'-v','error','-i',data['audio'],'-ac','1','-ar','16000',str(wav)],check=True,timeout=90)
-        audio,sr=torchaudio.load(str(wav))
+        source_audio=Path(tmp)/'source.ogg'
+        request=urllib.request.Request(data['audio'],headers={'User-Agent':'DiscoPrincessSite/1.0'})
+        with urllib.request.urlopen(request,timeout=90) as response:source_audio.write_bytes(response.read())
+        samples,sr=soundfile.read(str(source_audio),dtype='float32',always_2d=True)
+        audio=torch.from_numpy(samples.T.copy()).mean(dim=0,keepdim=True)
+        if sr!=16000:audio=torchaudio.functional.resample(audio,sr,16000)
+        sr=16000
         for line in data['lines']:
             original=line['text'].split();normalized=[re.sub("[^A-Z']",'',unicodedata.normalize('NFKD',word).encode('ascii','ignore').decode().upper()) for word in original]
             if not all(normalized):continue
