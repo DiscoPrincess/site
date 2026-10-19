@@ -3,7 +3,7 @@ import json,hashlib,subprocess,sys,os,re
 from pathlib import Path
 from lyrics_common import clean_lines
 ROOT=Path(__file__).resolve().parents[1]
-VERSION=3
+VERSION=4
 
 def main():
  config=json.loads((ROOT/'lyric-config.json').read_text());overrides=json.loads((ROOT/'lyric-overrides.json').read_text())
@@ -13,7 +13,7 @@ def main():
  for track in tracks.values():
   lines=clean_lines(track.get('alignedLyrics'),track['duration']);untimed=[]
   for raw in track.get('alignedLyrics',[]) if isinstance(track.get('alignedLyrics'),list) else []:
-   text=raw.get('text','').strip() if isinstance(raw,dict) else ''
+   text=re.sub(r'\[[^\]]+\]','',raw.get('text','')).strip() if isinstance(raw,dict) else ''
    if text and not re.fullmatch(r'\[[^\]]+\]',text):untimed.append(text)
   raw=track.get('lyrics','')
   if isinstance(raw,str) and not raw.startswith('$'):

@@ -3,7 +3,7 @@ import json,sys,hashlib,urllib.request,tempfile,re
 from pathlib import Path
 from difflib import SequenceMatcher
 import torch,torchaudio,soundfile
-from lyrics_common import normalize,correction_candidate,accepted_words
+from lyrics_common import normalize,correction_candidate,accepted_words,alignment_lanes
 
 def write(path,data):Path(path).write_text(json.dumps(data,ensure_ascii=False))
 def flatten(result):
@@ -63,9 +63,12 @@ def run(source,destination):
    data['review'].append({'original':original_text,'suggestion':' '.join(w['text'] for w in b),'start':line['start'],'reason':'recognition-disagreement'})
  write(destination,data) # Keep stage results if later alignment fails.
  duration=len(signals['vocals'])/16000
- segments=[{'start':max(0,l['start']-.5),'end':min(duration,l['end']+.75),'text':l['text']} for l in data['lines']]
- result=small.align_words(signals['vocals'].numpy(),segments,language=language,regroup=False,verbose=None,suppress_silence=False)
- for line,segment in zip(data['lines'],result.to_dict()['segments']):
+ aligned={}
+ for lane in alignment_lanes(data['lines'],duration):
+  result=small.align_words(signals['vocals'].numpy(),[segment for _,segment in lane],language=language,regroup=False,verbose=None,suppress_silence=False)
+  for (index,_),segment in zip(lane,result.to_dict()['segments']):aligned[index]=segment
+ for index,line in enumerate(data['lines']):
+  segment=aligned.get(index,{})
   raw=segment.get('words',[]);candidate=[];cursor=0
   # Preserve all original whitespace tokens even when the second aligner splits punctuation differently.
   for text in line['text'].split():

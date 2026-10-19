@@ -9,7 +9,7 @@ def clean_lines(raw,duration):
  if not isinstance(raw,list):return lines
  for row in raw:
   if not isinstance(row,dict):continue
-  text=str(row.get('text','')).strip()
+  text=re.sub(r'\[[^\]]+\]','',str(row.get('text',''))).strip()
   if not text or re.fullmatch(r'\[[^\]]+\]',text):continue
   start,end=row.get('start'),row.get('end')
   if not all(isinstance(t,(float,int)) and math.isfinite(t) for t in (start,end)):continue
@@ -37,3 +37,13 @@ def correction_candidate(original,a,b):
  if SequenceMatcher(None,old,new).ratio()<.65:return None
  if len(a)!=len(b) or max(abs(x['start']-y['start']) for x,y in zip(a,b))>.5:return None
  return text
+
+def alignment_lanes(lines,duration):
+ lanes=[]
+ for index,line in sorted(enumerate(lines),key=lambda pair:pair[1]['start']):
+  segment={'start':max(0,line['start']-.5),'end':min(duration,line['end']+.75),'text':line['text']}
+  if segment['end']<=segment['start']:continue
+  lane=next((lane for lane in lanes if lane[-1][1]['end']<=segment['start']),None)
+  if lane is None:lane=[];lanes.append(lane)
+  lane.append((index,segment))
+ return lanes
