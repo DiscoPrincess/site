@@ -47,7 +47,7 @@ function step(direction){
 $('play').addEventListener('click',()=>current<0?select(0):select(current));$('next').addEventListener('click',()=>step(1));$('prev').addEventListener('click',()=>audio.currentTime>3?(audio.currentTime=0):step(-1));
 $('shuffle').addEventListener('click',()=>{shuffle=!shuffle;sync();});$('repeat').addEventListener('click',()=>{audio.loop=!audio.loop;$('repeat').setAttribute('aria-pressed',String(audio.loop));});
 $('seek').addEventListener('input',event=>{if(Number.isFinite(audio.duration)&&audio.duration>0)audio.currentTime=Number(event.target.value)/100*audio.duration;});
-function syncVolume(){$('volume').value=audio.muted?0:audio.volume;$('mute').textContent=audio.muted||audio.volume===0?'♪':'♫';$('mute').setAttribute('aria-label',audio.muted||audio.volume===0?'Unmute':'Mute');}
+function syncVolume(){$('volume').value=audio.muted?0:audio.volume;$('mute').textContent=audio.muted||audio.volume===0?'♪':'♫';$('mute').setAttribute('aria-label',audio.muted||audio.volume===0?'Unmute':'Mute');const output=document.getElementById('volume-level');if(output)output.textContent=Math.round((audio.muted?0:audio.volume)*100)+'%';const trigger=document.getElementById('volume-toggle');if(trigger)trigger.classList.toggle('is-muted',audio.muted||audio.volume===0);}
 $('volume').addEventListener('input',event=>{audio.volume=Number(event.target.value);audio.muted=false;if(audio.volume>0)lastVolume=audio.volume;syncVolume();});$('mute').addEventListener('click',()=>{if(audio.volume===0){audio.volume=lastVolume;audio.muted=false;}else audio.muted=!audio.muted;syncVolume();});
 audio.addEventListener('timeupdate',()=>{$('elapsed').textContent=format(audio.currentTime);$('seek').value=audio.duration?audio.currentTime/audio.duration*100:0;});audio.addEventListener('loadedmetadata',()=>{$('duration').textContent=format(audio.duration);});audio.addEventListener('play',sync);audio.addEventListener('pause',sync);audio.addEventListener('ended',()=>{if(!audio.loop)step(1);});audio.addEventListener('waiting',()=>{$('player-status').textContent='Loading your sound…';});audio.addEventListener('playing',()=>{$('player-status').textContent='';sync();});audio.addEventListener('error',()=>{$('player-status').textContent='This stream is unavailable. Try another track or open the song on Treblo ↗.';sync();});
 if('mediaSession' in navigator){[['play',()=>current<0?select(0):resume()],['pause',()=>audio.pause()],['previoustrack',()=>step(-1)],['nexttrack',()=>step(1)],['seekto',details=>{if(Number.isFinite(details.seekTime))audio.currentTime=details.seekTime;}]].forEach(([action,handler])=>{try{navigator.mediaSession.setActionHandler(action,handler);}catch{}});}
@@ -322,3 +322,19 @@ document.addEventListener('click',event=>{
 });
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.querySelector('header.menu-open'))closeNavigation(true);});
 window.matchMedia('(max-width:1100px)').addEventListener('change',()=>closeNavigation());
+
+// Compact volume control: reuse the existing slider and audio listeners.
+const volumeControl=document.createElement('div');volumeControl.className='volume-control';
+const volumeToggle=document.createElement('button');volumeToggle.id='volume-toggle';volumeToggle.type='button';volumeToggle.title='Volume';
+volumeToggle.setAttribute('aria-label','Open volume control');volumeToggle.setAttribute('aria-expanded','false');volumeToggle.setAttribute('aria-controls','volume-popover');
+volumeToggle.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Z"/><path class="volume-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="volume-cross" d="m16 10 4 4m0-4-4 4"/></svg>';
+const volumePopover=document.createElement('div');volumePopover.id='volume-popover';volumePopover.className='volume-popover';volumePopover.hidden=true;volumePopover.setAttribute('role','group');volumePopover.setAttribute('aria-label','Volume control');
+const volumeLevel=document.createElement('output');volumeLevel.id='volume-level';volumeLevel.setAttribute('for','volume');
+volumePopover.append(volumeLevel,$('volume'),$('mute'));volumeControl.append(volumeToggle,volumePopover);
+document.querySelector('.player-end').prepend(volumeControl);
+function closeVolume(restoreFocus=false){volumePopover.hidden=true;volumeToggle.setAttribute('aria-expanded','false');volumeToggle.setAttribute('aria-label','Open volume control');if(restoreFocus)volumeToggle.focus();}
+volumeToggle.addEventListener('click',()=>{const open=volumePopover.hidden;volumePopover.hidden=!open;volumeToggle.setAttribute('aria-expanded',String(open));volumeToggle.setAttribute('aria-label',open?'Close volume control':'Open volume control');if(open)$('volume').focus();});
+document.addEventListener('click',event=>{if(!volumeControl.contains(event.target))closeVolume();});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!volumePopover.hidden){event.stopPropagation();closeVolume(true);}});
+volumeControl.addEventListener('focusout',event=>{if(event.relatedTarget&&!volumeControl.contains(event.relatedTarget))closeVolume();});
+audio.addEventListener('volumechange',syncVolume);syncVolume();
