@@ -228,6 +228,7 @@ function animateLyrics(){
  if(hero){
   let overlay=hero.querySelector('.lyric-stage');
   if(!overlay){overlay=document.createElement('div');overlay.className='lyric-stage';overlay.setAttribute('aria-label','Current lyrics');hero.append(overlay);const toggle=document.createElement('button');toggle.className='lyric-toggle';toggle.textContent='Lyrics';toggle.setAttribute('aria-pressed',String(lyricEnabled));toggle.addEventListener('click',()=>{lyricEnabled=!lyricEnabled;toggle.setAttribute('aria-pressed',String(lyricEnabled));});hero.append(toggle);}
+  overlay.dataset.style=lyricAppearance.style;overlay.style.setProperty('--lyric-scale',lyricAppearance.scale);
   const time=audio.currentTime;
   const active=lyricEnabled?lyricLines.filter(l=>l.start<=time&&time<l.end).at(-1):null;
   hero.classList.toggle('has-active-lyrics',!!active);
@@ -244,3 +245,35 @@ function animateLyrics(){
 }
 requestAnimationFrame(animateLyrics);
 
+
+
+// Playback appearance settings never replace or restart the audio player.
+const lyricStyleOptions=[
+ ['karaoke','Karaoke','Gold-to-pink word sweep'],
+ ['pop','Pop','Words spring up as they land'],
+ ['punch','Punch','Bold caption blocks and bright hits'],
+ ['neon','Neon','Glowing words with a soft pulse'],
+ ['subtitle','Cinema','Clean, quiet subtitles']
+];
+let lyricAppearance={style:'pop',scale:1};
+try{const saved=JSON.parse(localStorage.getItem('dp-lyric-appearance')||'null');if(saved&&lyricStyleOptions.some(([id])=>id===saved.style))lyricAppearance={style:saved.style,scale:Math.max(.75,Math.min(1.35,Number(saved.scale)||1))};}catch{}
+function saveLyricAppearance(){try{localStorage.setItem('dp-lyric-appearance',JSON.stringify(lyricAppearance));}catch{}}
+const playbackSettings=document.createElement('button');playbackSettings.id='playback-settings';playbackSettings.type='button';playbackSettings.setAttribute('aria-label','Playback and lyric appearance settings');playbackSettings.setAttribute('aria-haspopup','dialog');playbackSettings.title='Lyric styles';
+playbackSettings.innerHTML='<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="m10 3-.7 2.1-2 .9-2-.5-2 3.5 1.5 1.6v2.3L3.3 15l2 3.5 2-.5 2 .9.7 2.1h4l.7-2.1 2-.9 2 .5 2-3.5-1.5-1.6v-2.3l1.5-1.6-2-3.5-2 .5-2-.9L14 3Z"/><circle cx="12" cy="12" r="3"/></svg>';
+document.querySelector('.player-end')?.append(playbackSettings);
+playbackSettings.addEventListener('click',()=>{
+ const dialog=document.createElement('dialog');dialog.className='lyric-settings';dialog.setAttribute('aria-labelledby','lyric-settings-title');
+ dialog.innerHTML='<div class="lyric-settings-heading"><div><p>MAKE IT YOUR FREQUENCY</p><h2 id="lyric-settings-title">Lyric styles</h2></div><button type="button" class="settings-close" aria-label="Close lyric settings">×</button></div><div class="lyric-style-grid"></div><label class="lyric-size-label">Caption size <input id="lyric-size" type="range" min=".75" max="1.35" step=".05" value="'+lyricAppearance.scale+'"><output id="lyric-size-value">'+Math.round(lyricAppearance.scale*100)+'%</output></label><label class="lyric-show-label"><input id="show-lyrics" type="checkbox" '+(lyricEnabled?'checked':'')+'> Show lyrics over the video</label><p class="lyric-settings-note">Changes apply as you listen. Word effects follow available timing; other words stay readable.</p>';
+ const grid=dialog.querySelector('.lyric-style-grid');
+ for(const [id,label,description] of lyricStyleOptions){
+  const button=document.createElement('button');button.type='button';button.className='lyric-style-option';button.dataset.style=id;button.setAttribute('aria-pressed',String(lyricAppearance.style===id));
+  button.innerHTML='<span class="style-preview"><span>Feel</span> <b>the</b> <span>music.</span></span><strong>'+label+'</strong><small>'+description+'</small>';
+  button.addEventListener('click',()=>{lyricAppearance.style=id;saveLyricAppearance();for(const option of grid.children)option.setAttribute('aria-pressed',String(option===button));});grid.append(button);
+ }
+ dialog.querySelector('#lyric-size').addEventListener('input',event=>{lyricAppearance.scale=Number(event.target.value);dialog.querySelector('#lyric-size-value').textContent=Math.round(lyricAppearance.scale*100)+'%';saveLyricAppearance();});
+ dialog.querySelector('#show-lyrics').addEventListener('change',event=>{lyricEnabled=event.target.checked;document.querySelectorAll('.lyric-toggle').forEach(button=>button.setAttribute('aria-pressed',String(lyricEnabled)));});
+ dialog.querySelector('.settings-close').onclick=()=>dialog.close();
+ dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
+ dialog.addEventListener('close',()=>{dialog.remove();playbackSettings.focus();});
+ document.body.append(dialog);dialog.showModal();
+});

@@ -68,3 +68,43 @@ header nav{position:absolute;left:50%;transform:translateX(-50%);display:flex;ju
 /* Keep lyrics in the lower video safe area. */
 .hero .lyric-stage{top:auto;bottom:105px;transform:none;left:10%;right:10%;max-height:42%;font-size:clamp(28px,3.7vw,60px)}
 @media(max-width:700px){.hero .lyric-stage{top:auto;bottom:100px;left:7%;right:7%;transform:none;max-height:42%;font-size:clamp(25px,6.5vw,38px)}}
+
+/* Selectable lyric-video treatments. */
+.hero .lyric-stage{font-size:clamp(calc(24px * var(--lyric-scale,1)),calc(3.7vw * var(--lyric-scale,1)),calc(60px * var(--lyric-scale,1)));overflow:visible}
+.lyric-stage[data-style=pop] span{background:none;color:#f3ebddbf;animation:none;transition:color .15s,transform .15s}
+.lyric-stage[data-style=pop] span.is-current{color:#eac584;animation:caption-pop .32s cubic-bezier(.16,1,.3,1) both;text-shadow:0 3px 20px #000,0 0 22px #f163bd55}
+.lyric-stage[data-style=pop] span.is-sung{color:#f3ebdd}
+.lyric-stage[data-style=punch]{font-weight:800;letter-spacing:-.04em;line-height:1.55;text-transform:uppercase}
+.lyric-stage[data-style=punch] span{background:#100d1bc9;color:#f3ebdd;padding:.04em .17em;border-radius:.12em;animation:none;box-shadow:0 3px 12px #0004}
+.lyric-stage[data-style=punch] span.is-current{color:#100d1b;background:#eac584;transform:rotate(-3deg) scale(1.08);filter:none}
+.lyric-stage[data-style=neon] span{background:none;color:#f3ebdd99;animation:none}
+.lyric-stage[data-style=neon] span.is-current{color:#fff;text-shadow:0 0 8px #f163bd,0 0 25px #f163bd,0 0 45px #f163bd88;transform:translateY(-2px)}
+.lyric-stage[data-style=neon] span.is-sung{color:#eac584}
+.lyric-stage[data-style=subtitle]{font-family:var(--sans);font-size:clamp(calc(20px * var(--lyric-scale,1)),calc(2.1vw * var(--lyric-scale,1)),calc(34px * var(--lyric-scale,1)));font-weight:500;letter-spacing:0;line-height:1.5;text-shadow:0 2px 5px #000,0 0 16px #000}
+.lyric-stage[data-style=subtitle] span{background:none;color:#fff;animation:none;transform:none;filter:none}
+.lyric-stage.line-only span{animation:lyric-appear .35s ease both}
+#playback-settings{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;color:var(--gold);flex:none}
+.lyric-settings{width:min(560px,92vw);max-height:85svh;overflow:auto;background:radial-gradient(ellipse at 100% 0,#47233f,#191122 60%);color:var(--ink);border:1px solid #eac58440;border-radius:22px;padding:28px;box-shadow:0 30px 120px #0009}
+.lyric-settings::backdrop{background:#100d1bba;backdrop-filter:blur(8px)}
+.lyric-settings-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:22px}
+.lyric-settings-heading p{font:9px var(--sans);letter-spacing:.16em;color:var(--pink);margin:0 0 10px}
+.lyric-settings h2{font:40px/1 var(--serif);margin:0}.settings-close{background:none;color:var(--muted);font-size:27px;padding:0 4px}
+.lyric-style-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.lyric-style-option{border:1px solid #eac5841c;border-radius:13px;background:#ffffff03;text-align:left;padding:14px;min-width:0}
+.lyric-style-option[aria-pressed=true]{border-color:var(--gold);background:#eac5840c;box-shadow:0 0 22px #eac58408}
+.lyric-style-option>strong{display:block;font:600 12px var(--sans);color:var(--gold);margin:13px 0 5px}
+.lyric-style-option>small{display:block;font:10px/1.5 var(--sans);color:var(--muted)}
+.style-preview{display:block;white-space:nowrap;font:600 clamp(15px,3vw,22px) var(--sans);letter-spacing:-.04em;padding:12px 0;text-align:center;color:var(--ink)}
+.style-preview b{color:var(--pink);font-weight:inherit;display:inline-block}
+.lyric-style-option[data-style=pop] .style-preview b{animation:preview-pop 1.7s ease-in-out infinite}
+.lyric-style-option[data-style=punch] .style-preview{font-weight:800;text-transform:uppercase;font-size:17px}.lyric-style-option[data-style=punch] .style-preview b{color:#100d1b;background:var(--gold);padding:2px 5px;transform:rotate(-5deg)}
+.lyric-style-option[data-style=neon] .style-preview b{color:#fff;text-shadow:0 0 7px #f163bd,0 0 20px #f163bd}
+.lyric-style-option[data-style=karaoke] .style-preview b{background:linear-gradient(90deg,#eac584,#f163bd);background-clip:text;-webkit-background-clip:text;color:transparent}
+.lyric-style-option[data-style=subtitle] .style-preview{font-size:16px;font-weight:400;letter-spacing:0}.lyric-style-option[data-style=subtitle] .style-preview b{color:var(--ink)}
+.lyric-size-label{display:flex;align-items:center;gap:13px;font:12px var(--sans);margin:24px 0 18px}.lyric-size-label input{flex:1;min-width:40px}.lyric-size-label output{font-variant-numeric:tabular-nums;min-width:35px;color:var(--gold)}
+.lyric-show-label{display:flex;align-items:center;gap:10px;font:12px var(--sans)}.lyric-show-label input{accent-color:var(--gold)}
+.lyric-settings-note{font:10px/1.7 var(--sans);color:var(--muted);margin:18px 0 0}
+@keyframes caption-pop{0%{transform:translateY(5px) scale(.88)}55%{transform:translateY(-5px) scale(1.1)}100%{transform:translateY(-2px) scale(1.04)}}
+@keyframes preview-pop{0%,70%,100%{transform:scale(1)}25%{transform:translateY(-3px) scale(1.18)}}
+@media(max-width:700px){.hero .lyric-stage{font-size:clamp(calc(22px * var(--lyric-scale,1)),calc(6.5vw * var(--lyric-scale,1)),calc(38px * var(--lyric-scale,1)))}.hero .lyric-stage[data-style=subtitle]{font-size:calc(21px * var(--lyric-scale,1))}.lyric-settings{padding:22px 18px}.lyric-style-grid{gap:8px}.lyric-style-option{padding:12px 8px}.player-end{gap:12px}}
+@media(prefers-reduced-motion:reduce){.lyric-stage span,.style-preview b{animation:none!important;transition:none!important}.lyric-stage span.is-current{transform:none!important}}
