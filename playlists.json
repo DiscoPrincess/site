@@ -1,11 +1,1968 @@
 [
   {
+    "id": "263cdc48-365a-4272-9ef1-d09d95783ced",
+    "title": "Personal Favs",
+    "description": "",
+    "artwork": "https://scdn.treblo.com/images/uploadart-2ea35a87-e48a-4824-aba4-5f8489808cb8.jpg",
+    "url": "https://treblo.com/playlist/263cdc48-365a-4272-9ef1-d09d95783ced",
+    "likes": 2,
+    "comments": 0,
+    "tracks": [
+      {
+        "id": "dd41af05-c469-44eb-b2a2-6aec61ecca00",
+        "title": "Ceiling Rain",
+        "artist": "discoprincess",
+        "audio": "https://cdn.treblo.com/generations3/audio_00b15045-ed20-4a50-a2ed-9cb65610379b_1.ogg",
+        "artwork": "https://scdn.treblo.com/images/uploadart-a3c8d6a9-8448-43f3-8f4e-387b23dc5ca7.jpg",
+        "duration": 227,
+        "tags": [
+          "rain",
+          "space",
+          "aquatic",
+          "moog",
+          "synth funk",
+          "acid",
+          "female vocalist",
+          "british",
+          "groovy",
+          "playful",
+          "r&b/soul",
+          "disco"
+        ],
+        "alignedLyrics": [
+          {
+            "end": 2.461,
+            "text": "[Intro]",
+            "start": 0
+          },
+          {
+            "end": 4.18,
+            "text": "Bloop, bloop",
+            "start": 2.461
+          },
+          {
+            "end": 8.266,
+            "text": "(bloop, bloop)",
+            "start": 4.458
+          },
+          {
+            "end": 10.403,
+            "text": "Look up",
+            "start": 6.502
+          },
+          {
+            "end": 16.44,
+            "text": "[Hook]",
+            "start": 10.403
+          },
+          {
+            "end": 19.691,
+            "text": "I'm the ceiling rain, I come back down",
+            "start": 16.44
+          },
+          {
+            "end": 20.341,
+            "text": "(come back down)",
+            "start": 19.598
+          },
+          {
+            "end": 23.545,
+            "text": "Rise off your skin and I travel round",
+            "start": 20.341
+          },
+          {
+            "end": 27.585,
+            "text": "I'm the ceiling rain, so lift your face",
+            "start": 24.474
+          },
+          {
+            "end": 28.282,
+            "text": "(lift your face)",
+            "start": 27.585
+          },
+          {
+            "end": 31.718,
+            "text": "Every drop you gave, I give back to this place",
+            "start": 28.328
+          },
+          {
+            "end": 32.276,
+            "text": "[Verse]",
+            "start": 31.718
+          },
+          {
+            "end": 35.944,
+            "text": "Started the evening as a cube in your glass",
+            "start": 32.276
+          },
+          {
+            "end": 39.381,
+            "text": "Clinking on lime while the hours went past",
+            "start": 36.362
+          },
+          {
+            "end": 43.7,
+            "text": "Bartender shook me, I rattled and spun",
+            "start": 40.356
+          },
+          {
+            "end": 47.276,
+            "text": "Melted down slow by the end of track one",
+            "start": 44.35
+          },
+          {
+            "end": 51.595,
+            "text": "Then you hit the floor and you started to move",
+            "start": 48.205
+          },
+          {
+            "end": 55.635,
+            "text": "I left through your pores when you found the groove",
+            "start": 52.198
+          },
+          {
+            "end": 59.722,
+            "text": "Shoulder to shoulder, a hundred of you",
+            "start": 56.285
+          },
+          {
+            "end": 63.669,
+            "text": "Every body dancing, I'm evaporating through",
+            "start": 60.372
+          },
+          {
+            "end": 64.087,
+            "text": "(evaporating through)",
+            "start": 63.669
+          },
+          {
+            "end": 64.505,
+            "text": "[Hook]",
+            "start": 64.087
+          },
+          {
+            "end": 67.709,
+            "text": "I'm the ceiling rain, I come back down",
+            "start": 64.505
+          },
+          {
+            "end": 68.22,
+            "text": "(come back down)",
+            "start": 67.709
+          },
+          {
+            "end": 71.517,
+            "text": "Rise off your skin and I travel round",
+            "start": 68.127
+          },
+          {
+            "end": 75.372,
+            "text": "I'm the ceiling rain, so lift your face",
+            "start": 72.446
+          },
+          {
+            "end": 76.115,
+            "text": "(lift your face)",
+            "start": 75.465
+          },
+          {
+            "end": 79.691,
+            "text": "Every drop you gave, I give back to this place",
+            "start": 76.347
+          },
+          {
+            "end": 80.434,
+            "text": "[Refrain]",
+            "start": 79.691
+          },
+          {
+            "end": 83.081,
+            "text": "Bloop, bloop, bloop, bloop",
+            "start": 80.434
+          },
+          {
+            "end": 84.103,
+            "text": "(bloop, bloop)",
+            "start": 82.988
+          },
+          {
+            "end": 86.518,
+            "text": "Hear me bounce off the bassbin, loop de loop",
+            "start": 84.335
+          },
+          {
+            "end": 87.539,
+            "text": "(loop de loop)",
+            "start": 86.936
+          },
+          {
+            "end": 92.02,
+            "text": "[Moog Solo]",
+            "start": 87.539
+          },
+          {
+            "end": 96.502,
+            "text": "[Verse]",
+            "start": 92.02
+          },
+          {
+            "end": 99.939,
+            "text": "Up past the strobes where the warm air goes",
+            "start": 96.502
+          },
+          {
+            "end": 103.561,
+            "text": "I gather and hang where nobody knows",
+            "start": 100.171
+          },
+          {
+            "end": 107.926,
+            "text": "Beads on the pipes and the ceiling tiles",
+            "start": 104.35
+          },
+          {
+            "end": 111.363,
+            "text": "Swelling up heavy while the DJ smiles",
+            "start": 108.251
+          },
+          {
+            "end": 115.914,
+            "text": "Then he cuts the kick and he lifts the strings",
+            "start": 112.152
+          },
+          {
+            "end": 119.815,
+            "text": "I fall on the faithful and the dance floor sings",
+            "start": 116.193
+          },
+          {
+            "end": 123.669,
+            "text": "Hands in the air and your eyes going wide",
+            "start": 120.372
+          },
+          {
+            "end": 128.453,
+            "text": "You came here to sweat and I'm raining inside",
+            "start": 124.18
+          },
+          {
+            "end": 128.917,
+            "text": "(raining inside)",
+            "start": 128.035
+          },
+          {
+            "end": 128.917,
+            "text": "[Breakdown]",
+            "start": 128.917
+          },
+          {
+            "end": 132.214,
+            "text": "Ice, then steam",
+            "start": 128.592
+          },
+          {
+            "end": 132.4,
+            "text": "(ice, then steam)",
+            "start": 132.214
+          },
+          {
+            "end": 134.304,
+            "text": "I change my clothes, but I'm still the queen",
+            "start": 132.4
+          },
+          {
+            "end": 135.047,
+            "text": "[Verse]",
+            "start": 134.444
+          },
+          {
+            "end": 162.215,
+            "text": "Lights come up and the crowd spills out",
+            "start": 132.679
+          },
+          {
+            "end": 164.165,
+            "text": "Vapour off their backs while the street sweepers shout",
+            "start": 136.812
+          },
+          {
+            "end": 166.255,
+            "text": "I ride on a sequin, I cling to a shirt",
+            "start": 136.905
+          },
+          {
+            "end": 168.345,
+            "text": "Then drip in a puddle on the pavement dirt",
+            "start": 141.27
+          },
+          {
+            "end": 170.202,
+            "text": "Sun warms the street and I lift once more",
+            "start": 168.345
+          },
+          {
+            "end": 171.967,
+            "text": "Back up to the clouds for another tour",
+            "start": 170.249
+          },
+          {
+            "end": 174.057,
+            "text": "Next Saturday night, I'll be ice in a cup",
+            "start": 172.199
+          },
+          {
+            "end": 175.961,
+            "text": "Same old party, so come sip me up",
+            "start": 174.289
+          },
+          {
+            "end": 176.565,
+            "text": "(sip me up)",
+            "start": 176.518
+          },
+          {
+            "end": 176.565,
+            "text": "[Hook]",
+            "start": 176.565
+          },
+          {
+            "end": 179.165,
+            "text": "Drink me, sweat me, let me rise",
+            "start": 176.425
+          },
+          {
+            "end": 180.048,
+            "text": "(let me rise)",
+            "start": 178.933
+          },
+          {
+            "end": 183.856,
+            "text": "I'm the only diva who never dies",
+            "start": 179.676
+          },
+          {
+            "end": 187.896,
+            "text": "Same drop every week, just a brand new song",
+            "start": 184.274
+          },
+          {
+            "end": 188.314,
+            "text": "(brand new song)",
+            "start": 187.896
+          },
+          {
+            "end": 190.729,
+            "text": "Look up, darling, I've been here all along",
+            "start": 188.221
+          },
+          {
+            "end": 206.1,
+            "text": "[Spoken] \"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 190.543
+          }
+        ],
+        "lyrics": "$23",
+        "likes": 20,
+        "plays": 298,
+        "comments": 3,
+        "url": "https://treblo.com/song/dd41af05-c469-44eb-b2a2-6aec61ecca00"
+      },
+      {
+        "id": "a0bf8aa5-ec1a-4f70-8c11-72b3e2ebff2f",
+        "title": "Wata Witch 🫧⚡️",
+        "artist": "discoprincess",
+        "audio": "https://cdn.treblo.com/generations3/audio_1bf5fea8-2230-495e-8105-ca629a45fc35_0.ogg",
+        "artwork": "https://scdn.treblo.com/images/uploadart-b5f58552-f457-4704-8054-f2541466e5a4.jpg",
+        "duration": 219,
+        "tags": [
+          "acidcore",
+          "darkstep",
+          "liquid drum and bass",
+          "bass house",
+          "female vocalist",
+          "female",
+          "female fronted",
+          "glass harmonica",
+          "acid",
+          "jamaican patois",
+          "british",
+          "sampling"
+        ],
+        "alignedLyrics": [
+          {
+            "end": 1.66,
+            "text": "[Intro]\nWata witch come fi play",
+            "start": 0.3
+          },
+          {
+            "end": 4.28,
+            "text": "(Wata witch)",
+            "start": 3.08
+          },
+          {
+            "end": 11.721,
+            "text": "[Hook]\nWata witch, wata witch",
+            "start": 7.9
+          },
+          {
+            "end": 12.981,
+            "text": "(Wata witch)",
+            "start": 11.781
+          },
+          {
+            "end": 15.101,
+            "text": "Try fi hold mi inna glove, mi run out every stitch",
+            "start": 12.981
+          },
+          {
+            "end": 17.521,
+            "text": "Every lake a know mi face, every sea a call mi queen",
+            "start": 15.401
+          },
+          {
+            "end": 18.741,
+            "text": "(Call mi queen)",
+            "start": 17.521
+          },
+          {
+            "end": 21.121,
+            "text": "Every drop a rain dat fall, a mi a sweep it clean",
+            "start": 18.761
+          },
+          {
+            "end": 23.901,
+            "text": "[Verse]\nLong ago dem drag mi out an tie mi up wid rope",
+            "start": 21.701
+          },
+          {
+            "end": 26.081,
+            "text": "Seh throw her inna river, if she float she have nuh hope",
+            "start": 23.901
+          },
+          {
+            "end": 28.421,
+            "text": "Dem neva know di wata was mi mumma an mi bed",
+            "start": 26.301
+          },
+          {
+            "end": 30.802,
+            "text": "Mi sink down to di bottom an mi braid mi hair instead",
+            "start": 28.721
+          },
+          {
+            "end": 33.402,
+            "text": "Dem wait one hour, two hour, dem a pray pon di shore",
+            "start": 31.102
+          },
+          {
+            "end": 35.682,
+            "text": "Mi come up wid a grin an mi ask dem fi one more",
+            "start": 33.522
+          },
+          {
+            "end": 38.042,
+            "text": "Dem tried fi punish mi inna di one place mi belong",
+            "start": 35.882
+          },
+          {
+            "end": 40.502,
+            "text": "Like yuh throw a bird off a cliff an yuh tell it so long",
+            "start": 38.422
+          },
+          {
+            "end": 42.902,
+            "text": "[Hook]\nWata witch, wata witch",
+            "start": 41.742
+          },
+          {
+            "end": 43.582,
+            "text": "(Wata witch)",
+            "start": 42.962
+          },
+          {
+            "end": 45.702,
+            "text": "Try fi hold mi inna glove, mi run out every stitch",
+            "start": 43.682
+          },
+          {
+            "end": 48.102,
+            "text": "Every lake a know mi face, every sea a call mi queen",
+            "start": 46.002
+          },
+          {
+            "end": 48.963,
+            "text": "(Call mi queen)",
+            "start": 48.362
+          },
+          {
+            "end": 51.423,
+            "text": "Every drop a rain dat fall, a mi a sweep it clean",
+            "start": 49.003
+          },
+          {
+            "end": 62.723,
+            "text": "[Glass Harmonica Solo]\n\n[Verse]\nFire come fi fight mi, big an loud an proud",
+            "start": 60.643
+          },
+          {
+            "end": 65.083,
+            "text": "Mi tap him pon di shoulder, now him nutten but a cloud",
+            "start": 62.923
+          },
+          {
+            "end": 67.423,
+            "text": "Earth stand up tall an seh mi a mountain, mi nuh bend",
+            "start": 65.103
+          },
+          {
+            "end": 70.224,
+            "text": "Mi lick him every winter, now him valley at di end",
+            "start": 67.683
+          },
+          {
+            "end": 72.264,
+            "text": "Air tink him a boss cah him travel so far",
+            "start": 70.224
+          },
+          {
+            "end": 74.684,
+            "text": "But every cloud him push around, a mi inna di car",
+            "start": 72.484
+          },
+          {
+            "end": 76.924,
+            "text": "Fire, earth an air, dem a work fi mi now",
+            "start": 75.024
+          },
+          {
+            "end": 79.424,
+            "text": "Mi a di boss a di elements, an all a dem a bow",
+            "start": 76.984
+          },
+          {
+            "end": 82.224,
+            "text": "[Breakdown]\nDrip, drip, mi nuh shout",
+            "start": 80.444
+          },
+          {
+            "end": 82.824,
+            "text": "(Drip, drip)",
+            "start": 82.224
+          },
+          {
+            "end": 84.604,
+            "text": "Drop by drop, mi wear di mountain out",
+            "start": 82.824
+          },
+          {
+            "end": 87.044,
+            "text": "Slow, slow, mi nuh rush",
+            "start": 84.604
+          },
+          {
+            "end": 87.805,
+            "text": "(Slow, slow)",
+            "start": 87.585
+          },
+          {
+            "end": 89.265,
+            "text": "Every stone a crumble when mi touch",
+            "start": 87.805
+          },
+          {
+            "end": 91.425,
+            "text": "[Verse]\nNow look inna di mirror, tell mi what yuh really see",
+            "start": 89.285
+          },
+          {
+            "end": 93.725,
+            "text": "Sixty percent a dat reflection, mi dear, dat is mi",
+            "start": 91.685
+          },
+          {
+            "end": 96.205,
+            "text": "Mi inna every tear yuh cry an every drop a sweat",
+            "start": 94.085
+          },
+          {
+            "end": 98.525,
+            "text": "Mi inna every vein an yuh nuh pay mi fi it yet",
+            "start": 96.505
+          },
+          {
+            "end": 100.905,
+            "text": "Mi a di landlord a yuh body, every cell a rent from mi",
+            "start": 98.545
+          },
+          {
+            "end": 103.145,
+            "text": "Three days widout mi an yuh begging pon yuh knee",
+            "start": 101.265
+          },
+          {
+            "end": 105.525,
+            "text": "Treat mi wid respect when yuh pour mi inna cup",
+            "start": 103.205
+          },
+          {
+            "end": 108.926,
+            "text": "Cah di day mi evict yuh, a di day yuh dry up",
+            "start": 105.905
+          },
+          {
+            "end": 111.006,
+            "text": "[Instrumental]\n\n[Interlude]\nRain... fall",
+            "start": 108.986
+          },
+          {
+            "end": 118.346,
+            "text": "(Fall)",
+            "start": 111.626
+          },
+          {
+            "end": 122.006,
+            "text": "Mumma... call",
+            "start": 121.206
+          },
+          {
+            "end": 122.506,
+            "text": "(Call)",
+            "start": 122.026
+          },
+          {
+            "end": 123.766,
+            "text": "Tide... turn",
+            "start": 122.526
+          },
+          {
+            "end": 124.066,
+            "text": "(Turn)",
+            "start": 123.786
+          },
+          {
+            "end": 126.467,
+            "text": "Fire... learn",
+            "start": 124.066
+          },
+          {
+            "end": 126.987,
+            "text": "(Learn)",
+            "start": 126.607
+          },
+          {
+            "end": 131.307,
+            "text": "Wet... di stone",
+            "start": 128.407
+          },
+          {
+            "end": 131.767,
+            "text": "(Stone)",
+            "start": 131.307
+          },
+          {
+            "end": 133.707,
+            "text": "Wash... di throne",
+            "start": 132.107
+          },
+          {
+            "end": 134.007,
+            "text": "(Throne)",
+            "start": 133.807
+          },
+          {
+            "end": 135.767,
+            "text": "Deep... deeper",
+            "start": 134.087
+          },
+          {
+            "end": 136.707,
+            "text": "(Deeper)",
+            "start": 135.927
+          },
+          {
+            "end": 138.567,
+            "text": "Mi... di keeper",
+            "start": 136.787
+          },
+          {
+            "end": 139.347,
+            "text": "(Keeper)",
+            "start": 138.607
+          },
+          {
+            "end": 141.467,
+            "text": "Drip... drop",
+            "start": 140.407
+          },
+          {
+            "end": 145.388,
+            "text": "(Drop)",
+            "start": 142.807
+          },
+          {
+            "end": 151.288,
+            "text": "Never... stop",
+            "start": 145.448
+          },
+          {
+            "end": 151.668,
+            "text": "(Stop)",
+            "start": 151.328
+          },
+          {
+            "end": 152.748,
+            "text": "Wata... witch",
+            "start": 151.788
+          },
+          {
+            "end": 153.948,
+            "text": "(Wata witch)",
+            "start": 152.848
+          },
+          {
+            "end": 160.588,
+            "text": "[Final Hook]\nDem used to burn di witch, but yuh cyaan burn a sea",
+            "start": 154.048
+          },
+          {
+            "end": 162.648,
+            "text": "(Wata witch, wata witch)",
+            "start": 160.648
+          },
+          {
+            "end": 171.189,
+            "text": "Bring yuh torch an bring yuh priest, both a dem a swim to mi",
+            "start": 163.208
+          },
+          {
+            "end": 171.969,
+            "text": "(Swim to mi)",
+            "start": 171.289
+          },
+          {
+            "end": 176.309,
+            "text": "Mi was here before di first, an mi a stay after di last",
+            "start": 172.029
+          },
+          {
+            "end": 181.429,
+            "text": "Noah build a boat fi dodge mi, but a mi carry di mast",
+            "start": 176.409
+          },
+          {
+            "end": 184.23,
+            "text": "[Spoken]\n\"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 181.789
+          },
+          {
+            "end": 184.73,
+            "text": "Rain... fall",
+            "start": 184.23
+          },
+          {
+            "end": 185.27,
+            "text": "Mumma... call",
+            "start": 184.75
+          },
+          {
+            "end": 185.87,
+            "text": "Tide... turn",
+            "start": 185.39
+          },
+          {
+            "end": 186.55,
+            "text": "Fire... learn",
+            "start": 185.97
+          },
+          {
+            "end": 187.71,
+            "text": "Wet... di stone",
+            "start": 186.61
+          },
+          {
+            "end": 188.61,
+            "text": "Wash... di throne",
+            "start": 187.79
+          },
+          {
+            "end": 189.49,
+            "text": "Deep... deeper",
+            "start": 188.67
+          },
+          {
+            "end": 198.31,
+            "text": "Mi... di keeper",
+            "start": 189.55
+          },
+          {
+            "end": 198.93,
+            "text": "Drip... drop",
+            "start": 198.35
+          },
+          {
+            "end": 200.17,
+            "text": "Never... stop",
+            "start": 199.09
+          },
+          {
+            "end": 211.791,
+            "text": "Wata... witch (witch) (witch) (witch)",
+            "start": 200.21
+          }
+        ],
+        "lyrics": "$24",
+        "likes": 19,
+        "plays": 111,
+        "comments": 2,
+        "url": "https://treblo.com/song/a0bf8aa5-ec1a-4f70-8c11-72b3e2ebff2f"
+      },
+      {
+        "id": "bd189e63-98f6-4613-bb40-94a8d4e1ce4a",
+        "title": "Princess Treatment 💅🍟",
+        "artist": "discoprincess",
+        "audio": "https://cdn.treblo.com/generations3/audio_b9f23cad-60af-49b4-bd82-afae7b58cac3_1.ogg",
+        "artwork": "https://scdn.treblo.com/images/uploadart-9969a834-7302-4028-9104-9b9ee7346a88.jpg",
+        "duration": 283,
+        "tags": [
+          "disco",
+          "nu-disco",
+          "boogie",
+          "funk",
+          "strings",
+          "bass guitar",
+          "handclaps",
+          "female vocalist",
+          "backing vocals",
+          "acid",
+          "british",
+          "playful",
+          "humorous"
+        ],
+        "alignedLyrics": [
+          {
+            "end": 8.057,
+            "text": "[Intro]",
+            "start": 0
+          },
+          {
+            "end": 16.115,
+            "text": "[Verse 1]",
+            "start": 8.057
+          },
+          {
+            "end": 19.458,
+            "text": "Ordered a martini, sent it back twice",
+            "start": 16.115
+          },
+          {
+            "end": 23.313,
+            "text": "Wrong kind of olive and the wrong shape ice",
+            "start": 19.969
+          },
+          {
+            "end": 27.167,
+            "text": "Taxi's at the door, I'm on lash number two",
+            "start": 23.824
+          },
+          {
+            "end": 31.068,
+            "text": "Tell the man to wait, he's got nothing else to do",
+            "start": 27.771
+          },
+          {
+            "end": 37.523,
+            "text": "Heels too high, I can barely stand",
+            "start": 31.765
+          },
+          {
+            "end": 45.511,
+            "text": "So you'll be holdin' my clutch and my hand",
+            "start": 39.056
+          },
+          {
+            "end": 47.508,
+            "text": "[Pre-Chorus]",
+            "start": 45.511
+          },
+          {
+            "end": 51.595,
+            "text": "Too much? Darling, it's the princess treatment",
+            "start": 47.508
+          },
+          {
+            "end": 53.452,
+            "text": "(Princess treatment)",
+            "start": 51.595
+          },
+          {
+            "end": 59.397,
+            "text": "Sign right here, it's our little agreement",
+            "start": 52.384
+          },
+          {
+            "end": 61.161,
+            "text": "(Our agreement)",
+            "start": 59.443
+          },
+          {
+            "end": 63.808,
+            "text": "[Chorus]",
+            "start": 61.161
+          },
+          {
+            "end": 67.802,
+            "text": "I'll be late, you'll be early, that's the deal",
+            "start": 63.808
+          },
+          {
+            "end": 69.613,
+            "text": "(That's the deal)",
+            "start": 68.267
+          },
+          {
+            "end": 74.629,
+            "text": "I pick the music and you cover the meal",
+            "start": 71.471
+          },
+          {
+            "end": 77.508,
+            "text": "(Cover the meal)",
+            "start": 75.047
+          },
+          {
+            "end": 82.338,
+            "text": "I'll take the cherry and I'll steal your fries",
+            "start": 79.273
+          },
+          {
+            "end": 85.403,
+            "text": "(Steal your fries)",
+            "start": 82.384
+          },
+          {
+            "end": 90.372,
+            "text": "Call me a brat? Honey, I'm the prize",
+            "start": 87.121
+          },
+          {
+            "end": 93.251,
+            "text": "(I'm the prize)",
+            "start": 90.836
+          },
+          {
+            "end": 94.691,
+            "text": "[Verse 2]",
+            "start": 93.251
+          },
+          {
+            "end": 97.756,
+            "text": "Lean on the booth, give the DJ a wink",
+            "start": 94.691
+          },
+          {
+            "end": 101.889,
+            "text": "Next track's mine before he can even think",
+            "start": 98.638
+          },
+          {
+            "end": 105.744,
+            "text": "Dance floor's packed but I need my space",
+            "start": 102.539
+          },
+          {
+            "end": 109.83,
+            "text": "Everybody shift, there's a princess in the place",
+            "start": 106.533
+          },
+          {
+            "end": 116.1,
+            "text": "Little bit chilly, so your jacket's mine",
+            "start": 110.388
+          },
+          {
+            "end": 121.626,
+            "text": "Sleeves past my fingers and I'm lookin' fine",
+            "start": 118.19
+          },
+          {
+            "end": 125.759,
+            "text": "Phone's on two percent, so hand me yours, cheers",
+            "start": 122.137
+          },
+          {
+            "end": 129.428,
+            "text": "Hundred selfies later and it's dead, oh dear",
+            "start": 126.177
+          },
+          {
+            "end": 130.032,
+            "text": "[Pre-Chorus]",
+            "start": 129.428
+          },
+          {
+            "end": 134.304,
+            "text": "Too much? Darling, it's the princess treatment",
+            "start": 130.032
+          },
+          {
+            "end": 136.069,
+            "text": "(Princess treatment)",
+            "start": 134.165
+          },
+          {
+            "end": 141.967,
+            "text": "Sign right here, it's our little agreement",
+            "start": 137.834
+          },
+          {
+            "end": 143.964,
+            "text": "(Our agreement)",
+            "start": 142.106
+          },
+          {
+            "end": 146.379,
+            "text": "[Chorus]",
+            "start": 143.964
+          },
+          {
+            "end": 151.023,
+            "text": "I'll be late, you'll be early, that's the deal",
+            "start": 146.379
+          },
+          {
+            "end": 152.23,
+            "text": "(That's the deal)",
+            "start": 150.837
+          },
+          {
+            "end": 157.246,
+            "text": "I pick the music and you cover the meal",
+            "start": 153.995
+          },
+          {
+            "end": 160.125,
+            "text": "(Cover the meal)",
+            "start": 157.617
+          },
+          {
+            "end": 165.001,
+            "text": "I'll take the cherry and I'll steal your fries",
+            "start": 161.89
+          },
+          {
+            "end": 168.066,
+            "text": "(Steal your fries)",
+            "start": 165.373
+          },
+          {
+            "end": 173.174,
+            "text": "Call me a brat? Honey, I'm the prize",
+            "start": 169.691
+          },
+          {
+            "end": 175.961,
+            "text": "(I'm the prize)",
+            "start": 173.407
+          },
+          {
+            "end": 177.493,
+            "text": "[Break]",
+            "start": 177.447
+          },
+          {
+            "end": 177.586,
+            "text": "[Bridge]",
+            "start": 177.493
+          },
+          {
+            "end": 204.428,
+            "text": "Every time you sigh, I hear the laugh behind it",
+            "start": 177.586
+          },
+          {
+            "end": 208.422,
+            "text": "You say \"not again,\" but you never really mind it",
+            "start": 204.846
+          },
+          {
+            "end": 212.277,
+            "text": "Roll your eyes all you like, I still catch that smile",
+            "start": 208.84
+          },
+          {
+            "end": 216.596,
+            "text": "Admit it, darling, life's dull without my style",
+            "start": 212.555
+          },
+          {
+            "end": 216.596,
+            "text": "[Final Chorus]",
+            "start": 216.596
+          },
+          {
+            "end": 220.032,
+            "text": "Sorry, not sorry, I'm still on my way",
+            "start": 216.596
+          },
+          {
+            "end": 220.775,
+            "text": "(Still on my way)",
+            "start": 219.8
+          },
+          {
+            "end": 224.398,
+            "text": "Order me dessert and a spoon for you, okay?",
+            "start": 220.497
+          },
+          {
+            "end": 228.577,
+            "text": "(Spoon for you, okay?)",
+            "start": 223.608
+          },
+          {
+            "end": 231.874,
+            "text": "Three spoons in and you're losin' the race",
+            "start": 224.583
+          },
+          {
+            "end": 232.896,
+            "text": "(Losin' the race)",
+            "start": 232.292
+          },
+          {
+            "end": 239.909,
+            "text": "A brat with a heart and a pretty face",
+            "start": 236.193
+          },
+          {
+            "end": 240.884,
+            "text": "(Pretty face)",
+            "start": 240.001
+          },
+          {
+            "end": 244.135,
+            "text": "[Outro]",
+            "start": 240.884
+          },
+          {
+            "end": 245.528,
+            "text": "(Steal your fries)",
+            "start": 244.135
+          },
+          {
+            "end": 247.943,
+            "text": "(I'm the prize)",
+            "start": 246.271
+          },
+          {
+            "end": 274.321,
+            "text": "[Spoken] \"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 263.825
+          }
+        ],
+        "lyrics": "$25",
+        "likes": 33,
+        "plays": 202,
+        "comments": 4,
+        "url": "https://treblo.com/song/bd189e63-98f6-4613-bb40-94a8d4e1ce4a"
+      },
+      {
+        "id": "1d219994-0fe7-46e6-808f-84709e68ea49",
+        "title": "Crush Depth (Sonar Bounce Mix)",
+        "artist": "discoprincess",
+        "audio": "https://cdn.treblo.com/generations3/audio_929837bb-0b61-4b4e-9aba-98224e7f6a5d_1.ogg",
+        "artwork": "https://scdn.treblo.com/images/uploadart-a4c0359e-0a40-459a-9024-33d297c986f6.jpg",
+        "duration": 182,
+        "tags": [
+          "techno bass",
+          "miami bass",
+          "acid",
+          "bass",
+          "lowend",
+          "bass synthesizer",
+          "bass drum",
+          "heavy",
+          "aquatic",
+          "loud",
+          "drum machine",
+          "massive",
+          "aggressive",
+          "dark",
+          "british",
+          "fm synthesis",
+          "moog",
+          "electro-funk",
+          "bouncy",
+          "quirky"
+        ],
+        "alignedLyrics": [
+          {
+            "end": 6.827,
+            "text": "[Intro]",
+            "start": 0
+          },
+          {
+            "end": 7.663,
+            "text": "Dive",
+            "start": 6.827
+          },
+          {
+            "end": 11.331,
+            "text": "Seal",
+            "start": 10.542
+          },
+          {
+            "end": 13.793,
+            "text": "Flood",
+            "start": 13.096
+          },
+          {
+            "end": 15.65,
+            "text": "Down",
+            "start": 15.325
+          },
+          {
+            "end": 23.359,
+            "text": "[Verse 1]",
+            "start": 15.65
+          },
+          {
+            "end": 25.124,
+            "text": "Forty fathoms, lamps go red",
+            "start": 23.359
+          },
+          {
+            "end": 26.982,
+            "text": "Every hatch is sealed ahead",
+            "start": 25.31
+          },
+          {
+            "end": 28.979,
+            "text": "Sixty fathoms, steel complains",
+            "start": 27.121
+          },
+          {
+            "end": 31.022,
+            "text": "Rivets ticking in the frames",
+            "start": 28.979
+          },
+          {
+            "end": 32.136,
+            "text": "[Hook]",
+            "start": 31.022
+          },
+          {
+            "end": 34.969,
+            "text": "Needle climbing on the gauge",
+            "start": 32.136
+          },
+          {
+            "end": 36.084,
+            "text": "(Crush depth)",
+            "start": 35.898
+          },
+          {
+            "end": 42.585,
+            "text": "Every gasket takes the strain",
+            "start": 39.335
+          },
+          {
+            "end": 44.211,
+            "text": "(Crush depth)",
+            "start": 43.654
+          },
+          {
+            "end": 46.858,
+            "text": "[Refrain]",
+            "start": 44.211
+          },
+          {
+            "end": 49.691,
+            "text": "Deeper, deeper, past the shelf",
+            "start": 46.858
+          },
+          {
+            "end": 51.037,
+            "text": "(Deeper)",
+            "start": 50.852
+          },
+          {
+            "end": 53.452,
+            "text": "Portholes fogging by themselves",
+            "start": 51.734
+          },
+          {
+            "end": 53.685,
+            "text": "(Deeper)",
+            "start": 53.545
+          },
+          {
+            "end": 61.603,
+            "text": "[Instrumental]",
+            "start": 53.685
+          },
+          {
+            "end": 69.521,
+            "text": "[Verse 2]",
+            "start": 61.603
+          },
+          {
+            "end": 71.146,
+            "text": "Eighty fathoms, sonar pings",
+            "start": 69.521
+          },
+          {
+            "end": 73.143,
+            "text": "Water beads on all the fittings",
+            "start": 71.192
+          },
+          {
+            "end": 75.047,
+            "text": "The captain orders: take her lower",
+            "start": 73.143
+          },
+          {
+            "end": 76.951,
+            "text": "Every breath on board goes slower",
+            "start": 75.186
+          },
+          {
+            "end": 77.369,
+            "text": "[Hook]",
+            "start": 76.951
+          },
+          {
+            "end": 80.852,
+            "text": "Needle climbing on the gauge",
+            "start": 77.369
+          },
+          {
+            "end": 82.524,
+            "text": "(Crush depth)",
+            "start": 81.966
+          },
+          {
+            "end": 88.561,
+            "text": "Every gasket takes the strain",
+            "start": 85.357
+          },
+          {
+            "end": 89.861,
+            "text": "(Crush depth)",
+            "start": 89.675
+          },
+          {
+            "end": 92.648,
+            "text": "[Verse 3]",
+            "start": 89.861
+          },
+          {
+            "end": 95.945,
+            "text": "Somebody prays in the torpedo bay",
+            "start": 92.648
+          },
+          {
+            "end": 99.474,
+            "text": "Somebody laughs, then looks away",
+            "start": 96.456
+          },
+          {
+            "end": 103.282,
+            "text": "A loose bolt rattles on the deck",
+            "start": 100.496
+          },
+          {
+            "end": 107.137,
+            "text": "The bosun rubs the back of his neck",
+            "start": 104.35
+          },
+          {
+            "end": 108.344,
+            "text": "[Hook]",
+            "start": 107.137
+          },
+          {
+            "end": 111.409,
+            "text": "Needle climbing on the gauge",
+            "start": 108.344
+          },
+          {
+            "end": 112.849,
+            "text": "(Crush depth)",
+            "start": 112.199
+          },
+          {
+            "end": 114.939,
+            "text": "Every gasket takes the strain",
+            "start": 113.128
+          },
+          {
+            "end": 116.146,
+            "text": "(Crush depth)",
+            "start": 114.939
+          },
+          {
+            "end": 116.146,
+            "text": "[Refrain]",
+            "start": 116.146
+          },
+          {
+            "end": 118.747,
+            "text": "Deeper, deeper, past the shelf",
+            "start": 116.146
+          },
+          {
+            "end": 120.094,
+            "text": "(Deeper)",
+            "start": 119.908
+          },
+          {
+            "end": 122.555,
+            "text": "Portholes fogging by themselves",
+            "start": 120.697
+          },
+          {
+            "end": 124.134,
+            "text": "(Deeper)",
+            "start": 123.623
+          },
+          {
+            "end": 125.295,
+            "text": "[Breakdown]",
+            "start": 124.134
+          },
+          {
+            "end": 126.735,
+            "text": "Engines cut, we hang and wait",
+            "start": 125.295
+          },
+          {
+            "end": 128.778,
+            "text": "Hull still creaking, plate on plate",
+            "start": 127.106
+          },
+          {
+            "end": 130.171,
+            "text": "(Plate on plate)",
+            "start": 129.474
+          },
+          {
+            "end": 130.914,
+            "text": "[Build]",
+            "start": 130.171
+          },
+          {
+            "end": 134.908,
+            "text": "Dive, dive, dive, dive",
+            "start": 130.914
+          },
+          {
+            "end": 136.255,
+            "text": "Ninety fathoms, ninety-five",
+            "start": 134.815
+          },
+          {
+            "end": 143.314,
+            "text": "Dive, dive, dive, dive",
+            "start": 136.394
+          },
+          {
+            "end": 145.45,
+            "text": "A hundred fathoms, still alive",
+            "start": 138.67
+          },
+          {
+            "end": 151.626,
+            "text": "[Hook]",
+            "start": 145.45
+          },
+          {
+            "end": 153.391,
+            "text": "Blow the tanks, emergency blow",
+            "start": 151.626
+          },
+          {
+            "end": 154.366,
+            "text": "(Surface)",
+            "start": 153.67
+          },
+          {
+            "end": 160.589,
+            "text": "Up we shoot from the cold below",
+            "start": 158.314
+          },
+          {
+            "end": 161.146,
+            "text": "(Surface)",
+            "start": 160.914
+          },
+          {
+            "end": 162.354,
+            "text": "[Outro]",
+            "start": 161.146
+          },
+          {
+            "end": 168.948,
+            "text": "Surface",
+            "start": 162.354
+          },
+          {
+            "end": 168.948,
+            "text": "Breathe",
+            "start": 168.948
+          },
+          {
+            "end": 168.948,
+            "text": "Dive",
+            "start": 168.948
+          },
+          {
+            "end": 168.948,
+            "text": "[Spoken] \"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 168.948
+          }
+        ],
+        "lyrics": "$26",
+        "likes": 11,
+        "plays": 72,
+        "comments": 1,
+        "url": "https://treblo.com/song/1d219994-0fe7-46e6-808f-84709e68ea49"
+      },
+      {
+        "id": "326763f8-bab9-42f4-969f-954ae5931c89",
+        "title": "Wata Witch: Spit Drip",
+        "artist": "discoprincess",
+        "audio": "https://cdn.treblo.com/generations3/audio_91689452-528a-4f4c-96f5-0a92ef1e8fa0_1.ogg",
+        "artwork": "https://scdn.treblo.com/images/uploadart-8370de9a-e2f6-40db-9bb2-a91c3b59cc04.jpg",
+        "duration": 194,
+        "tags": [
+          "jungle",
+          "jungle/drum and bass",
+          "jamaican patois",
+          "acid",
+          "female vocalist",
+          "british",
+          "boastful",
+          "playful",
+          "female"
+        ],
+        "alignedLyrics": [
+          {
+            "end": 3.7,
+            "text": "[Intro]\nDrip, drop",
+            "start": 2.8
+          },
+          {
+            "end": 9.021,
+            "text": "(drip, drop)",
+            "start": 3.72
+          },
+          {
+            "end": 10.241,
+            "text": "Wata Witch inna di booth",
+            "start": 9.021
+          },
+          {
+            "end": 12.061,
+            "text": "[Hook]\nSpit drips from mi lips, call it drip",
+            "start": 10.241
+          },
+          {
+            "end": 12.761,
+            "text": "(call it drip)",
+            "start": 12.141
+          },
+          {
+            "end": 14.482,
+            "text": "Wata Witch pon di mic an' she nuh slip",
+            "start": 12.761
+          },
+          {
+            "end": 15.142,
+            "text": "(she nuh slip)",
+            "start": 14.542
+          },
+          {
+            "end": 16.702,
+            "text": "Every bar wet, every line a whip",
+            "start": 15.142
+          },
+          {
+            "end": 18.922,
+            "text": "Yuh come in dry, leave pon a sinking ship",
+            "start": 16.802
+          },
+          {
+            "end": 20.462,
+            "text": "(sinking ship)",
+            "start": 19.002
+          },
+          {
+            "end": 22.662,
+            "text": "[Verse]\nMi tap never close, mi verses run free",
+            "start": 20.462
+          },
+          {
+            "end": 24.883,
+            "text": "Hosepipe flow pon yuh likkle MC",
+            "start": 22.682
+          },
+          {
+            "end": 27.463,
+            "text": "Yuh bring a teaspoon to a monsoon clash",
+            "start": 24.943
+          },
+          {
+            "end": 29.883,
+            "text": "Mi drip two drops an' yuh gone in a splash",
+            "start": 27.523
+          },
+          {
+            "end": 31.923,
+            "text": "Gutter full up when mi open mi jaw",
+            "start": 30.323
+          },
+          {
+            "end": 34.444,
+            "text": "Drainpipe a-scream, cyaan handle di pour",
+            "start": 32.023
+          },
+          {
+            "end": 36.904,
+            "text": "Dem seh \"who dat girl?\", mi seh \"yuh know di ting\"",
+            "start": 34.524
+          },
+          {
+            "end": 39.144,
+            "text": "Soak up di mic till di monitors sing",
+            "start": 37.024
+          },
+          {
+            "end": 40.064,
+            "text": "(monitors sing)",
+            "start": 39.184
+          },
+          {
+            "end": 41.885,
+            "text": "[Hook]\nSpit drips from mi lips, call it drip",
+            "start": 40.084
+          },
+          {
+            "end": 42.505,
+            "text": "(call it drip)",
+            "start": 41.985
+          },
+          {
+            "end": 44.345,
+            "text": "Wata Witch pon di mic an' she nuh slip",
+            "start": 42.605
+          },
+          {
+            "end": 44.925,
+            "text": "(she nuh slip)",
+            "start": 44.425
+          },
+          {
+            "end": 46.545,
+            "text": "Every bar wet, every line a whip",
+            "start": 44.965
+          },
+          {
+            "end": 48.765,
+            "text": "Yuh come in dry, leave pon a sinking ship",
+            "start": 46.625
+          },
+          {
+            "end": 50.085,
+            "text": "(sinking ship)",
+            "start": 48.805
+          },
+          {
+            "end": 52.326,
+            "text": "[Verse]\nYuh did tink yuh hot? Mi a cool yuh down",
+            "start": 50.085
+          },
+          {
+            "end": 54.986,
+            "text": "Steam off yuh cap when di wata come round",
+            "start": 52.846
+          },
+          {
+            "end": 57.346,
+            "text": "Sponge-brain rappers suck up every trend",
+            "start": 55.006
+          },
+          {
+            "end": 59.826,
+            "text": "Squeeze dem out, nothing lef' in di end",
+            "start": 57.806
+          },
+          {
+            "end": 62.167,
+            "text": "Yuh paper-thin rhymes cyaan tek di rain",
+            "start": 59.826
+          },
+          {
+            "end": 64.627,
+            "text": "Ink run off an' yuh lef' wid a stain",
+            "start": 62.587
+          },
+          {
+            "end": 67.067,
+            "text": "Mi nuh need fi shout, mi just seep pon di track",
+            "start": 64.687
+          },
+          {
+            "end": 69.087,
+            "text": "Steady like a leak inna landlord flat",
+            "start": 67.107
+          },
+          {
+            "end": 69.888,
+            "text": "(landlord flat)",
+            "start": 69.107
+          },
+          {
+            "end": 71.748,
+            "text": "[Breakdown]\nDrip, drop",
+            "start": 70.888
+          },
+          {
+            "end": 73.028,
+            "text": "(drip, drop)",
+            "start": 71.748
+          },
+          {
+            "end": 76.108,
+            "text": "Mi start slow, but mi never stop",
+            "start": 73.208
+          },
+          {
+            "end": 81.669,
+            "text": "[Instrumental]\n\n[Hook]\nTide turn now an' di floor get wet",
+            "start": 79.949
+          },
+          {
+            "end": 82.409,
+            "text": "(floor get wet)",
+            "start": 81.709
+          },
+          {
+            "end": 84.149,
+            "text": "Wata Witch nuh finish wid yuh yet",
+            "start": 82.409
+          },
+          {
+            "end": 86.629,
+            "text": "Bring yuh umbrella, it cyaan save yuh now",
+            "start": 84.729
+          },
+          {
+            "end": 87.269,
+            "text": "(save yuh now)",
+            "start": 86.669
+          },
+          {
+            "end": 89.31,
+            "text": "Spit drips from mi lips, an' mi tek a bow",
+            "start": 87.289
+          },
+          {
+            "end": 92.59,
+            "text": "[Spoken] \"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 90.03
+          },
+          {
+            "end": 93.05,
+            "text": "[Refrain]\nWata, wata, rising more",
+            "start": 92.59
+          },
+          {
+            "end": 93.31,
+            "text": "(rising more)",
+            "start": 93.07
+          },
+          {
+            "end": 104.571,
+            "text": "Wata Witch reload, hear di harbour roar",
+            "start": 93.31
+          },
+          {
+            "end": 109.632,
+            "text": "(harbour roar)",
+            "start": 104.611
+          },
+          {
+            "end": 112.052,
+            "text": "[Verse]\nDem thought dem coulda dry mi wid a likkle patrol",
+            "start": 109.632
+          },
+          {
+            "end": 114.492,
+            "text": "Nah, mi just warm up, mi tek full control",
+            "start": 112.132
+          },
+          {
+            "end": 117.373,
+            "text": "Mi crank up di fountain inna Trafalgar Square",
+            "start": 114.552
+          },
+          {
+            "end": 119.393,
+            "text": "Lion dem a swim an' di tourist dem stare",
+            "start": 117.373
+          },
+          {
+            "end": 121.793,
+            "text": "Canal boat a rock when mi open di lock",
+            "start": 119.553
+          },
+          {
+            "end": 124.213,
+            "text": "Thames climb high an' it swallow di dock",
+            "start": 122.493
+          },
+          {
+            "end": 126.854,
+            "text": "Bring yuh crew, bring yuh cousin, bring yuh neighbour too",
+            "start": 124.673
+          },
+          {
+            "end": 128.934,
+            "text": "One likkle drizzle an' mi drench all a you",
+            "start": 127.034
+          },
+          {
+            "end": 129.754,
+            "text": "(drench all a you)",
+            "start": 129.014
+          },
+          {
+            "end": 134.014,
+            "text": "[Refrain]\nWata, wata, rising more",
+            "start": 130.634
+          },
+          {
+            "end": 134.935,
+            "text": "(rising more)",
+            "start": 134.014
+          },
+          {
+            "end": 138.975,
+            "text": "Wata Witch reload, hear di harbour",
+            "start": 134.935
+          },
+          {
+            "end": 141.415,
+            "text": "[Verse]\nTube station shut, every platform a pool",
+            "start": 139.415
+          },
+          {
+            "end": 143.976,
+            "text": "Commuters inna wellies, dem a look like a fool",
+            "start": 141.635
+          },
+          {
+            "end": 146.476,
+            "text": "Weatherman stutter pon di BBC",
+            "start": 143.996
+          },
+          {
+            "end": 149.416,
+            "text": "\"Amber warning, ladies, it's di Witch, not di sea\"",
+            "start": 146.836
+          },
+          {
+            "end": 152.036,
+            "text": "Council send sandbags, mi smile at di pile",
+            "start": 149.716
+          },
+          {
+            "end": 154.397,
+            "text": "Mi rinse dem in seconds an' mi do it wid style",
+            "start": 152.236
+          },
+          {
+            "end": 157.037,
+            "text": "Guards at di Palace a-wring out dem hats",
+            "start": 154.857
+          },
+          {
+            "end": 159.437,
+            "text": "Bearskins sagging like two soggy cats",
+            "start": 157.357
+          },
+          {
+            "end": 161.957,
+            "text": "Double-decker floating like a big red raft",
+            "start": 159.497
+          },
+          {
+            "end": 164.638,
+            "text": "Driver hold di wheel an' di passengers laugh",
+            "start": 161.977
+          },
+          {
+            "end": 165.758,
+            "text": "(passengers laugh)",
+            "start": 164.798
+          },
+          {
+            "end": 171.218,
+            "text": "[Breakdown]\nPlip, plop",
+            "start": 170.358
+          },
+          {
+            "end": 172.519,
+            "text": "(plip, plop)",
+            "start": 171.638
+          },
+          {
+            "end": 175.599,
+            "text": "City sink, but di party nah flop",
+            "start": 172.859
+          },
+          {
+            "end": 182.74,
+            "text": "[Refrain]\nWata, wata, rising more",
+            "start": 179.399
+          },
+          {
+            "end": 184,
+            "text": "(rising more)",
+            "start": 183.14
+          },
+          {
+            "end": 187.08,
+            "text": "Wata Witch reload, an' yuh cyaan ignore",
+            "start": 184.38
+          },
+          {
+            "end": 188,
+            "text": "(cyaan ignore)",
+            "start": 187.18
+          }
+        ],
+        "lyrics": "$27",
+        "likes": 25,
+        "plays": 323,
+        "comments": 2,
+        "url": "https://treblo.com/song/326763f8-bab9-42f4-969f-954ae5931c89"
+      }
+    ],
+    "trackCount": 5,
+    "duration": 1105,
+    "trackLikes": 108,
+    "plays": 1006,
+    "artists": 1
+  },
+  {
     "id": "fc9c7ed2-6dad-46bc-946e-d6cd061907c8",
     "title": "#BassBattle the lowest of the lowest",
     "description": "",
     "artwork": "https://scdn.treblo.com/images/uploadart-6d5d91a7-2a27-45fb-9c42-1676b2cc7963.jpg",
     "url": "https://treblo.com/playlist/fc9c7ed2-6dad-46bc-946e-d6cd061907c8",
-    "likes": 4,
+    "likes": 5,
     "comments": 10,
     "tracks": [
       {
@@ -33,8 +1990,341 @@
           "energetic",
           "british"
         ],
-        "likes": 11,
-        "plays": 173,
+        "alignedLyrics": [
+          {
+            "end": 0.511,
+            "text": "[Intro]",
+            "start": 0
+          },
+          {
+            "end": 2.09,
+            "text": "Turn your speakers to the floor",
+            "start": 0.511
+          },
+          {
+            "end": 9.706,
+            "text": "(To the floor)",
+            "start": 9.009
+          },
+          {
+            "end": 15.464,
+            "text": "DarkPrincess came for more",
+            "start": 9.056
+          },
+          {
+            "end": 16.115,
+            "text": "[Verse]",
+            "start": 15.464
+          },
+          {
+            "end": 18.576,
+            "text": "Sub so deep that the street starts to quake",
+            "start": 16.115
+          },
+          {
+            "end": 21.734,
+            "text": "Drop so steep that the glass starts to break",
+            "start": 19.18
+          },
+          {
+            "end": 24.613,
+            "text": "Woofers trembling the second I land",
+            "start": 22.198
+          },
+          {
+            "end": 27.585,
+            "text": "Neighbours knocking but they don't understand",
+            "start": 25.17
+          },
+          {
+            "end": 30.465,
+            "text": "I don't play the bass, I make the bass behave",
+            "start": 28.003
+          },
+          {
+            "end": 33.483,
+            "text": "Sweep it through the room like a tidal wave",
+            "start": 30.79
+          },
+          {
+            "end": 36.455,
+            "text": "Acid up top and the thunder down low",
+            "start": 33.855
+          },
+          {
+            "end": 39.427,
+            "text": "Crown on my head when I run the show",
+            "start": 36.827
+          },
+          {
+            "end": 42.446,
+            "text": "Bigger than yours and the club knows it well",
+            "start": 39.799
+          },
+          {
+            "end": 45.465,
+            "text": "Deeper than yours, it's a sub-bass spell",
+            "start": 42.818
+          },
+          {
+            "end": 45.79,
+            "text": "[Pre-Chorus]",
+            "start": 45.465
+          },
+          {
+            "end": 48.483,
+            "text": "Lights go down and the floor goes black",
+            "start": 45.79
+          },
+          {
+            "end": 49.876,
+            "text": "(Floor goes black)",
+            "start": 48.808
+          },
+          {
+            "end": 52.988,
+            "text": "Feel it in your ribs when the kick comes back",
+            "start": 48.855
+          },
+          {
+            "end": 53.359,
+            "text": "[Chorus]",
+            "start": 52.988
+          },
+          {
+            "end": 55.031,
+            "text": "Mine is bigger than yours",
+            "start": 53.359
+          },
+          {
+            "end": 57.911,
+            "text": "(Bigger than yours)",
+            "start": 56.378
+          },
+          {
+            "end": 77.369,
+            "text": "Shaking the walls and the floors",
+            "start": 57.911
+          },
+          {
+            "end": 78.809,
+            "text": "Lower, louder, heavier too",
+            "start": 60.372
+          },
+          {
+            "end": 80.527,
+            "text": "Royal sub coming straight for you",
+            "start": 79.226
+          },
+          {
+            "end": 81.966,
+            "text": "[Build]",
+            "start": 80.527
+          },
+          {
+            "end": 85.264,
+            "text": "Hold it, hold it, wait for the drop",
+            "start": 81.966
+          },
+          {
+            "end": 88.05,
+            "text": "(Wait for the drop)",
+            "start": 87.864
+          },
+          {
+            "end": 92.787,
+            "text": "Hold it, hold it, never gonna stop",
+            "start": 87.957
+          },
+          {
+            "end": 90.883,
+            "text": "[Drop]",
+            "start": 90.836
+          },
+          {
+            "end": 93.437,
+            "text": "Bow to the bass",
+            "start": 92.555
+          },
+          {
+            "end": 93.53,
+            "text": "(Bow to the bass)",
+            "start": 92.648
+          },
+          {
+            "end": 115.682,
+            "text": "[Verse]",
+            "start": 93.53
+          },
+          {
+            "end": 123.437,
+            "text": "Say you got weight, but your weight's too light",
+            "start": 115.682
+          },
+          {
+            "end": 126.502,
+            "text": "Say you got depth, but you're shallow tonight",
+            "start": 123.762
+          },
+          {
+            "end": 129.521,
+            "text": "Turn me up and the paintings fall",
+            "start": 126.827
+          },
+          {
+            "end": 132.586,
+            "text": "Turn me loud and I'm moving the wall",
+            "start": 129.8
+          },
+          {
+            "end": 135.605,
+            "text": "Darkest princess with the meanest machine",
+            "start": 132.818
+          },
+          {
+            "end": 138.577,
+            "text": "Heaviest sub that this floor's ever seen",
+            "start": 135.79
+          },
+          {
+            "end": 141.642,
+            "text": "Shake hands after, then I take the crown",
+            "start": 138.762
+          },
+          {
+            "end": 144.614,
+            "text": "Friendly fight, but I'm still shutting it down",
+            "start": 141.781
+          },
+          {
+            "end": 144.846,
+            "text": "[Chorus]",
+            "start": 144.614
+          },
+          {
+            "end": 146.471,
+            "text": "Mine is bigger than yours",
+            "start": 144.846
+          },
+          {
+            "end": 147.772,
+            "text": "(Bigger than yours)",
+            "start": 146.239
+          },
+          {
+            "end": 151.162,
+            "text": "Shaking the walls and the floors",
+            "start": 147.818
+          },
+          {
+            "end": 154.738,
+            "text": "Lower, louder, heavier too",
+            "start": 150.326
+          },
+          {
+            "end": 156.781,
+            "text": "Royal sub coming straight for you",
+            "start": 152.88
+          },
+          {
+            "end": 180.976,
+            "text": "[Bridge]",
+            "start": 156.781
+          },
+          {
+            "end": 181.719,
+            "text": "Feel it in the floor, feel it in your feet",
+            "start": 180.976
+          },
+          {
+            "end": 181.719,
+            "text": "(In your feet)",
+            "start": 181.719
+          },
+          {
+            "end": 181.719,
+            "text": "Every single heart is locking to the beat",
+            "start": 181.719
+          },
+          {
+            "end": 181.719,
+            "text": "[Build]",
+            "start": 181.719
+          },
+          {
+            "end": 183.484,
+            "text": "Hold it, hold it, wait for the drop",
+            "start": 181.069
+          },
+          {
+            "end": 184.924,
+            "text": "(Wait for the drop)",
+            "start": 183.809
+          },
+          {
+            "end": 189.243,
+            "text": "Hold it, hold it, never gonna stop",
+            "start": 185.435
+          },
+          {
+            "end": 192.772,
+            "text": "[Final Chorus]",
+            "start": 189.243
+          },
+          {
+            "end": 195.558,
+            "text": "Size don't lie and the speakers agree",
+            "start": 192.772
+          },
+          {
+            "end": 195.976,
+            "text": "(Speakers agree)",
+            "start": 195.187
+          },
+          {
+            "end": 198.484,
+            "text": "All of this weight is coming from me",
+            "start": 196.023
+          },
+          {
+            "end": 201.456,
+            "text": "Turn it up till the ceiling gives in",
+            "start": 198.763
+          },
+          {
+            "end": 204.614,
+            "text": "Count to three and let the princess win",
+            "start": 201.503
+          },
+          {
+            "end": 204.986,
+            "text": "[Outro]",
+            "start": 204.614
+          },
+          {
+            "end": 206.147,
+            "text": "Good game, good night",
+            "start": 204.986
+          },
+          {
+            "end": 208.515,
+            "text": "(Good night)",
+            "start": 208.004
+          },
+          {
+            "end": 214.088,
+            "text": "But it's bigger than yours, alright",
+            "start": 207.958
+          },
+          {
+            "end": 214.088,
+            "text": "[Spoken] \"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 214.088
+          }
+        ],
+        "lyrics": "$23",
+        "likes": 12,
+        "plays": 176,
         "comments": 5,
         "url": "https://treblo.com/song/0cd29cd9-27c5-4252-bf09-23062aa931f0"
       },
@@ -53,8 +2343,10 @@
           "powerful",
           "bass"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 8,
-        "plays": 74,
+        "plays": 76,
         "comments": 2,
         "url": "https://treblo.com/song/59c1f8b3-5113-49fc-bf54-03ad0aba3779"
       },
@@ -91,6 +2383,414 @@
           "instrumental",
           "electronic-synth"
         ],
+        "alignedLyrics": [
+          {
+            "end": 1.208,
+            "text": "[Instrumental Intro]",
+            "start": 0
+          },
+          {
+            "end": 2.415,
+            "text": "[Drop]",
+            "start": 1.208
+          },
+          {
+            "end": 10.542,
+            "text": "Midnight momentum",
+            "start": 2.415
+          },
+          {
+            "end": 19.273,
+            "text": "Midnight momentum",
+            "start": 10.17
+          },
+          {
+            "end": 19.273,
+            "text": "[Verse 1]",
+            "start": 19.273
+          },
+          {
+            "end": 20.944,
+            "text": "Sirens on the avenue",
+            "start": 18.065
+          },
+          {
+            "end": 22.848,
+            "text": "I keep my tempo low",
+            "start": 21.362
+          },
+          {
+            "end": 25.031,
+            "text": "Somebody's laughing through a wall",
+            "start": 23.081
+          },
+          {
+            "end": 26.935,
+            "text": "I don't knock I go",
+            "start": 25.449
+          },
+          {
+            "end": 29.164,
+            "text": "Counting every corner",
+            "start": 27.4
+          },
+          {
+            "end": 32.879,
+            "text": "Where the streetlights learn to bend",
+            "start": 29.443
+          },
+          {
+            "end": 34.783,
+            "text": "(I don't knock I go)",
+            "start": 33.576
+          },
+          {
+            "end": 35.944,
+            "text": "[Pre-Chorus]",
+            "start": 34.783
+          },
+          {
+            "end": 37.013,
+            "text": "Hold it",
+            "start": 35.944
+          },
+          {
+            "end": 38.313,
+            "text": "Hold it",
+            "start": 37.059
+          },
+          {
+            "end": 42.632,
+            "text": "Don't you look at me",
+            "start": 38.87
+          },
+          {
+            "end": 44.954,
+            "text": "Hold it",
+            "start": 43.932
+          },
+          {
+            "end": 46.254,
+            "text": "Hold it",
+            "start": 45.232
+          },
+          {
+            "end": 50.945,
+            "text": "I'm a frequency",
+            "start": 46.579
+          },
+          {
+            "end": 50.945,
+            "text": "[Chorus]",
+            "start": 50.945
+          },
+          {
+            "end": 52.524,
+            "text": "Run the night",
+            "start": 50.945
+          },
+          {
+            "end": 54.52,
+            "text": "Run the night",
+            "start": 52.802
+          },
+          {
+            "end": 58.375,
+            "text": "Till the morning feels like mine",
+            "start": 54.892
+          },
+          {
+            "end": 60.465,
+            "text": "Run the night",
+            "start": 58.886
+          },
+          {
+            "end": 62.601,
+            "text": "Run the night",
+            "start": 60.929
+          },
+          {
+            "end": 66.409,
+            "text": "I don't sleep I just arrive",
+            "start": 62.88
+          },
+          {
+            "end": 66.409,
+            "text": "[Post-Chorus]",
+            "start": 66.409
+          },
+          {
+            "end": 69.799,
+            "text": "Oh-oh",
+            "start": 66.409
+          },
+          {
+            "end": 71.75,
+            "text": "Oh-oh",
+            "start": 69.799
+          },
+          {
+            "end": 98.731,
+            "text": "Na na na na",
+            "start": 71.796
+          },
+          {
+            "end": 98.685,
+            "text": "Oh-oh",
+            "start": 73.886
+          },
+          {
+            "end": 99.474,
+            "text": "[Verse 2]",
+            "start": 98.685
+          },
+          {
+            "end": 101.007,
+            "text": "Rain on the rooftop",
+            "start": 99.474
+          },
+          {
+            "end": 102.864,
+            "text": "Tapping out a code",
+            "start": 101.285
+          },
+          {
+            "end": 105.186,
+            "text": "Every stranger's head is down",
+            "start": 102.957
+          },
+          {
+            "end": 106.998,
+            "text": "Everybody's on their own",
+            "start": 105.511
+          },
+          {
+            "end": 109.273,
+            "text": "I take the long way home",
+            "start": 107.323
+          },
+          {
+            "end": 113.499,
+            "text": "Past the stadium glow",
+            "start": 109.598
+          },
+          {
+            "end": 115.032,
+            "text": "(Everybody's on their own)",
+            "start": 112.942
+          },
+          {
+            "end": 115.914,
+            "text": "[Pre-Chorus]",
+            "start": 115.032
+          },
+          {
+            "end": 116.982,
+            "text": "Hold it",
+            "start": 115.914
+          },
+          {
+            "end": 118.282,
+            "text": "Hold it",
+            "start": 117.447
+          },
+          {
+            "end": 122.044,
+            "text": "Don't you look at me",
+            "start": 118.933
+          },
+          {
+            "end": 124.273,
+            "text": "Hold it",
+            "start": 123.948
+          },
+          {
+            "end": 126.038,
+            "text": "Hold it",
+            "start": 124.877
+          },
+          {
+            "end": 130.821,
+            "text": "I'm a frequency",
+            "start": 125.527
+          },
+          {
+            "end": 130.821,
+            "text": "[Chorus]",
+            "start": 130.821
+          },
+          {
+            "end": 132.4,
+            "text": "Run the night",
+            "start": 130.821
+          },
+          {
+            "end": 134.444,
+            "text": "Run the night",
+            "start": 132.586
+          },
+          {
+            "end": 138.437,
+            "text": "Till the morning feels like mine",
+            "start": 133.097
+          },
+          {
+            "end": 140.574,
+            "text": "Run the night",
+            "start": 138.902
+          },
+          {
+            "end": 142.013,
+            "text": "Run the night",
+            "start": 140.945
+          },
+          {
+            "end": 146.518,
+            "text": "I don't sleep I just arrive",
+            "start": 142.663
+          },
+          {
+            "end": 147.911,
+            "text": "[Post-Chorus]",
+            "start": 146.518
+          },
+          {
+            "end": 149.769,
+            "text": "Oh-oh",
+            "start": 147.911
+          },
+          {
+            "end": 152.044,
+            "text": "Oh-oh",
+            "start": 149.769
+          },
+          {
+            "end": 158.546,
+            "text": "Na na na na",
+            "start": 150.465
+          },
+          {
+            "end": 163.283,
+            "text": "Oh-oh",
+            "start": 152.648
+          },
+          {
+            "end": 155.945,
+            "text": "[Bridge]",
+            "start": 154.738
+          },
+          {
+            "end": 165.837,
+            "text": "Louder louder",
+            "start": 158.778
+          },
+          {
+            "end": 167.602,
+            "text": "Let it come",
+            "start": 165.883
+          },
+          {
+            "end": 169.459,
+            "text": "Slow it down",
+            "start": 167.927
+          },
+          {
+            "end": 171.735,
+            "text": "Then let it run",
+            "start": 169.645
+          },
+          {
+            "end": 173.778,
+            "text": "Quiet quiet",
+            "start": 171.874
+          },
+          {
+            "end": 175.682,
+            "text": "Now I'm gone",
+            "start": 173.964
+          },
+          {
+            "end": 184.041,
+            "text": "Gone gone gone",
+            "start": 175.868
+          },
+          {
+            "end": 212.091,
+            "text": "[Drop]",
+            "start": 184.041
+          },
+          {
+            "end": 213.856,
+            "text": "Midnight momentum",
+            "start": 212.091
+          },
+          {
+            "end": 215.713,
+            "text": "Midnight momentum",
+            "start": 214.227
+          },
+          {
+            "end": 216.271,
+            "text": "[Chorus]",
+            "start": 216.224
+          },
+          {
+            "end": 229.552,
+            "text": "Run the night",
+            "start": 216.085
+          },
+          {
+            "end": 231.596,
+            "text": "Run the night",
+            "start": 216.828
+          },
+          {
+            "end": 234.336,
+            "text": "Till the morning feels like mine",
+            "start": 231.689
+          },
+          {
+            "end": 236.611,
+            "text": "Run the night",
+            "start": 234.94
+          },
+          {
+            "end": 238.283,
+            "text": "Run the night",
+            "start": 236.983
+          },
+          {
+            "end": 242.509,
+            "text": "I don't sleep I just arrive",
+            "start": 238.887
+          },
+          {
+            "end": 243.995,
+            "text": "[Post-Chorus]",
+            "start": 242.509
+          },
+          {
+            "end": 245.899,
+            "text": "Oh-oh",
+            "start": 243.995
+          },
+          {
+            "end": 247.71,
+            "text": "Oh-oh",
+            "start": 245.481
+          },
+          {
+            "end": 260.017,
+            "text": "Na na na na",
+            "start": 247.943
+          },
+          {
+            "end": 259.971,
+            "text": "Oh-oh",
+            "start": 249.893
+          }
+        ],
+        "lyrics": "$24",
         "likes": 3,
         "plays": 30,
         "comments": 1,
@@ -115,8 +2815,316 @@
           "uk bass",
           "dubstep"
         ],
+        "alignedLyrics": [
+          {
+            "end": 10.588,
+            "text": "[Drop]",
+            "start": 0
+          },
+          {
+            "end": 11.889,
+            "text": "Feel it coming from below",
+            "start": 10.588
+          },
+          {
+            "end": 14.443,
+            "text": "Feel it rumble through the low",
+            "start": 13.05
+          },
+          {
+            "end": 16.951,
+            "text": "Feel it coming from below",
+            "start": 15.65
+          },
+          {
+            "end": 19.505,
+            "text": "Feel it rumble through the low",
+            "start": 18.204
+          },
+          {
+            "end": 20.712,
+            "text": "[Verse 1]",
+            "start": 19.505
+          },
+          {
+            "end": 22.338,
+            "text": "Started quiet in my chest",
+            "start": 20.712
+          },
+          {
+            "end": 24.799,
+            "text": "Friday night we hit the stairs",
+            "start": 23.22
+          },
+          {
+            "end": 27.214,
+            "text": "Nobody knows my name yet",
+            "start": 25.728
+          },
+          {
+            "end": 29.861,
+            "text": "Whole room shakes and no one cares",
+            "start": 28.282
+          },
+          {
+            "end": 30.743,
+            "text": "[Pre-Chorus]",
+            "start": 29.861
+          },
+          {
+            "end": 32.972,
+            "text": "Low end rolling underneath",
+            "start": 30.743
+          },
+          {
+            "end": 35.619,
+            "text": "Everybody move their feet",
+            "start": 33.112
+          },
+          {
+            "end": 38.127,
+            "text": "Two in the morning wide awake",
+            "start": 35.619
+          },
+          {
+            "end": 40.635,
+            "text": "Slow it down we won't we won't",
+            "start": 38.127
+          },
+          {
+            "end": 40.914,
+            "text": "[Chorus]",
+            "start": 40.635
+          },
+          {
+            "end": 43.189,
+            "text": "Let it hit the bottom",
+            "start": 40.914
+          },
+          {
+            "end": 45.558,
+            "text": "Let it shake the ground",
+            "start": 43.421
+          },
+          {
+            "end": 48.39,
+            "text": "Let it hit the bottom",
+            "start": 45.976
+          },
+          {
+            "end": 50.573,
+            "text": "Feel it all around",
+            "start": 48.576
+          },
+          {
+            "end": 59.722,
+            "text": "Turn it up until the whole place drowns",
+            "start": 51.037
+          },
+          {
+            "end": 57.075,
+            "text": "[Post-Chorus]",
+            "start": 56.564
+          },
+          {
+            "end": 69.01,
+            "text": "Low low low",
+            "start": 56.517
+          },
+          {
+            "end": 71.239,
+            "text": "Bring it down below",
+            "start": 58.886
+          },
+          {
+            "end": 79.598,
+            "text": "Low low low",
+            "start": 76.487
+          },
+          {
+            "end": 81.223,
+            "text": "Bring it down below",
+            "start": 79.087
+          },
+          {
+            "end": 81.781,
+            "text": "[Verse 2]",
+            "start": 81.223
+          },
+          {
+            "end": 83.127,
+            "text": "Someone spilled a drink and laughed",
+            "start": 81.781
+          },
+          {
+            "end": 85.589,
+            "text": "Friends I haven't met before",
+            "start": 84.242
+          },
+          {
+            "end": 88.189,
+            "text": "Sweat on walls and windows fog",
+            "start": 86.75
+          },
+          {
+            "end": 90.697,
+            "text": "Guess we're sleeping on the floor",
+            "start": 89.35
+          },
+          {
+            "end": 91.951,
+            "text": "[Pre-Chorus]",
+            "start": 90.697
+          },
+          {
+            "end": 94.366,
+            "text": "Low end rolling underneath",
+            "start": 91.951
+          },
+          {
+            "end": 96.92,
+            "text": "Everybody move their feet",
+            "start": 94.598
+          },
+          {
+            "end": 99.242,
+            "text": "Sun is rising far away",
+            "start": 96.967
+          },
+          {
+            "end": 101.703,
+            "text": "Stay a little longer stay",
+            "start": 99.335
+          },
+          {
+            "end": 102.214,
+            "text": "[Chorus]",
+            "start": 101.703
+          },
+          {
+            "end": 105.465,
+            "text": "Let it hit the bottom",
+            "start": 102.214
+          },
+          {
+            "end": 106.719,
+            "text": "Let it shake the ground",
+            "start": 104.722
+          },
+          {
+            "end": 109.691,
+            "text": "Let it hit the bottom",
+            "start": 107.276
+          },
+          {
+            "end": 111.874,
+            "text": "Feel it all around",
+            "start": 109.784
+          },
+          {
+            "end": 118.004,
+            "text": "Turn it up until the whole place drowns",
+            "start": 112.292
+          },
+          {
+            "end": 117.957,
+            "text": "[Post-Chorus]",
+            "start": 117.725
+          },
+          {
+            "end": 127.803,
+            "text": "Low low low",
+            "start": 120.094
+          },
+          {
+            "end": 132.307,
+            "text": "Bring it down below",
+            "start": 120.279
+          },
+          {
+            "end": 138.995,
+            "text": "Low low low",
+            "start": 127.803
+          },
+          {
+            "end": 142.478,
+            "text": "Bring it down below",
+            "start": 127.71
+          },
+          {
+            "end": 143.685,
+            "text": "[Bridge]",
+            "start": 142.478
+          },
+          {
+            "end": 145.775,
+            "text": "Deeper than the words I say",
+            "start": 143.685
+          },
+          {
+            "end": 148.143,
+            "text": "Quieter than yesterday",
+            "start": 145.961
+          },
+          {
+            "end": 150.79,
+            "text": "Hold the moment hold the sound",
+            "start": 148.561
+          },
+          {
+            "end": 152.509,
+            "text": "Nothing else is coming down",
+            "start": 150.79
+          },
+          {
+            "end": 155.806,
+            "text": "[Chorus]",
+            "start": 152.509
+          },
+          {
+            "end": 158.592,
+            "text": "Let it hit the bottom",
+            "start": 155.806
+          },
+          {
+            "end": 160.45,
+            "text": "Let it shake the ground",
+            "start": 158.267
+          },
+          {
+            "end": 163.051,
+            "text": "Let it hit the bottom",
+            "start": 160.821
+          },
+          {
+            "end": 165.419,
+            "text": "Feel it all around",
+            "start": 163.283
+          },
+          {
+            "end": 171.456,
+            "text": "Turn it up until the whole place drowns",
+            "start": 165.512
+          },
+          {
+            "end": 173.871,
+            "text": "[Drop]",
+            "start": 171.456
+          },
+          {
+            "end": 181.719,
+            "text": "Feel it coming from below",
+            "start": 173.685
+          },
+          {
+            "end": 181.719,
+            "text": "Feel it rumble through the low",
+            "start": 181.719
+          }
+        ],
+        "lyrics": "$25",
         "likes": 4,
-        "plays": 33,
+        "plays": 34,
         "comments": 0,
         "url": "https://treblo.com/song/e641bf86-9cb7-4dae-a39f-0915d5e0407b"
       },
@@ -133,8 +3141,10 @@
           "heavy",
           "bassline"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 9,
-        "plays": 81,
+        "plays": 82,
         "comments": 1,
         "url": "https://treblo.com/song/5960f8f2-900d-4f42-871a-d3340f646f11"
       },
@@ -148,8 +3158,10 @@
         "tags": [
           "cowbell"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 26,
-        "plays": 248,
+        "plays": 250,
         "comments": 2,
         "url": "https://treblo.com/song/a6767a8e-213f-407c-95f0-dde8709ae346"
       },
@@ -171,6 +3183,214 @@
           "electro-industrial",
           "dark pop"
         ],
+        "alignedLyrics": [
+          {
+            "end": 0.975,
+            "text": "[Intro]",
+            "start": 0
+          },
+          {
+            "end": 3.111,
+            "text": "Tick tock tick tock",
+            "start": 0.975
+          },
+          {
+            "end": 6.92,
+            "text": "Don't hold your breath",
+            "start": 4.226
+          },
+          {
+            "end": 7.57,
+            "text": "[Verse 1]",
+            "start": 6.92
+          },
+          {
+            "end": 14.861,
+            "text": "I wear my heart like glitter on a black dress",
+            "start": 7.57
+          },
+          {
+            "end": 22.245,
+            "text": "Don't hold your breath don't waste your time",
+            "start": 15.186
+          },
+          {
+            "end": 29.907,
+            "text": "You can't touch me for I am the child in the dark",
+            "start": 22.895
+          },
+          {
+            "end": 38.592,
+            "text": "You love the crash not the prayer at all",
+            "start": 30.465
+          },
+          {
+            "end": 39.66,
+            "text": "[Pre-Chorus]",
+            "start": 38.592
+          },
+          {
+            "end": 44.118,
+            "text": "Be careless and I will haunt you in the dark",
+            "start": 39.66
+          },
+          {
+            "end": 50.109,
+            "text": "Be careless I will haunt you",
+            "start": 47.276
+          },
+          {
+            "end": 53.034,
+            "text": "[Chorus]",
+            "start": 50.109
+          },
+          {
+            "end": 57.26,
+            "text": "Amazing is the red light thunder of Code Crimson",
+            "start": 53.034
+          },
+          {
+            "end": 59.768,
+            "text": "Amazing is the red light",
+            "start": 57.771
+          },
+          {
+            "end": 63.808,
+            "text": "This is my neon blood thunder of Code Crimson",
+            "start": 60.325
+          },
+          {
+            "end": 65.898,
+            "text": "You can't touch me in the dark",
+            "start": 64.273
+          },
+          {
+            "end": 68.685,
+            "text": "[Drop]",
+            "start": 65.898
+          },
+          {
+            "end": 70.496,
+            "text": "Neon blood neon blood",
+            "start": 68.685
+          },
+          {
+            "end": 74.257,
+            "text": "Runnin' red through the dark",
+            "start": 70.496
+          },
+          {
+            "end": 75.511,
+            "text": "[Verse 2]",
+            "start": 74.257
+          },
+          {
+            "end": 78.576,
+            "text": "I keep your secrets in locks and keys",
+            "start": 75.511
+          },
+          {
+            "end": 80.434,
+            "text": "All in your dreams",
+            "start": 79.18
+          },
+          {
+            "end": 84.149,
+            "text": "Ein Herz ein Schlag all in your dreams",
+            "start": 81.177
+          },
+          {
+            "end": 88.004,
+            "text": "All in your dreams",
+            "start": 86.657
+          },
+          {
+            "end": 93.019,
+            "text": "[Bridge]",
+            "start": 88.004
+          },
+          {
+            "end": 95.248,
+            "text": "Don't hold your breath don't waste your time",
+            "start": 93.019
+          },
+          {
+            "end": 97.895,
+            "text": "You can't touch me",
+            "start": 96.223
+          },
+          {
+            "end": 102.632,
+            "text": "Child in the dark child in the dark",
+            "start": 99.846
+          },
+          {
+            "end": 111.549,
+            "text": "Be careless and I will haunt you in the dark",
+            "start": 107.462
+          },
+          {
+            "end": 115.31,
+            "text": "I keep your secrets in locks and keys",
+            "start": 112.617
+          },
+          {
+            "end": 122.834,
+            "text": "[Breakdown]",
+            "start": 115.31
+          },
+          {
+            "end": 125.063,
+            "text": "Shhh all in your dreams",
+            "start": 122.834
+          },
+          {
+            "end": 129.289,
+            "text": "Amazing is the red light",
+            "start": 127.338
+          },
+          {
+            "end": 129.382,
+            "text": "[Final Chorus]",
+            "start": 129.289
+          },
+          {
+            "end": 133.515,
+            "text": "Amazing is the red light thunder of Code Crimson",
+            "start": 129.382
+          },
+          {
+            "end": 137.137,
+            "text": "Don't hold your breath don't waste your time",
+            "start": 134.49
+          },
+          {
+            "end": 142.571,
+            "text": "You can't touch me for I am the child in the dark",
+            "start": 138.112
+          },
+          {
+            "end": 148.979,
+            "text": "Be careless and I will haunt you in the dark",
+            "start": 144.475
+          },
+          {
+            "end": 156.781,
+            "text": "I keep your secrets in locks and keys",
+            "start": 153.53
+          },
+          {
+            "end": 158.592,
+            "text": "All in your dreams",
+            "start": 157.106
+          },
+          {
+            "end": 162.029,
+            "text": "Thunder of Code Crimson",
+            "start": 160.078
+          }
+        ],
+        "lyrics": "$26",
         "likes": 4,
         "plays": 36,
         "comments": 0,
@@ -195,6 +3415,8 @@
           "brutal death metal",
           "heavy"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 5,
         "plays": 33,
         "comments": 0,
@@ -221,8 +3443,241 @@
           "dark",
           "heavy"
         ],
+        "alignedLyrics": [
+          {
+            "end": 0.975,
+            "text": "[Drop]",
+            "start": 0
+          },
+          {
+            "end": 3.019,
+            "text": "Back with a vengeance",
+            "start": 0.975
+          },
+          {
+            "end": 12.864,
+            "text": "Back and I'm not holding back",
+            "start": 7.152
+          },
+          {
+            "end": 12.864,
+            "text": "[Verse 1]",
+            "start": 12.864
+          },
+          {
+            "end": 15.975,
+            "text": "Came out the shadows quiet as a ghost",
+            "start": 12.725
+          },
+          {
+            "end": 19.18,
+            "text": "Now the whole place shaking when I step up to the post",
+            "start": 15.975
+          },
+          {
+            "end": 21.966,
+            "text": "You counted me out you made a big mistake",
+            "start": 19.365
+          },
+          {
+            "end": 25.217,
+            "text": "I been sharpening my claws for goodness sake",
+            "start": 22.802
+          },
+          {
+            "end": 28.421,
+            "text": "Everybody talking like I faded away",
+            "start": 26.006
+          },
+          {
+            "end": 31.765,
+            "text": "But I sharpened every tooth and I came back to stay",
+            "start": 29.164
+          },
+          {
+            "end": 32.044,
+            "text": "[Drop]",
+            "start": 31.765
+          },
+          {
+            "end": 35.062,
+            "text": "Boom boom back with a vengeance",
+            "start": 32.044
+          },
+          {
+            "end": 37.895,
+            "text": "Boom boom back and I'm not holding back",
+            "start": 35.155
+          },
+          {
+            "end": 41.517,
+            "text": "Boom boom back with a vengeance",
+            "start": 38.406
+          },
+          {
+            "end": 44.35,
+            "text": "Everybody move when the bass go crack",
+            "start": 41.657
+          },
+          {
+            "end": 70.496,
+            "text": "[Verse 2]",
+            "start": 44.35
+          },
+          {
+            "end": 73.607,
+            "text": "I don't need permission I don't need a sign",
+            "start": 70.496
+          },
+          {
+            "end": 76.394,
+            "text": "Paws on the pavement every single spine",
+            "start": 73.979
+          },
+          {
+            "end": 79.18,
+            "text": "You want a rival come and take a swing",
+            "start": 77.044
+          },
+          {
+            "end": 82.338,
+            "text": "I'm the storm the thunder and the everything",
+            "start": 80.062
+          },
+          {
+            "end": 85.682,
+            "text": "Left me for dead in a shallow ditch",
+            "start": 83.406
+          },
+          {
+            "end": 89.258,
+            "text": "Now they screaming my name with a nervous twitch",
+            "start": 85.542
+          },
+          {
+            "end": 90.093,
+            "text": "[Chorus]",
+            "start": 89.258
+          },
+          {
+            "end": 92.23,
+            "text": "Back with a vengeance",
+            "start": 90.093
+          },
+          {
+            "end": 95.109,
+            "text": "Back and I'm not holding back",
+            "start": 93.158
+          },
+          {
+            "end": 98.685,
+            "text": "Back with a vengeance",
+            "start": 96.363
+          },
+          {
+            "end": 101.518,
+            "text": "Watch me make the whole room crack",
+            "start": 99.521
+          },
+          {
+            "end": 105.001,
+            "text": "(Back with a vengeance)",
+            "start": 102.725
+          },
+          {
+            "end": 107.833,
+            "text": "(Back and I'm not holding back)",
+            "start": 104.815
+          },
+          {
+            "end": 109.087,
+            "text": "[Bridge]",
+            "start": 107.833
+          },
+          {
+            "end": 110.759,
+            "text": "Buried the doubt buried the shame",
+            "start": 109.087
+          },
+          {
+            "end": 112.245,
+            "text": "Lit a small fire and I fed it my name",
+            "start": 110.759
+          },
+          {
+            "end": 113.824,
+            "text": "Buried the doubt buried the fear",
+            "start": 112.338
+          },
+          {
+            "end": 115.682,
+            "text": "Now the whole crowd knowing that the cat is here",
+            "start": 113.824
+          },
+          {
+            "end": 116.053,
+            "text": "[Drop]",
+            "start": 115.682
+          },
+          {
+            "end": 119.072,
+            "text": "Boom boom back with a vengeance",
+            "start": 116.053
+          },
+          {
+            "end": 122.416,
+            "text": "Boom boom back and I'm not holding back",
+            "start": 119.072
+          },
+          {
+            "end": 125.388,
+            "text": "Boom boom back with a vengeance",
+            "start": 122.323
+          },
+          {
+            "end": 128.128,
+            "text": "Everybody break when the bass go—",
+            "start": 125.016
+          },
+          {
+            "end": 134.026,
+            "text": "Boom boom back with a vengeance",
+            "start": 128.128
+          },
+          {
+            "end": 147.122,
+            "text": "Boom boom back and I'm not holding back",
+            "start": 134.026
+          },
+          {
+            "end": 160.218,
+            "text": "[Chorus]",
+            "start": 147.122
+          },
+          {
+            "end": 165.233,
+            "text": "Back with a vengeance",
+            "start": 160.218
+          },
+          {
+            "end": 166.208,
+            "text": "Back and I'm not holding back",
+            "start": 162.911
+          },
+          {
+            "end": 169.506,
+            "text": "Back with a vengeance",
+            "start": 167.091
+          },
+          {
+            "end": 171.874,
+            "text": "Watch me make the whole room crack",
+            "start": 170.017
+          }
+        ],
+        "lyrics": "$27",
         "likes": 11,
-        "plays": 67,
+        "plays": 68,
         "comments": 0,
         "url": "https://treblo.com/song/f7232f0b-042e-45a4-bc03-5a9b28e7f13f"
       },
@@ -241,6 +3696,8 @@
           "full-on psytrance",
           "dark psytrance"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 14,
         "plays": 88,
         "comments": 1,
@@ -272,8 +3729,256 @@
           "russian trap",
           "requiem"
         ],
+        "alignedLyrics": [
+          {
+            "end": 0.139,
+            "text": "[Drop]",
+            "start": 0
+          },
+          {
+            "end": 6.548,
+            "text": "Feel it in your chest",
+            "start": 0.139
+          },
+          {
+            "end": 8.313,
+            "text": "Feel it in your chest",
+            "start": 6.548
+          },
+          {
+            "end": 12.864,
+            "text": "[Verse 1]",
+            "start": 8.313
+          },
+          {
+            "end": 14.257,
+            "text": "Low low low",
+            "start": 12.864
+          },
+          {
+            "end": 17.276,
+            "text": "Sinking through the pavement the ice and the snow",
+            "start": 13.978
+          },
+          {
+            "end": 20.201,
+            "text": "Down where the sewers keep humming",
+            "start": 17.508
+          },
+          {
+            "end": 23.963,
+            "text": "Something like a heartbeat something like a drum",
+            "start": 20.666
+          },
+          {
+            "end": 26.842,
+            "text": "Sub sub sub",
+            "start": 25.635
+          },
+          {
+            "end": 30.047,
+            "text": "Rattling the windows the pillars and the mud",
+            "start": 27.121
+          },
+          {
+            "end": 32.879,
+            "text": "Underneath the city I'm counting",
+            "start": 30.372
+          },
+          {
+            "end": 36.409,
+            "text": "Every single decibel that's coming from the sun",
+            "start": 33.576
+          },
+          {
+            "end": 37.756,
+            "text": "[Chorus]",
+            "start": 36.409
+          },
+          {
+            "end": 42.353,
+            "text": "Tell me how low can you go",
+            "start": 37.756
+          },
+          {
+            "end": 47.276,
+            "text": "Tell me how low can you go",
+            "start": 44.071
+          },
+          {
+            "end": 55.635,
+            "text": "Deeper than the cellar beneath the row",
+            "start": 50.387
+          },
+          {
+            "end": 60.325,
+            "text": "Tell me how low can you go",
+            "start": 57.121
+          },
+          {
+            "end": 63.669,
+            "text": "[Drop]",
+            "start": 60.325
+          },
+          {
+            "end": 64.969,
+            "text": "Feel it in your chest",
+            "start": 63.669
+          },
+          {
+            "end": 86.239,
+            "text": "Feel it in your chest",
+            "start": 84.985
+          },
+          {
+            "end": 92.137,
+            "text": "[Verse 2]",
+            "start": 91.997
+          },
+          {
+            "end": 95.991,
+            "text": "Down past the roots and the iron",
+            "start": 84.892
+          },
+          {
+            "end": 99.335,
+            "text": "Past the quiet worms in the frozen ground",
+            "start": 96.595
+          },
+          {
+            "end": 101.936,
+            "text": "I don't flinch I don't shiver",
+            "start": 100.171
+          },
+          {
+            "end": 105.604,
+            "text": "When the pressure starts to push me around",
+            "start": 103.236
+          },
+          {
+            "end": 107.88,
+            "text": "Boom boom boom",
+            "start": 106.208
+          },
+          {
+            "end": 111.27,
+            "text": "Shaking every brick in a broken room",
+            "start": 108.669
+          },
+          {
+            "end": 115.31,
+            "text": "Nobody alive can match me",
+            "start": 112.152
+          },
+          {
+            "end": 118.608,
+            "text": "When the floor gives way and we arrive at doom",
+            "start": 115.31
+          },
+          {
+            "end": 119.118,
+            "text": "[Chorus]",
+            "start": 118.608
+          },
+          {
+            "end": 133.097,
+            "text": "Tell me how low can you go",
+            "start": 119.118
+          },
+          {
+            "end": 139.97,
+            "text": "Tell me how low can you go",
+            "start": 126.131
+          },
+          {
+            "end": 147.632,
+            "text": "Deeper than the cellar beneath the row",
+            "start": 133.7
+          },
+          {
+            "end": 154.32,
+            "text": "Tell me how low can you go",
+            "start": 140.063
+          },
+          {
+            "end": 154.32,
+            "text": "[Bridge]",
+            "start": 154.32
+          },
+          {
+            "end": 155.667,
+            "text": "Lower lower still",
+            "start": 153.902
+          },
+          {
+            "end": 160.961,
+            "text": "Lower lower still",
+            "start": 160.775
+          },
+          {
+            "end": 153.995,
+            "text": "Past the bone past the hill",
+            "start": 153.855
+          },
+          {
+            "end": 155.713,
+            "text": "Lower lower still",
+            "start": 154.227
+          },
+          {
+            "end": 155.713,
+            "text": "[Drop]",
+            "start": 155.713
+          },
+          {
+            "end": 161.286,
+            "text": "Feel it in your chest",
+            "start": 154.32
+          },
+          {
+            "end": 161.797,
+            "text": "Feel it in your chest",
+            "start": 160.589
+          },
+          {
+            "end": 177.029,
+            "text": "Feel it in your chest",
+            "start": 174.475
+          },
+          {
+            "end": 191.983,
+            "text": "Feel it in your chest",
+            "start": 174.66
+          },
+          {
+            "end": 191.983,
+            "text": "[Chorus]",
+            "start": 191.983
+          },
+          {
+            "end": 204.661,
+            "text": "Tell me how low can you go",
+            "start": 188.267
+          },
+          {
+            "end": 177.354,
+            "text": "Tell me how low can you go",
+            "start": 160.729
+          },
+          {
+            "end": 175.125,
+            "text": "Deeper than the cellar beneath the row",
+            "start": 175.078
+          },
+          {
+            "end": 175.125,
+            "text": "Tell me how low can you go",
+            "start": 175.125
+          }
+        ],
+        "lyrics": "$28",
         "likes": 17,
-        "plays": 204,
+        "plays": 208,
         "comments": 4,
         "url": "https://treblo.com/song/23376ffd-4672-48a0-ad80-0c7afaaf0b0c"
       },
@@ -292,6 +3997,269 @@
           "lowend",
           "hardstyle"
         ],
+        "alignedLyrics": [
+          {
+            "end": 0.511,
+            "text": "[Drop]",
+            "start": 0
+          },
+          {
+            "end": 2.415,
+            "text": "Feel the melody take the low",
+            "start": 0.511
+          },
+          {
+            "end": 5.851,
+            "text": "Feel the melody take the low",
+            "start": 3.111
+          },
+          {
+            "end": 5.851,
+            "text": "[Verse 1]",
+            "start": 5.851
+          },
+          {
+            "end": 8.313,
+            "text": "Every speaker in the room is shaking",
+            "start": 5.712
+          },
+          {
+            "end": 9.752,
+            "text": "I came for the tone",
+            "start": 8.452
+          },
+          {
+            "end": 11.099,
+            "text": "Not for talking",
+            "start": 10.124
+          },
+          {
+            "end": 14.118,
+            "text": "Something in the wiring knows my name",
+            "start": 11.192
+          },
+          {
+            "end": 16.672,
+            "text": "Turn it up until the walls complain",
+            "start": 14.396
+          },
+          {
+            "end": 16.951,
+            "text": "[Pre-Chorus]",
+            "start": 16.672
+          },
+          {
+            "end": 19.133,
+            "text": "Give me the line that climbs",
+            "start": 16.951
+          },
+          {
+            "end": 21.78,
+            "text": "Give me the weight beneath",
+            "start": 19.691
+          },
+          {
+            "end": 24.752,
+            "text": "Give me the line that climbs",
+            "start": 22.523
+          },
+          {
+            "end": 27.957,
+            "text": "The weight beneath",
+            "start": 24.985
+          },
+          {
+            "end": 27.957,
+            "text": "[Chorus]",
+            "start": 27.957
+          },
+          {
+            "end": 30.975,
+            "text": "The melody is where I live",
+            "start": 27.957
+          },
+          {
+            "end": 33.158,
+            "text": "The bass is where I stay",
+            "start": 30.975
+          },
+          {
+            "end": 36.455,
+            "text": "The melody is where I live",
+            "start": 33.669
+          },
+          {
+            "end": 38.731,
+            "text": "The bass is where I stay",
+            "start": 36.502
+          },
+          {
+            "end": 44.071,
+            "text": "Low end holds me",
+            "start": 39.474
+          },
+          {
+            "end": 55.078,
+            "text": "Low end holds me",
+            "start": 45.047
+          },
+          {
+            "end": 55.078,
+            "text": "[Drop]",
+            "start": 55.078
+          },
+          {
+            "end": 63.762,
+            "text": "Feel the melody take the low",
+            "start": 50.991
+          },
+          {
+            "end": 67.709,
+            "text": "Feel the melody take the low",
+            "start": 65.805
+          },
+          {
+            "end": 135.465,
+            "text": "[Verse 2]",
+            "start": 67.709
+          },
+          {
+            "end": 138.066,
+            "text": "Deep below the midrange sits a pulse",
+            "start": 135.465
+          },
+          {
+            "end": 139.645,
+            "text": "Punching through my chest",
+            "start": 138.391
+          },
+          {
+            "end": 141.131,
+            "text": "Punching through my chest",
+            "start": 139.645
+          },
+          {
+            "end": 143.917,
+            "text": "Higher up a hook begins to pull",
+            "start": 141.131
+          },
+          {
+            "end": 146.518,
+            "text": "Lifting everything I thought was dull",
+            "start": 144.335
+          },
+          {
+            "end": 146.75,
+            "text": "[Pre-Chorus]",
+            "start": 146.518
+          },
+          {
+            "end": 149.026,
+            "text": "Give me the line that climbs",
+            "start": 146.75
+          },
+          {
+            "end": 152.555,
+            "text": "Give me the weight beneath",
+            "start": 149.629
+          },
+          {
+            "end": 154.97,
+            "text": "Give me the line that climbs",
+            "start": 152.555
+          },
+          {
+            "end": 157.989,
+            "text": "The weight beneath",
+            "start": 154.97
+          },
+          {
+            "end": 157.989,
+            "text": "[Chorus]",
+            "start": 157.989
+          },
+          {
+            "end": 160.543,
+            "text": "The melody is where I live",
+            "start": 157.989
+          },
+          {
+            "end": 163.004,
+            "text": "The bass is where I stay",
+            "start": 160.729
+          },
+          {
+            "end": 166.162,
+            "text": "The melody is where I live",
+            "start": 163.608
+          },
+          {
+            "end": 168.623,
+            "text": "The bass is where I stay",
+            "start": 166.441
+          },
+          {
+            "end": 176.843,
+            "text": "Low end holds me",
+            "start": 169.366
+          },
+          {
+            "end": 179.537,
+            "text": "Low end holds me",
+            "start": 174.986
+          },
+          {
+            "end": 180.744,
+            "text": "[Breakdown]",
+            "start": 179.537
+          },
+          {
+            "end": 202.571,
+            "text": "Hold the low",
+            "start": 180.744
+          },
+          {
+            "end": 202.71,
+            "text": "Hold the low",
+            "start": 183.252
+          },
+          {
+            "end": 202.478,
+            "text": "Let the line go up",
+            "start": 192.215
+          },
+          {
+            "end": 202.478,
+            "text": "Let the line go up",
+            "start": 202.478
+          },
+          {
+            "end": 202.478,
+            "text": "[Drop]",
+            "start": 202.478
+          },
+          {
+            "end": 218.546,
+            "text": "Feel the melody take the low",
+            "start": 202.014
+          },
+          {
+            "end": 230.296,
+            "text": "Feel the melody take the low",
+            "start": 213.159
+          },
+          {
+            "end": 252.587,
+            "text": "Feel the melody take the low",
+            "start": 251.333
+          },
+          {
+            "end": 252.958,
+            "text": "Feel the melody take the low",
+            "start": 251.379
+          }
+        ],
+        "lyrics": "$29",
         "likes": 4,
         "plays": 34,
         "comments": 1,
@@ -325,6 +4293,8 @@
           "fast",
           "fast"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 6,
         "plays": 25,
         "comments": 1,
@@ -351,7 +4321,9 @@
           "brostep",
           "electronic trap"
         ],
-        "likes": 12,
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
+        "likes": 14,
         "plays": 71,
         "comments": 6,
         "url": "https://treblo.com/song/fb80dd97-2106-4ccc-a211-857a11f3c668"
@@ -376,6 +4348,494 @@
           "bubblegum bass",
           "hardcore edm"
         ],
+        "alignedLyrics": [
+          {
+            "end": 0.952,
+            "text": "[Drop]",
+            "start": 0
+          },
+          {
+            "end": 1.904,
+            "text": "Bubblegum",
+            "start": 0.952
+          },
+          {
+            "end": 4.783,
+            "text": "Vitiate the silence make the speakers boom",
+            "start": 1.904
+          },
+          {
+            "end": 5.851,
+            "text": "Bubblegum",
+            "start": 4.969
+          },
+          {
+            "end": 9.985,
+            "text": "Subsonic thunder permeates the room",
+            "start": 5.851
+          },
+          {
+            "end": 11.146,
+            "text": "[Verse 1]",
+            "start": 9.985
+          },
+          {
+            "end": 13.793,
+            "text": "Fizz-fizz pop-pop ricocheting off the walls",
+            "start": 11.146
+          },
+          {
+            "end": 16.486,
+            "text": "Giddy little mayhem while the ceiling stalls",
+            "start": 13.932
+          },
+          {
+            "end": 19.319,
+            "text": "Pastel lightning flickering inside my head",
+            "start": 16.672
+          },
+          {
+            "end": 21.873,
+            "text": "Moonwalking through the furniture instead",
+            "start": 19.551
+          },
+          {
+            "end": 24.056,
+            "text": "Bubble-bubble mischievous trouble",
+            "start": 22.152
+          },
+          {
+            "end": 27.492,
+            "text": "Subwoofers rumbling making frequencies buckle",
+            "start": 24.288
+          },
+          {
+            "end": 30.186,
+            "text": "Saccharine laughter feral little spark",
+            "start": 27.632
+          },
+          {
+            "end": 33.251,
+            "text": "Turning tiny revelry into a carnival dark",
+            "start": 30.418
+          },
+          {
+            "end": 33.715,
+            "text": "[Pre-Chorus]",
+            "start": 33.669
+          },
+          {
+            "end": 35.898,
+            "text": "Oh-oh don't decelerate",
+            "start": 33.715
+          },
+          {
+            "end": 39.102,
+            "text": "Spiral through the room at an accelerated rate",
+            "start": 35.944
+          },
+          {
+            "end": 41.239,
+            "text": "Hands aloft let the rafters quake",
+            "start": 39.149
+          },
+          {
+            "end": 43.468,
+            "text": "One more pulse and we're gonna",
+            "start": 41.517
+          },
+          {
+            "end": 43.7,
+            "text": "[Chorus]",
+            "start": 43.468
+          },
+          {
+            "end": 44.257,
+            "text": "Bubblegum",
+            "start": 43.7
+          },
+          {
+            "end": 47.369,
+            "text": "Vitiate the silence make the speakers boom",
+            "start": 44.443
+          },
+          {
+            "end": 48.483,
+            "text": "Bubblegum",
+            "start": 47.415
+          },
+          {
+            "end": 52.849,
+            "text": "Subsonic thunder permeates the room",
+            "start": 48.669
+          },
+          {
+            "end": 55.914,
+            "text": "Sugar rush delirium lose control",
+            "start": 53.174
+          },
+          {
+            "end": 59.397,
+            "text": "Bassline burrowing straight into your soul",
+            "start": 55.96
+          },
+          {
+            "end": 59.397,
+            "text": "[Post-Chorus]",
+            "start": 59.397
+          },
+          {
+            "end": 60.743,
+            "text": "Whoa-oh-oh",
+            "start": 59.397
+          },
+          {
+            "end": 61.394,
+            "text": "Pop pop",
+            "start": 60.511
+          },
+          {
+            "end": 62.137,
+            "text": "Whoa-oh-oh",
+            "start": 61.301
+          },
+          {
+            "end": 63.344,
+            "text": "Drop drop",
+            "start": 62.137
+          },
+          {
+            "end": 65.202,
+            "text": "Bubblegum",
+            "start": 63.576
+          },
+          {
+            "end": 69.474,
+            "text": "Unleash the pandemonium",
+            "start": 65.109
+          },
+          {
+            "end": 69.474,
+            "text": "[Verse 2]",
+            "start": 69.474
+          },
+          {
+            "end": 72.168,
+            "text": "Candy fragments flutter like confetti through the sky",
+            "start": 69.474
+          },
+          {
+            "end": 74.908,
+            "text": "Glitter on my sneakers constellations passing by",
+            "start": 72.307
+          },
+          {
+            "end": 77.833,
+            "text": "Chromatic turbulence ricocheting through the crowd",
+            "start": 75
+          },
+          {
+            "end": 80.48,
+            "text": "Every little heartbeat getting gloriously loud",
+            "start": 78.065
+          },
+          {
+            "end": 82.709,
+            "text": "Sweet-talk bassquake incandescent grin",
+            "start": 80.573
+          },
+          {
+            "end": 85.589,
+            "text": "Crank the machinery let the revelry begin",
+            "start": 82.802
+          },
+          {
+            "end": 88.097,
+            "text": "Cotton-candy cumulonimbus cherry-colored moon",
+            "start": 85.775
+          },
+          {
+            "end": 90.883,
+            "text": "Everybody screaming when the bassline goes",
+            "start": 88.468
+          },
+          {
+            "end": 90.929,
+            "text": "[Pre-Chorus]",
+            "start": 90.883
+          },
+          {
+            "end": 91.626,
+            "text": "Wait",
+            "start": 91.115
+          },
+          {
+            "end": 92.276,
+            "text": "Wait",
+            "start": 91.626
+          },
+          {
+            "end": 93.019,
+            "text": "Wait",
+            "start": 92.137
+          },
+          {
+            "end": 95.898,
+            "text": "Suspend the rhythm tantalize the beat",
+            "start": 93.019
+          },
+          {
+            "end": 98.499,
+            "text": "Feel the subterranean thunder underneath your feet",
+            "start": 95.898
+          },
+          {
+            "end": 98.963,
+            "text": "Three",
+            "start": 98.778
+          },
+          {
+            "end": 99.66,
+            "text": "Two",
+            "start": 99.196
+          },
+          {
+            "end": 100.403,
+            "text": "One",
+            "start": 99.985
+          },
+          {
+            "end": 102.214,
+            "text": "[Drop]",
+            "start": 100.403
+          },
+          {
+            "end": 103.05,
+            "text": "Boom",
+            "start": 102.214
+          },
+          {
+            "end": 105.372,
+            "text": "Bubblegum ricocheting speakers convulsing",
+            "start": 103.05
+          },
+          {
+            "end": 108.251,
+            "text": "Saccharine seismicity everybody's pulsing",
+            "start": 105.651
+          },
+          {
+            "end": 110.945,
+            "text": "Bubblegum ricocheting heartbeats awakening",
+            "start": 108.298
+          },
+          {
+            "end": 113.685,
+            "text": "Candy-coated chaos tectonic vibrations shaking",
+            "start": 111.131
+          },
+          {
+            "end": 114.196,
+            "text": "Pop it",
+            "start": 114.103
+          },
+          {
+            "end": 115.31,
+            "text": "Drop it",
+            "start": 114.335
+          },
+          {
+            "end": 115.868,
+            "text": "Shake it",
+            "start": 115.171
+          },
+          {
+            "end": 116.518,
+            "text": "Unchain it",
+            "start": 115.775
+          },
+          {
+            "end": 123.252,
+            "text": "Sweet little pandemonium louder and louder",
+            "start": 116.518
+          },
+          {
+            "end": 126.595,
+            "text": "Bassline detonating like confectionary thunder",
+            "start": 118.979
+          },
+          {
+            "end": 126.595,
+            "text": "[Bridge]",
+            "start": 126.595
+          },
+          {
+            "end": 133.515,
+            "text": "If the night is spun from sugar",
+            "start": 122.23
+          },
+          {
+            "end": 130.496,
+            "text": "We'll pirouette across the sky",
+            "start": 123.112
+          },
+          {
+            "end": 133.608,
+            "text": "If the music makes us delirious",
+            "start": 124.552
+          },
+          {
+            "end": 133.608,
+            "text": "We'll never question why",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "Illuminate the darkness",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "Amplify the bass",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "Let the whole room shimmer",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "In a kaleidoscopic haze",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "[Chorus]",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "Bubblegum",
+            "start": 133.608
+          },
+          {
+            "end": 133.608,
+            "text": "Vitiate the silence make the speakers boom",
+            "start": 133.608
+          },
+          {
+            "end": 133.654,
+            "text": "Bubblegum",
+            "start": 133.515
+          },
+          {
+            "end": 138.019,
+            "text": "Subsonic thunder permeates the room",
+            "start": 134.211
+          },
+          {
+            "end": 141.084,
+            "text": "Sugar rush delirium lose control",
+            "start": 137.927
+          },
+          {
+            "end": 144.893,
+            "text": "Bassline burrowing straight into your soul",
+            "start": 141.549
+          },
+          {
+            "end": 144.939,
+            "text": "[Post-Chorus]",
+            "start": 144.893
+          },
+          {
+            "end": 146.425,
+            "text": "Whoa-oh-oh",
+            "start": 144.939
+          },
+          {
+            "end": 147.029,
+            "text": "Pop pop",
+            "start": 146.286
+          },
+          {
+            "end": 151.998,
+            "text": "Whoa-oh-oh",
+            "start": 146.75
+          },
+          {
+            "end": 153.948,
+            "text": "Drop drop",
+            "start": 147.632
+          },
+          {
+            "end": 153.623,
+            "text": "[Final Drop]",
+            "start": 153.577
+          },
+          {
+            "end": 154.413,
+            "text": "Bubblegum",
+            "start": 149.954
+          },
+          {
+            "end": 154.134,
+            "text": "Pop pop pop",
+            "start": 150.651
+          },
+          {
+            "end": 161.239,
+            "text": "Let the centrifugal madness never stop",
+            "start": 151.301
+          },
+          {
+            "end": 158.314,
+            "text": "Bubblegum",
+            "start": 157.478
+          },
+          {
+            "end": 160.961,
+            "text": "Boom boom boom",
+            "start": 158.174
+          },
+          {
+            "end": 163.143,
+            "text": "Candy-colored pandemonium",
+            "start": 159.66
+          },
+          {
+            "end": 163.933,
+            "text": "Sugar rush",
+            "start": 162.865
+          },
+          {
+            "end": 164.072,
+            "text": "Bass attack",
+            "start": 163.376
+          },
+          {
+            "end": 166.301,
+            "text": "Everybody jump and bring the frequency back",
+            "start": 164.072
+          },
+          {
+            "end": 167.462,
+            "text": "Pop-pop-pop",
+            "start": 166.487
+          },
+          {
+            "end": 169.738,
+            "text": "Drop-drop-drop",
+            "start": 167.323
+          },
+          {
+            "end": 178.469,
+            "text": "Bubblegum never stops",
+            "start": 167.88
+          }
+        ],
+        "lyrics": "$2a",
         "likes": 11,
         "plays": 34,
         "comments": 3,
@@ -408,16 +4868,323 @@
           "fast",
           "fast"
         ],
+        "alignedLyrics": "$undefined",
+        "lyrics": "",
         "likes": 3,
         "plays": 17,
         "comments": 0,
         "url": "https://treblo.com/song/12c2b8fc-a3ad-4bde-bef8-47e03fea699b"
+      },
+      {
+        "id": "b46879dc-cf28-45ec-b156-604cdcab0ebc",
+        "title": "Get Funky With Me",
+        "artist": "discoprincess",
+        "audio": "https://cdn.treblo.com/generations3/audio_260700e5-4769-4fd8-9330-a892f0030723_1.ogg",
+        "artwork": "https://scdn.treblo.com/images/uploadart-8e411414-e499-40b6-b5ce-4b93901670fa.jpg",
+        "duration": 228,
+        "tags": [
+          "synth funk",
+          "electro-funk",
+          "new jack swing",
+          "contemporary r&b",
+          "synthesizer",
+          "drum machine",
+          "acid",
+          "male vocalist",
+          "energetic",
+          "rebellious",
+          "boogie",
+          "talkbox",
+          "vocoder"
+        ],
+        "alignedLyrics": [
+          {
+            "end": 2.09,
+            "text": "[Intro]",
+            "start": 0
+          },
+          {
+            "end": 2.322,
+            "text": "Ow",
+            "start": 2.09
+          },
+          {
+            "end": 7.616,
+            "text": "(get funky)",
+            "start": 6.223
+          },
+          {
+            "end": 8.081,
+            "text": "Let's go",
+            "start": 7.663
+          },
+          {
+            "end": 8.081,
+            "text": "[Hook]",
+            "start": 8.081
+          },
+          {
+            "end": 11.842,
+            "text": "Why don't you get funky, yeah, get funky with me",
+            "start": 7.848
+          },
+          {
+            "end": 15.557,
+            "text": "(funky with me)",
+            "start": 12.353
+          },
+          {
+            "end": 19.969,
+            "text": "Let's get funky, funky, as funky as can be",
+            "start": 16.393
+          },
+          {
+            "end": 23.87,
+            "text": "(funky as can be)",
+            "start": 20.666
+          },
+          {
+            "end": 28.793,
+            "text": "Clap on the two and the four, then freeze",
+            "start": 24.474
+          },
+          {
+            "end": 32.276,
+            "text": "Pop it, lock it, do it with ease",
+            "start": 28.932
+          },
+          {
+            "end": 38.313,
+            "text": "(do it with ease)",
+            "start": 37.059
+          },
+          {
+            "end": 40.774,
+            "text": "[Verse]",
+            "start": 38.313
+          },
+          {
+            "end": 43.746,
+            "text": "Saturday night at the roller rink",
+            "start": 40.774
+          },
+          {
+            "end": 48.205,
+            "text": "Disco ball spinning in purple and pink",
+            "start": 44.907
+          },
+          {
+            "end": 52.198,
+            "text": "DJ in the booth with a vocoder voice",
+            "start": 48.948
+          },
+          {
+            "end": 56.517,
+            "text": "Bleeps on the speakers and you got no choice",
+            "start": 52.988
+          },
+          {
+            "end": 60.511,
+            "text": "I saw you rolling with your laces untied",
+            "start": 56.889
+          },
+          {
+            "end": 64.737,
+            "text": "Leg warmers up and a wink on the side",
+            "start": 61.115
+          },
+          {
+            "end": 68.406,
+            "text": "So I skate on over with a cassette in hand",
+            "start": 64.923
+          },
+          {
+            "end": 72.632,
+            "text": "Mixtape for you with the best in the land",
+            "start": 69.195
+          },
+          {
+            "end": 75.929,
+            "text": "(best in the land)",
+            "start": 73.468
+          },
+          {
+            "end": 75.372,
+            "text": "[Hook]",
+            "start": 75.326
+          },
+          {
+            "end": 80.666,
+            "text": "Why don't you get funky, yeah, get funky with me",
+            "start": 77.555
+          },
+          {
+            "end": 83.824,
+            "text": "(funky with me)",
+            "start": 81.595
+          },
+          {
+            "end": 89.165,
+            "text": "Let's get funky, funky, as funky as can be",
+            "start": 85.589
+          },
+          {
+            "end": 91.997,
+            "text": "(funky as can be)",
+            "start": 89.675
+          },
+          {
+            "end": 97.942,
+            "text": "Clap on the two and the four, then freeze",
+            "start": 93.669
+          },
+          {
+            "end": 102.168,
+            "text": "Pop it, lock it, do it with ease",
+            "start": 97.988
+          },
+          {
+            "end": 103.375,
+            "text": "(do it with ease)",
+            "start": 102.168
+          },
+          {
+            "end": 105.976,
+            "text": "[Verse]",
+            "start": 103.375
+          },
+          {
+            "end": 109.041,
+            "text": "Boombox up on a shoulder pad",
+            "start": 105.976
+          },
+          {
+            "end": 113.499,
+            "text": "Biggest on the block, it's the loudest we had",
+            "start": 109.923
+          },
+          {
+            "end": 116.936,
+            "text": "Cardboard down on the parking lot",
+            "start": 114.01
+          },
+          {
+            "end": 121.487,
+            "text": "Windmill, headspin, giving it all we got",
+            "start": 118.05
+          },
+          {
+            "end": 125.62,
+            "text": "Talkbox talking like a toaster with a crush",
+            "start": 122.091
+          },
+          {
+            "end": 129.614,
+            "text": "Synth bass bouncing and it hits like a rush",
+            "start": 126.084
+          },
+          {
+            "end": 133.84,
+            "text": "Arcade screen flickers, high score blinking",
+            "start": 130.31
+          },
+          {
+            "end": 137.648,
+            "text": "Your initials on the top and I can't stop thinking",
+            "start": 134.118
+          },
+          {
+            "end": 155.457,
+            "text": "(can't stop thinking)",
+            "start": 137.648
+          },
+          {
+            "end": 173.267,
+            "text": "[Talkbox Solo]",
+            "start": 155.457
+          },
+          {
+            "end": 173.314,
+            "text": "[Breakdown]",
+            "start": 173.267
+          },
+          {
+            "end": 175.264,
+            "text": "Pop",
+            "start": 175.218
+          },
+          {
+            "end": 175.543,
+            "text": "(pop)",
+            "start": 175.404
+          },
+          {
+            "end": 183.391,
+            "text": "Lock",
+            "start": 179.304
+          },
+          {
+            "end": 183.577,
+            "text": "(lock)",
+            "start": 183.298
+          },
+          {
+            "end": 193.469,
+            "text": "Do the robot round the clock",
+            "start": 183.252
+          },
+          {
+            "end": 195.373,
+            "text": "[Hook]",
+            "start": 193.469
+          },
+          {
+            "end": 198.763,
+            "text": "Now the tape's run out, but the groove won't quit",
+            "start": 195.373
+          },
+          {
+            "end": 199.784,
+            "text": "(groove won't quit)",
+            "start": 199.738
+          },
+          {
+            "end": 202.524,
+            "text": "Rewind it with a pencil, play another bit",
+            "start": 199.459
+          },
+          {
+            "end": 207.679,
+            "text": "Funky, funky, till the batteries die",
+            "start": 203.5
+          },
+          {
+            "end": 209.072,
+            "text": "(batteries die)",
+            "start": 207.911
+          },
+          {
+            "end": 214.181,
+            "text": "Two on the skates and the streetlights fly by",
+            "start": 208.004
+          },
+          {
+            "end": 224.026,
+            "text": "[Spoken] \"Created by DarkPrincess -- Royalty of the night\"",
+            "start": 217.525
+          }
+        ],
+        "lyrics": "$2b",
+        "likes": 20,
+        "plays": 226,
+        "comments": 2,
+        "url": "https://treblo.com/song/b46879dc-cf28-45ec-b156-604cdcab0ebc"
       }
     ],
-    "trackCount": 16,
-    "duration": 3339,
-    "trackLikes": 148,
-    "plays": 1248,
+    "trackCount": 17,
+    "duration": 3567,
+    "trackLikes": 171,
+    "plays": 1488,
     "artists": 12
   }
 ]

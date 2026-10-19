@@ -1,0 +1,63 @@
+name: Analyze DiscoPrincess lyrics
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - catalog-source.json
+      - lyric-config.json
+      - lyric-overrides.json
+      - scripts/build_lyrics.py
+      - scripts/enhance_lyrics.py
+      - scripts/align_words.py
+      - scripts/lyrics_common.py
+      - scripts/refresh_tracks.py
+permissions:
+  contents: write
+concurrency:
+  group: lyric-analysis
+  cancel-in-progress: false
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pull configured playlists
+        run: python scripts/refresh_tracks.py
+      - uses: actions/cache@v4
+        with:
+          path: |
+            .cache/lyrics-v3
+            .cache/lyric-audio-v2
+            ~/.cache/whisper
+            ~/.cache/torch
+            ~/.cache/pip
+          key: lyric-align-v3-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: lyric-align-v3-${{ runner.os }}-
+      - name: Install CPU alignment dependencies
+        run: |
+          pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
+          pip install 'numpy<2' soundfile stable-ts==2.19.1 demucs==4.0.1
+      - name: Analyze new or changed tracks using cached results
+        run: python scripts/build_lyrics.py
+      - name: Test pipeline helpers
+        run: python -m unittest discover -s tests
+      - name: Save catalog and lyric results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add tracks.json playlists.json lyrics/
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh playlist catalog and lyric timings'
+            git restore .
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
