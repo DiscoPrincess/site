@@ -255,7 +255,7 @@ const lyricStyleOptions=[
  ['neon','Neon','Glowing words with a soft pulse'],
  ['subtitle','Cinema','Clean, quiet subtitles']
 ];
-let lyricAppearance={style:'pop',scale:1};
+let lyricAppearance={style:'neon',scale:1};
 try{const saved=JSON.parse(localStorage.getItem('dp-lyric-appearance')||'null');if(saved&&lyricStyleOptions.some(([id])=>id===saved.style))lyricAppearance={style:saved.style,scale:Math.max(.75,Math.min(1.35,Number(saved.scale)||1))};}catch{}
 function saveLyricAppearance(){try{localStorage.setItem('dp-lyric-appearance',JSON.stringify(lyricAppearance));}catch{}}
 const playbackSettings=document.createElement('button');playbackSettings.id='playback-settings';playbackSettings.type='button';playbackSettings.setAttribute('aria-label','Playback and lyric appearance settings');playbackSettings.setAttribute('aria-haspopup','dialog');playbackSettings.title='Lyric styles';
