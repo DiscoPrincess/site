@@ -198,3 +198,31 @@ body{padding-bottom:calc(var(--player-height) + 16px)}
  .hero-description{margin-bottom:6px}
  .hero-caption small{margin-top:2px}
 }
+
+/* Captions belong to the player, so page navigation never removes them. */
+:root{--caption-space:120px}
+body{padding-bottom:calc(var(--player-height) + var(--caption-space) + 16px)}
+.caption-dock{position:fixed;z-index:16;left:0;right:0;bottom:var(--player-height);padding:18px 6%;min-height:84px;max-height:min(210px,32dvh);overflow:auto;background:linear-gradient(180deg,#100d1bba,#100d1bf2);border-top:1px solid #eac58420;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);text-align:center}
+.caption-dock[hidden]{display:none}
+.caption-dock .lyric-stage{position:relative;inset:auto;transform:none;max-height:none;overflow:visible;margin:auto;width:100%;max-width:1240px;font-size:calc(clamp(24px,2.6vw,38px) * var(--lyric-scale,1));line-height:1.35;letter-spacing:-.025em}
+.caption-dock .lyric-stage[data-style=subtitle]{font-size:calc(clamp(22px,2vw,30px) * var(--lyric-scale,1))}
+.hero{height:calc(var(--app-height) - var(--player-height) - var(--caption-space));grid-template-rows:var(--header-space) minmax(0,1fr) auto;padding-bottom:18px}
+@media(max-width:700px){
+ :root{--caption-space:112px}
+ .caption-dock{padding:14px 5%;min-height:76px}
+ .caption-dock .lyric-stage{font-size:calc(clamp(22px,5.5vw,28px) * var(--lyric-scale,1))}
+ .caption-dock .lyric-stage[data-style=subtitle]{font-size:calc(22px * var(--lyric-scale,1))}
+}
+@media(max-height:620px) and (min-height:501px){
+ :root{--caption-space:90px}
+ .hero{grid-template-rows:var(--header-space) minmax(0,1fr) auto;padding-bottom:8px}
+ .caption-dock{padding-top:10px;padding-bottom:10px}
+}
+@media(max-height:500px){
+ :root{--caption-space:76px}
+ .hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:var(--header-space) minmax(0,1fr);padding-bottom:8px}
+ .hero-copy{grid-row:2;grid-column:1}
+ .hero-caption{grid-row:2;grid-column:2;align-self:center}
+ .caption-dock{padding:9px 5%;min-height:58px}
+ .caption-dock .lyric-stage,.caption-dock .lyric-stage[data-style=subtitle]{font-size:calc(22px * var(--lyric-scale,1))}
+}

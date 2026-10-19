@@ -224,15 +224,18 @@ async function loadTrackLyrics(){
  try{const response=await fetch(new URL(`lyrics/${track.id}.json`,document.baseURI));if(!response.ok)return;const data=await response.json();if(request===lyricRequest)lyricLines=data.lines||[];}catch{}
 }
 audio.addEventListener('loadstart',loadTrackLyrics);
+// This caption surface lives beside the persistent player, outside page content.
+const captionDock=document.createElement('aside');
+captionDock.className='caption-dock';captionDock.hidden=true;
+captionDock.setAttribute('aria-label','Current song lyrics');
+const captionOverlay=document.createElement('div');captionOverlay.className='lyric-stage';
+captionDock.append(captionOverlay);document.body.append(captionDock);
 function animateLyrics(){
- const hero=document.querySelector('main .hero');
- if(hero){
-  let overlay=hero.querySelector('.lyric-stage');
-  if(!overlay){overlay=document.createElement('div');overlay.className='lyric-stage';overlay.setAttribute('aria-label','Current lyrics');hero.append(overlay);const toggle=document.createElement('button');toggle.className='lyric-toggle';toggle.textContent='Lyrics';toggle.setAttribute('aria-pressed',String(lyricEnabled));toggle.addEventListener('click',()=>{lyricEnabled=!lyricEnabled;toggle.setAttribute('aria-pressed',String(lyricEnabled));});hero.append(toggle);}
-  overlay.dataset.style=lyricAppearance.style;overlay.style.setProperty('--lyric-scale',lyricAppearance.scale);
+ const overlay=captionOverlay;
+ {  overlay.dataset.style=lyricAppearance.style;overlay.style.setProperty('--lyric-scale',lyricAppearance.scale);
   const time=audio.currentTime;
   const active=lyricEnabled?lyricLines.filter(l=>l.start<=time&&time<l.end).at(-1):null;
-  hero.classList.toggle('has-active-lyrics',!!active);
+  captionDock.hidden=!active;
   if(overlay._line!==active){
    overlay._line=active;overlay.replaceChildren();
    if(active){
