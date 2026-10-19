@@ -154,6 +154,7 @@ document.addEventListener('click',event=>{
  if(button.dataset.filter){filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();}
 });
 async function navigateSite(url,push=true){
+ closeNavigation();
  const request=++navigationRequest;
  try{
   const response=await fetch(url.href);if(!response.ok)throw new Error('Page unavailable');
@@ -277,3 +278,44 @@ playbackSettings.addEventListener('click',()=>{
  dialog.addEventListener('close',()=>{dialog.remove();playbackSettings.focus();});
  document.body.append(dialog);dialog.showModal();
 });
+
+
+// Keep the opening screen above the actual player, including device safe areas.
+const viewportRoot=document.documentElement;
+function measurePlayer(){
+ const player=document.querySelector('.player');
+ if(player)viewportRoot.style.setProperty('--player-height',`${Math.ceil(player.getBoundingClientRect().height)}px`);
+}
+if('ResizeObserver' in window)new ResizeObserver(measurePlayer).observe(document.querySelector('.player'));
+window.addEventListener('resize',measurePlayer,{passive:true});
+measurePlayer();
+
+// Delegated controls survive navigation, which replaces the header's contents.
+function mountNavigation(){
+ const header=document.querySelector('header'),nav=header?.querySelector('nav');
+ if(!nav)return;
+ nav.id='main-navigation';
+ if(!header.querySelector('.menu-toggle')){
+  const button=document.createElement('button');button.type='button';button.className='menu-toggle';
+  button.setAttribute('aria-label','Open navigation');button.setAttribute('aria-expanded','false');button.setAttribute('aria-controls',nav.id);
+  button.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>';
+  header.insertBefore(button,nav);
+ }
+}
+function closeNavigation(restoreFocus=false){
+ const header=document.querySelector('header'),button=header?.querySelector('.menu-toggle');
+ header?.classList.remove('menu-open');
+ button?.setAttribute('aria-expanded','false');button?.setAttribute('aria-label','Open navigation');
+ if(restoreFocus)button?.focus();
+}
+new MutationObserver(mountNavigation).observe(document.querySelector('header'),{childList:true});
+mountNavigation();
+document.addEventListener('click',event=>{
+ const button=event.target.closest('.menu-toggle');
+ if(button){
+  const open=button.closest('header').classList.toggle('menu-open');
+  button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Close navigation':'Open navigation');
+ }else if(event.target.closest('header nav a')||!event.target.closest('header'))closeNavigation();
+});
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.querySelector('header.menu-open'))closeNavigation(true);});
+window.matchMedia('(max-width:1100px)').addEventListener('change',()=>closeNavigation());
