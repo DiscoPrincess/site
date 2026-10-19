@@ -70,15 +70,15 @@ let siteEntered=!document.getElementById('hero-video');
 let entranceReady=()=>{};
 if(!siteEntered){
  const gate=document.createElement('section');gate.className='entrance';gate.setAttribute('aria-label','Enter DiscoPrincess');
- gate.innerHTML='<div class="entrance-inner"><p class="eyebrow">THE LATE-NIGHT FREQUENCY</p><div class="entrance-orbit"><img src="assets/mark.svg" alt="DiscoPrincess crown" width="130" height="130"><span></span></div><h1>Disco<em>Princess</em></h1><p class="entrance-tagline">A crown. A rhythm. Your own world.</p><div class="entrance-wave" aria-hidden="true">'+Array.from({length:17},(_,i)=>`<i style="--n:${i}"></i>`).join('')+'</div><p id="entrance-status" role="status" aria-live="polite">Tuning your frequency…</p><button id="enter-site" disabled>Preparing your world…</button><button id="skip-entrance" class="entrance-skip">Continue without waiting</button></div>';
+ gate.innerHTML='<div class="entrance-inner"><p class="eyebrow">THE LATE-NIGHT FREQUENCY</p><div class="entrance-portrait"><img src="assets/discoprincess-avatar.webp" alt="DiscoPrincess with magenta hair and headphones" width="1254" height="1254"><span class="entry-eye entry-eye-left"></span><span class="entry-eye entry-eye-right"></span></div><h1>Disco<em>Princess</em></h1><p class="entrance-tagline">A crown. A rhythm. Your own world.</p><div class="entrance-wave" aria-hidden="true">'+Array.from({length:17},(_,i)=>`<i style="--n:${i}"></i>`).join('')+'</div><p id="entrance-status" role="status" aria-live="polite">Tuning your frequency…</p><button id="enter-site" disabled>Preparing your world…</button><button id="skip-entrance" class="entrance-skip">Continue without waiting</button></div>';
  document.body.append(gate);document.body.classList.add('entrance-locked');
  const button=gate.querySelector('#enter-site'),status=gate.querySelector('#entrance-status');
  let ready=false;
  entranceReady=(fallback=false)=>{if(ready)return;ready=true;button.disabled=false;button.textContent='Enter her world ↗';status.textContent=fallback?'Your world is ready. Video will continue loading.':'Your frequency is ready.';gate.classList.add('is-ready');};
- const enter=()=>{if(siteEntered)return;siteEntered=true;try{sessionStorage.setItem('dp-entered','1');}catch{}if(tracks.length){shuffle=true;if(current<0)select(Math.floor(Math.random()*tracks.length));else if(audio.paused)resume();sync();}document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
+ const enter=()=>{if(siteEntered)return;siteEntered=true;try{sessionStorage.setItem('dp-entered','1');}catch{}if(tracks.length){shuffle=true;if(current<0)select(Math.floor(Math.random()*tracks.length));else if(audio.paused)resume();sync();}animatePrincessEntry(gate);document.body.classList.remove('entrance-locked');gate.classList.add('is-leaving');window.dispatchEvent(new Event('site-entered'));setTimeout(()=>{gate.remove();document.querySelector('header .brand')?.focus({preventScroll:true});},650);};
  button.addEventListener('click',enter);gate.querySelector('#skip-entrance').addEventListener('click',enter);
  setTimeout(()=>entranceReady(true),12000);
- Promise.allSettled([document.fonts.ready,new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src='assets/mark.svg';})]).then(()=>{window.dispatchEvent(new Event('entrance-assets-ready'));});
+ Promise.allSettled([document.fonts.ready,new Promise(resolve=>{const img=new Image();img.onload=img.onerror=resolve;img.src='assets/discoprincess-avatar.webp';})]).then(()=>{window.dispatchEvent(new Event('entrance-assets-ready'));});
 }
 
 // Decorative video is always silent, independent of music-player volume.
@@ -373,3 +373,22 @@ window.addEventListener('orientationchange',()=>{
  scheduleViewportRecovery();
 });
 scheduleViewportRecovery();
+
+// Let the loader portrait survive the gate fade, then dissolve over the video.
+function animatePrincessEntry(gate){
+ const portrait=gate.querySelector('.entrance-portrait');if(!portrait)return;
+ const reduced=window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+ const rect=portrait.getBoundingClientRect(),character=portrait.cloneNode(true);
+ character.className='entry-character';character.setAttribute('aria-hidden','true');
+ character.style.left=rect.left+'px';character.style.top=rect.top+'px';character.style.width=rect.width+'px';
+ character.style.setProperty('--entry-dx',(innerWidth/2-rect.left-rect.width/2)+'px');
+ character.style.setProperty('--entry-dy',(innerHeight*.44-rect.top-rect.height/2)+'px');
+ if(!reduced)for(let i=0;i<14;i++){
+  const spark=document.createElement('i');spark.className='entry-spark';
+  spark.style.setProperty('--angle',(i*360/14)+'deg');spark.style.setProperty('--travel',(65+(i%4)*15)+'px');
+  spark.style.setProperty('--delay',(i%3)*.07+'s');character.append(spark);
+ }
+ document.body.append(character);portrait.style.visibility='hidden';
+ character.addEventListener('animationend',event=>{if(event.target===character)character.remove();});
+ setTimeout(()=>character.remove(),reduced?700:2900);
+}
