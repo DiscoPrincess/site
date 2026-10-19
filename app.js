@@ -338,3 +338,38 @@ document.addEventListener('click',event=>{if(!volumeControl.contains(event.targe
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!volumePopover.hidden){event.stopPropagation();closeVolume(true);}});
 volumeControl.addEventListener('focusout',event=>{if(event.relatedTarget&&!volumeControl.contains(event.relatedTarget))closeVolume();});
 audio.addEventListener('volumechange',syncVolume);syncVolume();
+
+// Recover Android/PWA layouts restored with a wide, zoomed-out viewport.
+const standardViewport='width=device-width,initial-scale=1,minimum-scale=1,viewport-fit=cover';
+function needsViewportRecovery(layoutWidth,screenWidth,scale,phone){
+ return phone&&Number.isFinite(screenWidth)&&screenWidth>=240&&
+  (layoutWidth>screenWidth*1.25||(Number.isFinite(scale)&&scale<.95));
+}
+function recoverAppViewport(useExplicitWidth=false){
+ if(document.hidden)return;
+ const phone=window.matchMedia('(pointer:coarse)').matches&&Math.min(screen.width,screen.height)<=700;
+ const width=screen.width,scale=window.visualViewport?.scale;
+ if(needsViewportRecovery(document.documentElement.clientWidth,width,scale,phone)){
+  const meta=document.querySelector('meta[name="viewport"]');
+  if(meta)meta.setAttribute('content',useExplicitWidth?
+   'width='+Math.round(width)+',initial-scale=1,minimum-scale=1,viewport-fit=cover':standardViewport);
+ }
+ // Resume events can fire before Android has finished restoring the surface.
+ measurePlayer();
+}
+let viewportRecoveryTimer,viewportRetryTimer;
+function scheduleViewportRecovery(){
+ clearTimeout(viewportRecoveryTimer);clearTimeout(viewportRetryTimer);
+ viewportRecoveryTimer=setTimeout(()=>recoverAppViewport(false),100);
+ viewportRetryTimer=setTimeout(()=>recoverAppViewport(true),450);
+}
+window.addEventListener('pageshow',scheduleViewportRecovery);
+window.addEventListener('focus',scheduleViewportRecovery);
+window.addEventListener('resize',scheduleViewportRecovery,{passive:true});
+window.visualViewport?.addEventListener('resize',scheduleViewportRecovery,{passive:true});
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)scheduleViewportRecovery();});
+window.addEventListener('orientationchange',()=>{
+ const meta=document.querySelector('meta[name="viewport"]');if(meta)meta.setAttribute('content',standardViewport);
+ scheduleViewportRecovery();
+});
+scheduleViewportRecovery();
