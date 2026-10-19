@@ -15,7 +15,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 120
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,16 +31,18 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: |
-            .cache/lyrics
+            .cache/lyrics-v3
+            .cache/lyric-audio-v2
+            ~/.cache/whisper
             ~/.cache/torch
             ~/.cache/pip
-          key: lyric-align-v1-${{ runner.os }}-${{ github.run_id }}
-          restore-keys: lyric-align-v1-${{ runner.os }}-
+          key: lyric-align-v3-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: lyric-align-v3-${{ runner.os }}-
       - name: Install CPU alignment dependencies
         run: |
           pip install torch==2.5.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cpu
-          pip install 'numpy<3' soundfile
-      - name: Build lyric timing and align entry playlist words
+          pip install 'numpy<2' soundfile stable-ts==2.19.1 demucs==4.0.1
+      - name: Separate vocals, compare recognition and align lyrics
         run: python scripts/build_lyrics.py
       - name: Test playlist importer
         run: python -m unittest discover -s tests
@@ -61,4 +63,5 @@ jobs:
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
 

@@ -1,0 +1,1 @@
+{"language":"auto","autoCorrect":true,"maxNewTracksPerRun":3,"notes":"Incremental CPU processing in playlist order. Auto corrections require agreement of two unprompted models and high confidence; see lyrics/review.json. Rejected text remains unchanged. Cache invalidates on configuration, audio, lyrics or override changes."}

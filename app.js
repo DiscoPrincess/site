@@ -238,8 +238,9 @@ function animateLyrics(){
     for(const word of timed?active.words:active.text.split(/\s+/).map(text=>({text}))){const span=document.createElement('span');span.textContent=word.text;span._word=word;overlay.append(span,document.createTextNode(' '));}
    }
   }
-  if(active?.words?.length)for(const span of overlay.querySelectorAll('span')){const word=span._word;const progress=Math.max(0,Math.min(1,(time-word.start)/(word.end-word.start)));span.style.setProperty('--word-fill',`${progress*100}%`);span.classList.toggle('is-current',time>=word.start&&time<word.end);span.classList.toggle('is-sung',time>=word.end);}
+  if(active?.words?.length)for(const span of overlay.querySelectorAll('span')){const word=span._word;const timed=Number.isFinite(word.start)&&Number.isFinite(word.end)&&word.end>word.start;const progress=timed?Math.max(0,Math.min(1,(time-word.start)/(word.end-word.start))):0;span.style.setProperty('--word-fill',`${progress*100}%`);span.classList.toggle('is-current',timed&&time>=word.start&&time<word.end);span.classList.toggle('is-sung',timed&&time>=word.end);}
  }
  requestAnimationFrame(animateLyrics);
 }
 requestAnimationFrame(animateLyrics);
+

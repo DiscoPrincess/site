@@ -20,7 +20,8 @@ def run(source,destination):
             original=line['text'].split();normalized=[re.sub("[^A-Z']",'',unicodedata.normalize('NFKD',word).encode('ascii','ignore').decode().upper()) for word in original]
             if not all(normalized):continue
             text='|'.join(normalized);tokens=[labels[c] for c in text]
-            clip=audio[:,int(line['start']*sr):int(line['end']*sr)]
+            window_start=max(0,line['start']-.45);window_end=min(audio.shape[1]/sr,line['end']+.65)
+            clip=audio[:,int(window_start*sr):int(window_end*sr)]
             if clip.shape[1]<400:continue
             try:
                 with torch.inference_mode():emission,_=model(clip)
@@ -31,8 +32,13 @@ def run(source,destination):
                 ratio=clip.shape[1]/sr/emission.shape[1];cursor=0;words=[]
                 for word,norm in zip(original,normalized):
                     group=spans[cursor:cursor+len(norm)];cursor+=len(norm)+1
-                    words.append({'text':word,'start':round(line['start']+group[0].start*ratio,3),'end':round(line['start']+group[-1].end*ratio,3),'score':round(sum(float(x.score) for x in group)/len(group),3)})
-                line['words']=accepted_words(words,line)
+                    words.append({'text':word,'start':round(window_start+group[0].start*ratio,3),'end':round(window_start+group[-1].end*ratio,3),'score':round(sum(float(x.score) for x in group)/len(group),3)})
+                bounds={**line,'start':window_start,'end':window_end}
+                line['words']=accepted_words(words,bounds)
+                if line['words']:
+                    valid=[w for w in line['words'] if w['start'] is not None]
+                    line['start']=min(line['start'],valid[0]['start']);line['end']=max(line['end'],valid[-1]['end'])
             except (RuntimeError,ValueError):continue
     Path(destination).write_text(json.dumps(data,ensure_ascii=False))
 if __name__=='__main__':run(*sys.argv[1:])
+
