@@ -226,3 +226,6 @@ body{padding-bottom:calc(var(--player-height) + var(--caption-space) + 16px)}
  .caption-dock{padding:9px 5%;min-height:58px}
  .caption-dock .lyric-stage,.caption-dock .lyric-stage[data-style=subtitle]{font-size:calc(22px * var(--lyric-scale,1))}
 }
+
+/* Floating captions: no panel, tint, border or glass behind the words. */
+.caption-dock{background:none;border:0;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;pointer-events:none}
