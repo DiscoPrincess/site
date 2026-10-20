@@ -1,22 +1,28 @@
 # DiscoPrincess
-Music site adapted from Natalie4933/site, with a new identity based on the DiscoPrincess manifesto.
 
-## Brand
-Midnight #100D1B, velvet #1C1429, cream #F3EBDD, gold #EAC584, pink #F163BD. Cormorant Garamond for expressive display typography; Manrope for navigation, body and player. Gold crown with DP monogram in a concentric seal, supplied as scalable SVG.
+Artist content and assets for https://discoprincess.github.io/site/, powered by the pinned [shared artist core](https://github.com/Maxwell-Pierce/artist-site-core).
 
-## Playlists and music
-Add public Treblo playlist IDs to `catalog-source.json` in the desired homepage order. Run `python scripts/refresh_tracks.py`, or trigger the Publish workflow. GitHub Actions fetches all configured playlists daily at 06:17 UTC and on each push, then publishes the generated homepage, dedicated `playlists/<id>.html` pages, catalog and metadata.
+- `artist.json`: runtime identity, colors, entry portrait/effect, caption default and settings storage namespace.
+- `index.html`, `manifesto.html`, `offline.html`: DiscoPrincess-owned copy and layout.
+- `assets/`: her own portrait, crown, PWA icons and muted videos.
+- `catalog-source.json`, `playlists.json`, `tracks.json`: playlist configuration and saved public metadata.
+- `lyrics/`, `lyric-config.json`, `lyric-overrides.json`: retained recognition results, review records and reviewed corrections.
+- `.artist-core`: shared player, responsive layout, build, import and lyric-analysis code, pinned to an exact commit.
 
-The importer scopes membership to each playlist's `songs` array, preserves ordering, includes all artists, deduplicates tracks, and enriches records from public song metadata. Removed tracks disappear on the next successful refresh. A missing/private/malformed source fails the build before any catalog writes or deployment, preserving the last published version. The importer requires complete server-rendered playlist membership and checks count fields when exposed; it does not invent counts or silently truncate known paginated sources.
+## Build
 
-Cards show track count, total duration, playlist likes, combined track likes, track plays (only when available for every track), and artist count. Dedicated pages credit each track artist. Counts are source snapshots, not local voting controls. Public source links are included.
+```sh
+git clone --recurse-submodules https://github.com/DiscoPrincess/site.git
+cd site
+python .artist-core/scripts/build.py --site . --output _site
+```
 
-`tracks.json` holds the unique shared catalog; `playlists.json` holds metadata and per-playlist tracks. Embedded catalogs allow immediate playback without a data fetch. The player supports play/pause, seeking, volume, shuffle, repeat and Media Session controls.
+The build discovers videos, renders saved playlists, applies inexpensive estimated word timings to the output copy and hashes runtime assets. It never analyzes audio or changes the saved recognition source. Generated `app.js`, `style.css`, the PWA manifest and service worker are in `_site/`.
 
-Validation: `python -m unittest discover -s tests` and `node --check app.js`.
+## Publishing and analysis
 
-## Hosting
-The GitHub Actions workflow validates and publishes the static site. In repository Settings > Pages, select GitHub Actions as source if not already enabled. There are no build dependencies. Serve the project directory with any static server for local preview.
+`Publish artist site` validates each push/PR and deploys main through GitHub Pages. `Analyze artist lyrics` runs daily, manually or when its source inputs change. The latter reuses this repository's existing caches and results, processes at most the configured new-track budget, and commits only refreshed catalog/lyric data. Successful analysis triggers a quick publication.
 
-## Opening videos
-Upload MP4 or WebM videos under `assets/` (subdirectories supported). Each deployment discovers them with `scripts/build_videos.py`. The homepage shuffles the full collection per visit and each cycle, avoiding consecutive repeats when possible. Video audio is always muted; only the music player produces sound. Unsupported or broken videos are skipped. With no videos, a dark gradient remains. MP4 H.264 is recommended for browser compatibility.
+Dependabot checks the shared submodule daily and proposes an update PR. Shared changes do not reach this site until its core update is merged. Core fixes belong in `Maxwell-Pierce/artist-site-core`; artist-only adjustments belong in `custom.css` / `custom.js` or the local pages. Reverting `.artist-core` rolls back the shared behavior.
+
+See [LYRICS.md](LYRICS.md) for recognition/estimate provenance and reviewed correction details. Artist content, playlists and binaries were retained in the core migration.

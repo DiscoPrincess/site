@@ -1,0 +1,4 @@
+[submodule ".artist-core"]
+	path = .artist-core
+	url = https://github.com/Maxwell-Pierce/artist-site-core.git
+	branch = main

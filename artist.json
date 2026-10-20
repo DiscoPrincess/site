@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "name": "DiscoPrincess",
+  "nameFirst": "Disco",
+  "nameLast": "Princess",
+  "slug": "discoprincess",
+  "initials": "DP",
+  "tagline": "The unapologetic glow",
+  "description": "Music, midnight mischief and your own frequency.",
+  "storageKey": "dp",
+  "theme": {
+    "bg": "#100d1b",
+    "surface": "#1c1429",
+    "ink": "#f3ebdd",
+    "muted": "#b8abc6",
+    "gold": "#eac584",
+    "pink": "#f163bd"
+  },
+  "entrance": {
+    "eyebrow": "THE LATE-NIGHT FREQUENCY",
+    "portrait": "assets/discoprincess-avatar.webp",
+    "portraitAlt": "DiscoPrincess with magenta hair and headphones",
+    "tagline": "A crown. A rhythm. Your own world.",
+    "button": "Enter her world ↗",
+    "effect": "eye-glow"
+  },
+  "captions": {
+    "style": "neon"
+  },
+  "hero": {
+    "eyebrow": "INDEPENDENT SOUND / OPEN HORIZONS",
+    "title": "Disco.",
+    "accent": "In full frequency.",
+    "description": "Music, curiosity, and a world of sound.",
+    "caption": "Find a sound. Stay for the feeling."
+  },
+  "about": {
+    "title": "Behind the sound.",
+    "text": "Welcome to DiscoPrincess’s listening room. Explore the collections as they arrive."
+  }
+}
