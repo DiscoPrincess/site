@@ -534,19 +534,659 @@
     "id": "1d219994-0fe7-46e6-808f-84709e68ea49",
     "title": "Crush Depth (Sonar Bounce Mix)",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "Forty fathoms, lamps go red",
+        "suggestion": ",000s, lambs go red, every",
+        "start": 23.359,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sixty fathoms, steel complains",
+        "suggestion": "60 ,000 steel complaints rivets",
+        "start": 27.121,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Rivets ticking in the frames",
+        "suggestion": "rivets ticking in the fray.",
+        "start": 28.979,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Needle climbing on the gauge",
+        "suggestion": "climbing, on the gauge.",
+        "start": 32.087,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Every gasket takes the strain",
+        "suggestion": "gasket takes the strain.",
+        "start": 39.335,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Deeper, deeper, past the shelf",
+        "suggestion": "deeper, has the shelf.",
+        "start": 46.858,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Portholes fogging by themselves",
+        "suggestion": "poor fools, folly by themselves.",
+        "start": 51.687,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Eighty fathoms, sonar pings",
+        "suggestion": "and so now pings,",
+        "start": 69.521,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The captain orders: take her lower",
+        "suggestion": "the captive orders take her lower, every",
+        "start": 73.143,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Every breath on board goes slower",
+        "suggestion": "every breath on water goes slower.",
+        "start": 75.186,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Needle climbing on the gauge",
+        "suggestion": "Needle climbing on the cage.",
+        "start": 77.369,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Every gasket takes the strain",
+        "suggestion": "gasket takes the strain.",
+        "start": 85.357,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Somebody prays in the torpedo bay",
+        "suggestion": "prays in the torpedo bay.",
+        "start": 92.648,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Somebody laughs, then looks away",
+        "suggestion": "Somebody laughs, then walks away.",
+        "start": 96.456,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The bosun rubs the back of his neck",
+        "suggestion": "The unrubs the back of his neck,",
+        "start": 104.321,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Needle climbing on the gauge",
+        "suggestion": "climbing on the gauge.",
+        "start": 108.344,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Crush depth)",
+        "suggestion": "Every",
+        "start": 112.199,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Every gasket takes the strain",
+        "suggestion": "gasket takes the strength. out!",
+        "start": 113.128,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Crush depth)",
+        "suggestion": "out!",
+        "start": 114.939,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Deeper, deeper, past the shelf",
+        "suggestion": "He's out! He's out! Ask the shell.",
+        "start": 116.146,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Portholes fogging by themselves",
+        "suggestion": "All those fogging by themselves.",
+        "start": 120.697,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Deeper)",
+        "suggestion": "He's",
+        "start": 123.623,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Engines cut, we hang and wait",
+        "suggestion": "Engines cut behind and wakes,",
+        "start": 125.288,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hull still creaking, plate on plate",
+        "suggestion": "also breaking plates",
+        "start": 127.106,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Plate on plate)",
+        "suggestion": "plates.",
+        "start": 129.474,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "326763f8-bab9-42f4-969f-954ae5931c89",
     "title": "Wata Witch: Spit Drip",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "(drip, drop)",
+        "suggestion": "I'm",
+        "start": 3.72,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(call it drip)",
+        "suggestion": "a",
+        "start": 12.141,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wata Witch pon di mic an' she nuh slip",
+        "suggestion": "a fan of",
+        "start": 12.754,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Mi drip two drops an' yuh gone in a splash",
+        "suggestion": "drops of organic nascolash.",
+        "start": 27.516,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Gutter full up when mi open mi jaw",
+        "suggestion": "They're gonna fall off on me, open me up, drink pipe",
+        "start": 30.316,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Drainpipe a-scream, cyaan handle di pour",
+        "suggestion": "up, drink pipe and scream. Can't handle the throat,",
+        "start": 31.734,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Dem seh \"who dat girl?\", mi seh \"yuh know di ting\"",
+        "suggestion": "they say. All that girl, they say. You know the thing,",
+        "start": 34.524,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Soak up di mic till di monitors sing",
+        "suggestion": "soak up the mitre, then monitor, say.",
+        "start": 37.017,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(monitors sing)",
+        "suggestion": "say. Straight",
+        "start": 38.916,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Spit drips from mi lips, call it drip",
+        "suggestion": "Straight drip from my lips, call it drip.",
+        "start": 40.084,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(call it drip)",
+        "suggestion": "drip. What",
+        "start": 41.697,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wata Witch pon di mic an' she nuh slip",
+        "suggestion": "What I was from the mycashina, snip snip snip.",
+        "start": 42.598,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(she nuh slip)",
+        "suggestion": "snip snip snip.",
+        "start": 44.097,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Every bar wet, every line a whip",
+        "suggestion": "Everybody wet, every line of whip,",
+        "start": 44.965,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Yuh come in dry, leave pon a sinking ship",
+        "suggestion": "will come in dry leaves from the sinking ship.",
+        "start": 46.625,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(sinking ship)",
+        "suggestion": "Same thing, Get",
+        "start": 48.597,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Yuh did tink yuh hot? Mi a cool yuh down",
+        "suggestion": "Get it, think your heart, and your cold, you're done.",
+        "start": 50.058,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Steam off yuh cap when di wata come round",
+        "suggestion": "Steam off your cap when the water come round. Sponge brain,",
+        "start": 52.839,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sponge-brain rappers suck up every trend",
+        "suggestion": "Sponge brain, wrap a soap cup, the",
+        "start": 54.938,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Squeeze dem out, nothing lef' in di end",
+        "suggestion": "them out nothing left in the end",
+        "start": 57.806,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Yuh paper-thin rhymes cyaan tek di rain",
+        "suggestion": "the people partying rhymes can't take the ring",
+        "start": 59.826,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Ink run off an' yuh lef' wid a stain",
+        "suggestion": "front of fire left for a group of steel and",
+        "start": 62.587,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Mi nuh need fi shout, mi just seep pon di track",
+        "suggestion": "in the need for show we just see punk the tracks",
+        "start": 64.68,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Steady like a leak inna landlord flat",
+        "suggestion": "tracks standing like a leak",
+        "start": 66.778,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Tide turn now an' di floor get wet",
+        "suggestion": "I'm",
+        "start": 79.942,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(floor get wet)",
+        "suggestion": "I'm",
+        "start": 81.709,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wata Witch reload, hear di harbour roar",
+        "suggestion": "I'm",
+        "start": 92.88,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Guards at di Palace a-wring out dem hats",
+        "suggestion": "the police are bringing out them yards. Be asking,",
+        "start": 154.85,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bearskins sagging like two soggy cats",
+        "suggestion": "Be asking, sadden like two, sadden cats.",
+        "start": 157.35,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Double-decker floating like a big red raft",
+        "suggestion": "Gubble back a floating like a big red rough.",
+        "start": 159.497,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Driver hold di wheel an' di passengers laugh",
+        "suggestion": "Drive out all the wheel and pass in jazz love.",
+        "start": 161.977,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(passengers laugh)",
+        "suggestion": "Pass in jazz love.",
+        "start": 164.611,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Plip, plop",
+        "suggestion": "Play, flop.",
+        "start": 170.353,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(plip, plop)",
+        "suggestion": "Play,",
+        "start": 171.638,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "City sink, but di party nah flop",
+        "suggestion": "City, sink. But the party now flop.",
+        "start": 172.831,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wata, wata, rising more",
+        "suggestion": "Water, water, rising more. Water, water,",
+        "start": 179.391,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wata Witch reload, an' yuh cyaan ignore",
+        "suggestion": "What's that which we learn that you can't",
+        "start": 184.352,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(cyaan ignore)",
+        "suggestion": "Can't",
+        "start": 187.074,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "0cd29cd9-27c5-4252-bf09-23062aa931f0",
     "title": "Bow to the Bass #BassBattle",
-    "corrections": [],
-    "suggestions": []
+    "corrections": [
+      {
+        "original": "(In your feet)",
+        "replacement": "in your",
+        "source": "two-model-agreement",
+        "start": 50.78
+      }
+    ],
+    "suggestions": [
+      {
+        "original": "Turn your speakers to the floor",
+        "suggestion": "your speakers to the floor",
+        "start": 0.511,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(To the floor)",
+        "suggestion": "perform",
+        "start": 9.009,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "DarkPrincess came for more",
+        "suggestion": "perform Don't princess Two Four",
+        "start": 9.006,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sub so deep that the street starts to quake",
+        "suggestion": "Sets on deep, that the streets are so quake",
+        "start": 16.115,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Drop so steep that the glass starts to break",
+        "suggestion": "Tracks are steep, that the glass has to break",
+        "start": 19.18,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Woofers trembling the second I land",
+        "suggestion": "Wolfs are straddling in second island",
+        "start": 22.198,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Neighbours knocking but they don't understand",
+        "suggestion": "Neighbors knocking but they don't understand I",
+        "start": 25.17,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I don't play the bass, I make the bass behave",
+        "suggestion": "don't play the bass, I make the bass behave Sleep",
+        "start": 28.003,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sweep it through the room like a tidal wave",
+        "suggestion": "Sleep it through the room like a tiny little wave",
+        "start": 30.79,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Acid up top and the thunder down low",
+        "suggestion": "I sit up top and I find the town low",
+        "start": 33.855,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bigger than yours and the club knows it well",
+        "suggestion": "Bigger than yours and the criminals it will",
+        "start": 39.799,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Deeper than yours, it's a sub-bass spell",
+        "suggestion": "Bigger than yours, it's a sub -base band",
+        "start": 42.818,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel it in your ribs when the kick comes back",
+        "suggestion": "Floor goes black, feel it in your wits when it comes back",
+        "start": 48.855,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Mine is bigger than yours",
+        "suggestion": "Mother's bigger than yours",
+        "start": 53.359,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Bigger than yours)",
+        "suggestion": "UP AND YELL!",
+        "start": 56.378,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Shaking the walls and the floors",
+        "suggestion": "Shaking the walls on the floors,",
+        "start": 57.911,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Lower, louder, heavier too",
+        "suggestion": "Shaking the walls on the floors, no more lot of heavier too.",
+        "start": 60.372,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Royal sub coming straight for you",
+        "suggestion": "Royal sub -commer straight for you.",
+        "start": 79.226,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it, hold it, wait for the drop",
+        "suggestion": "Wait, wait for the drop.",
+        "start": 81.966,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Wait for the drop)",
+        "suggestion": "Wait,",
+        "start": 87.864,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it, hold it, never gonna stop",
+        "suggestion": "wait for the drop. Back",
+        "start": 87.908,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bow to the bass",
+        "suggestion": "Back to the base.",
+        "start": 92.555,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Bow to the bass)",
+        "suggestion": "Back to the base.",
+        "start": 92.582,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Say you got depth, but you're shallow tonight",
+        "suggestion": "You got death, but your shallow tonight Turn",
+        "start": 123.762,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Turn me up and the paintings fall",
+        "suggestion": "me up and the paintings fall",
+        "start": 126.827,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Heaviest sub that this floor's ever seen",
+        "suggestion": "Heaviest sub that this floor's ever seen Shake",
+        "start": 135.79,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Shake hands after, then I take the crown",
+        "suggestion": "Shake hands after then I take the crown Friendly",
+        "start": 138.762,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Mine is bigger than yours",
+        "suggestion": "Where's my good friend, yeah,",
+        "start": 144.846,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Bigger than yours)",
+        "suggestion": "something good to say",
+        "start": 146.239,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Shaking the walls and the floors",
+        "suggestion": "Shake What's with you? What's",
+        "start": 147.818,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Lower, louder, heavier too",
+        "suggestion": "What's up with you? What's with is",
+        "start": 150.326,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Royal sub coming straight for you",
+        "suggestion": "with is your coming straight for you?",
+        "start": 152.88,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it, hold it, wait for the drop",
+        "suggestion": "for the drop, wait",
+        "start": 180.88,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Wait for the drop)",
+        "suggestion": "for the drop,",
+        "start": 183.809,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it, hold it, never gonna stop",
+        "suggestion": "for the drop. Hold it, it, come on, hold",
+        "start": 185.435,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Size don't lie and the speakers agree",
+        "suggestion": "don't lie, all the speakers agree.",
+        "start": 192.772,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "All of this weight is coming from me",
+        "suggestion": "Oh, this weight is coming from me.",
+        "start": 196.023,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Turn it up till the ceiling gives in",
+        "suggestion": "Turn it up to the same game scene",
+        "start": 198.763,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Count to three and let the princess win",
+        "suggestion": "Count to three and the princess win",
+        "start": 201.503,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Good game, good night",
+        "suggestion": "I gave good night",
+        "start": 204.986,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "But it's bigger than yours, alright",
+        "suggestion": "night But it's better than yours",
+        "start": 207.958,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Good night)",
+        "suggestion": "night",
+        "start": 208.004,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "59c1f8b3-5113-49fc-bf54-03ad0aba3779",
