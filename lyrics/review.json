@@ -923,6 +923,127 @@
     ]
   },
   {
+    "id": "1ded9062-b267-49bf-87d3-4d009b423320",
+    "title": "Nowhere to Be",
+    "corrections": [],
+    "suggestions": [
+      {
+        "original": "Shutters half closed and the afternoon slows",
+        "suggestion": "this half closed and the afternoon's slow",
+        "start": 1.115,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Stripes on the tiles where the sunshine goes",
+        "suggestion": "on the tiles where the sunshine burns",
+        "start": 8.981,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Ceiling fan clicking, the same lazy turn",
+        "suggestion": "fan clicking the same lazy tone",
+        "start": 16.115,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Nothing to finish and nothing to earn",
+        "suggestion": "Nothing to finish and nothing to",
+        "start": 20.016,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Half of a peach on a blue china plate",
+        "suggestion": "Half of a peach on a blue giant plate",
+        "start": 24.056,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Juice on your wrist and the clock's running late",
+        "suggestion": "on your wrist and the clock's running late Nowhere to",
+        "start": 27.818,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Cicadas are counting the minutes for me",
+        "suggestion": "cuddles counting the minutes for me",
+        "start": 38.127,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Radio next door in a language I can't speak",
+        "suggestion": "Radio next door with a language that calls for you",
+        "start": 48.158,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hush now, the village is sleeping as well",
+        "suggestion": "The village is sleeping as",
+        "start": 112.106,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Only the goats and the church's old bell",
+        "suggestion": "the courts and the churches don't bow",
+        "start": 120.047,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "\"Created by DarkPrincess - Royalty of the Night",
+        "suggestion": "Created by dark princes, royalty of the night",
+        "start": 127.338,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wake me up later, when the heat feels right\"",
+        "suggestion": "Weak being, hopefully, don't make you smile",
+        "start": 136.022,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "First cool air coming in through the slats",
+        "suggestion": "The school kid tunes with sluts",
+        "start": 144.057,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Somewhere a neighbour is calling the cats",
+        "suggestion": "It's on where neighbors' hands are",
+        "start": 166.162,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Lie here a little, the day's letting go",
+        "suggestion": "Like the little days that they've gone",
+        "start": 176.1,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Pink-painted walls and the swallows down low",
+        "suggestion": "painted walls and the swallows down",
+        "start": 184.088,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Tomorrow can wait by the gate with the keys",
+        "suggestion": "can we buy the game with the keys",
+        "start": 191.797,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(gate with the keys)",
+        "suggestion": "Please,",
+        "start": 196.952,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Here we just breathe in the lemon trees",
+        "suggestion": "hear me just for you in the middle of dream.",
+        "start": 199.961,
+        "reason": "recognition-disagreement"
+      }
+    ]
+  },
+  {
     "id": "0cd29cd9-27c5-4252-bf09-23062aa931f0",
     "title": "Bow to the Bass #BassBattle",
     "corrections": [
@@ -1197,14 +1318,263 @@
   {
     "id": "9112c1e4-9d53-4cbd-8135-0081aefa0220",
     "title": "Midnight Momentum #Bass Battle",
-    "corrections": [],
-    "suggestions": []
+    "corrections": [
+      {
+        "original": "Run the night",
+        "replacement": "the night",
+        "source": "two-model-agreement",
+        "start": 60.929
+      }
+    ],
+    "suggestions": [
+      {
+        "original": "Where the streetlights learn to bend",
+        "suggestion": "I",
+        "start": 29.443,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(I don't knock I go)",
+        "suggestion": "don't know what to",
+        "start": 33.576,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I'm a frequency",
+        "suggestion": "I'm a frequent say",
+        "start": 46.579,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Run the night",
+        "suggestion": "Ride the night,",
+        "start": 58.886,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it",
+        "suggestion": "it,",
+        "start": 115.914,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it",
+        "suggestion": "hold",
+        "start": 117.447,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold it",
+        "suggestion": "it, hold it,",
+        "start": 124.649,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I'm a frequency",
+        "suggestion": "hold it, I'm a frequent same",
+        "start": 125.527,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Run the night",
+        "suggestion": "Ride the night,",
+        "start": 130.821,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Run the night",
+        "suggestion": "ride the night till",
+        "start": 132.586,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Till the morning feels like mine",
+        "suggestion": "the night till the morning feels like mine",
+        "start": 133.097,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Run the night",
+        "suggestion": "Run for night, run",
+        "start": 138.902,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Run the night",
+        "suggestion": "run for night",
+        "start": 140.945,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I don't sleep I just arrive",
+        "suggestion": "I don't see it, I just arrive",
+        "start": 142.313,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Na na na na",
+        "suggestion": "Loud,",
+        "start": 150.465,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Oh-oh",
+        "suggestion": "Loud,",
+        "start": 152.648,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Louder louder",
+        "suggestion": "loud,",
+        "start": 158.778,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Slow it down",
+        "suggestion": "Slow it down then",
+        "start": 167.927,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Midnight momentum",
+        "suggestion": "Midnight momentum, midnight",
+        "start": 212.091,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Oh-oh",
+        "suggestion": "Oh door",
+        "start": 245.472,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Na na na na",
+        "suggestion": "to the the",
+        "start": 247.943,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Oh-oh",
+        "suggestion": "the the",
+        "start": 249.893,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "e641bf86-9cb7-4dae-a39f-0915d5e0407b",
     "title": "Deeper #BassBattle",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "Feel it rumble through the low",
+        "suggestion": "not sure",
+        "start": 18.204,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Whole room shakes and no one cares",
+        "suggestion": "Oh",
+        "start": 28.282,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Turn it up until the whole place drowns",
+        "suggestion": "3, 2,",
+        "start": 51.037,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Low low low",
+        "suggestion": "3, 2, 3, 4, 5!",
+        "start": 56.507,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bring it down below",
+        "suggestion": "2, 3, 4, 5!",
+        "start": 58.836,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Someone spilled a drink and laughed",
+        "suggestion": "got such a good laugh",
+        "start": 81.781,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Friends I haven't met before",
+        "suggestion": "I haven't met before",
+        "start": 84.242,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sweat on walls and windows fog",
+        "suggestion": "well animals and that fun",
+        "start": 86.75,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Guess we're sleeping on the floor",
+        "suggestion": "stuff falling off the floor",
+        "start": 89.35,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Low end rolling underneath",
+        "suggestion": "Low and rolling underneath",
+        "start": 91.951,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sun is rising far away",
+        "suggestion": "Two in the morning, wide away",
+        "start": 96.967,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Stay a little longer stay",
+        "suggestion": "Slow it down, we won't, we",
+        "start": 98.965,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Let it hit the bottom",
+        "suggestion": "Let it hit the bottom Let it shake",
+        "start": 102.214,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Turn it up until the whole place drowns",
+        "suggestion": "Turn it up onto the whole place",
+        "start": 112.292,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hold the moment hold the sound",
+        "suggestion": "the moment, how does that sound?",
+        "start": 148.561,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Nothing else is coming down",
+        "suggestion": "else is coming down",
+        "start": 150.79,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Let it hit the bottom",
+        "suggestion": "it hit the bottom Let it shake",
+        "start": 155.806,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Turn it up until the whole place drowns",
+        "suggestion": "Turn it up on to the whole place",
+        "start": 165.512,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "5960f8f2-900d-4f42-871a-d3340f646f11",
