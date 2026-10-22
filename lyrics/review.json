@@ -259,49 +259,6 @@
     ]
   },
   {
-    "id": "a0bf8aa5-ec1a-4f70-8c11-72b3e2ebff2f",
-    "title": "Wata Witch 🫧⚡️",
-    "corrections": [],
-    "suggestions": [
-      {
-        "original": "Try fi hold mi inna glove, mi run out every stitch",
-        "suggestion": "మార్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర్ర",
-        "start": 12.981,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Fire, earth an air, dem a work fi mi now",
-        "suggestion": "ༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀༀ",
-        "start": 75.017,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Rain... fall",
-        "suggestion": "ੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱੱ",
-        "start": 108.959,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Deep... deeper",
-        "suggestion": "වවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවවව",
-        "start": 134.087,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Never... stop",
-        "suggestion": "subtitles",
-        "start": 145.448,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Wata... witch (witch) (witch) (witch)",
-        "suggestion": "աշ, ताव.",
-        "start": 199.92,
-        "reason": "recognition-disagreement"
-      }
-    ]
-  },
-  {
     "id": "bd189e63-98f6-4613-bb40-94a8d4e1ce4a",
     "title": "Princess Treatment 💅🍟",
     "corrections": [],
@@ -683,241 +640,6 @@
         "original": "(Plate on plate)",
         "suggestion": "plates.",
         "start": 129.474,
-        "reason": "recognition-disagreement"
-      }
-    ]
-  },
-  {
-    "id": "326763f8-bab9-42f4-969f-954ae5931c89",
-    "title": "Wata Witch: Spit Drip",
-    "corrections": [],
-    "suggestions": [
-      {
-        "original": "(drip, drop)",
-        "suggestion": "I'm",
-        "start": 3.72,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(call it drip)",
-        "suggestion": "a",
-        "start": 12.141,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Wata Witch pon di mic an' she nuh slip",
-        "suggestion": "a fan of",
-        "start": 12.754,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Mi drip two drops an' yuh gone in a splash",
-        "suggestion": "drops of organic nascolash.",
-        "start": 27.516,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Gutter full up when mi open mi jaw",
-        "suggestion": "They're gonna fall off on me, open me up, drink pipe",
-        "start": 30.316,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Drainpipe a-scream, cyaan handle di pour",
-        "suggestion": "up, drink pipe and scream. Can't handle the throat,",
-        "start": 31.734,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Dem seh \"who dat girl?\", mi seh \"yuh know di ting\"",
-        "suggestion": "they say. All that girl, they say. You know the thing,",
-        "start": 34.524,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Soak up di mic till di monitors sing",
-        "suggestion": "soak up the mitre, then monitor, say.",
-        "start": 37.017,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(monitors sing)",
-        "suggestion": "say. Straight",
-        "start": 38.916,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Spit drips from mi lips, call it drip",
-        "suggestion": "Straight drip from my lips, call it drip.",
-        "start": 40.084,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(call it drip)",
-        "suggestion": "drip. What",
-        "start": 41.697,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Wata Witch pon di mic an' she nuh slip",
-        "suggestion": "What I was from the mycashina, snip snip snip.",
-        "start": 42.598,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(she nuh slip)",
-        "suggestion": "snip snip snip.",
-        "start": 44.097,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Every bar wet, every line a whip",
-        "suggestion": "Everybody wet, every line of whip,",
-        "start": 44.965,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Yuh come in dry, leave pon a sinking ship",
-        "suggestion": "will come in dry leaves from the sinking ship.",
-        "start": 46.625,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(sinking ship)",
-        "suggestion": "Same thing, Get",
-        "start": 48.597,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Yuh did tink yuh hot? Mi a cool yuh down",
-        "suggestion": "Get it, think your heart, and your cold, you're done.",
-        "start": 50.058,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Steam off yuh cap when di wata come round",
-        "suggestion": "Steam off your cap when the water come round. Sponge brain,",
-        "start": 52.839,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Sponge-brain rappers suck up every trend",
-        "suggestion": "Sponge brain, wrap a soap cup, the",
-        "start": 54.938,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Squeeze dem out, nothing lef' in di end",
-        "suggestion": "them out nothing left in the end",
-        "start": 57.806,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Yuh paper-thin rhymes cyaan tek di rain",
-        "suggestion": "the people partying rhymes can't take the ring",
-        "start": 59.826,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Ink run off an' yuh lef' wid a stain",
-        "suggestion": "front of fire left for a group of steel and",
-        "start": 62.587,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Mi nuh need fi shout, mi just seep pon di track",
-        "suggestion": "in the need for show we just see punk the tracks",
-        "start": 64.68,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Steady like a leak inna landlord flat",
-        "suggestion": "tracks standing like a leak",
-        "start": 66.778,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Tide turn now an' di floor get wet",
-        "suggestion": "I'm",
-        "start": 79.942,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(floor get wet)",
-        "suggestion": "I'm",
-        "start": 81.709,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Wata Witch reload, hear di harbour roar",
-        "suggestion": "I'm",
-        "start": 92.88,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Guards at di Palace a-wring out dem hats",
-        "suggestion": "the police are bringing out them yards. Be asking,",
-        "start": 154.85,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Bearskins sagging like two soggy cats",
-        "suggestion": "Be asking, sadden like two, sadden cats.",
-        "start": 157.35,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Double-decker floating like a big red raft",
-        "suggestion": "Gubble back a floating like a big red rough.",
-        "start": 159.497,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Driver hold di wheel an' di passengers laugh",
-        "suggestion": "Drive out all the wheel and pass in jazz love.",
-        "start": 161.977,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(passengers laugh)",
-        "suggestion": "Pass in jazz love.",
-        "start": 164.611,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Plip, plop",
-        "suggestion": "Play, flop.",
-        "start": 170.353,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(plip, plop)",
-        "suggestion": "Play,",
-        "start": 171.638,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "City sink, but di party nah flop",
-        "suggestion": "City, sink. But the party now flop.",
-        "start": 172.831,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Wata, wata, rising more",
-        "suggestion": "Water, water, rising more. Water, water,",
-        "start": 179.391,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "Wata Witch reload, an' yuh cyaan ignore",
-        "suggestion": "What's that which we learn that you can't",
-        "start": 184.352,
-        "reason": "recognition-disagreement"
-      },
-      {
-        "original": "(cyaan ignore)",
-        "suggestion": "Can't",
-        "start": 187.074,
         "reason": "recognition-disagreement"
       }
     ]
@@ -1591,8 +1313,130 @@
   {
     "id": "2425cecf-babd-4e94-b3ef-eba6eddeae19",
     "title": "Child in the Dark",
-    "corrections": [],
-    "suggestions": []
+    "corrections": [
+      {
+        "original": "All in your dreams",
+        "replacement": "in your dreams",
+        "source": "two-model-agreement",
+        "start": 157.106
+      }
+    ],
+    "suggestions": [
+      {
+        "original": "You love the crash not the prayer at all",
+        "suggestion": "The crash, the hair, the all",
+        "start": 30.465,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Be careless and I will haunt you in the dark",
+        "suggestion": "careless and I will want you in the dark",
+        "start": 39.66,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Be careless I will haunt you",
+        "suggestion": "careless on you",
+        "start": 47.276,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Amazing is the red light thunder of Code Crimson",
+        "suggestion": "the same as the night I've come to this",
+        "start": 53.034,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Amazing is the red light",
+        "suggestion": "I'm the same as the night",
+        "start": 57.771,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "This is my neon blood thunder of Code Crimson",
+        "suggestion": "is my dream. I've come to this place.",
+        "start": 60.217,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "You can't touch me in the dark",
+        "suggestion": "I've to this place.",
+        "start": 64.273,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I keep your secrets in locks and keys",
+        "suggestion": "Yes,",
+        "start": 75.511,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "All in your dreams",
+        "suggestion": "dreams",
+        "start": 79.18,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Ein Herz ein Schlag all in your dreams",
+        "suggestion": "the earth of your",
+        "start": 81.177,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Don't hold your breath don't waste your time",
+        "suggestion": "you have done is you time",
+        "start": 93.019,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "You can't touch me",
+        "suggestion": "can touch me.",
+        "start": 95.954,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Amazing is the red light",
+        "suggestion": "My",
+        "start": 127.338,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Amazing is the red light thunder of Code Crimson",
+        "suggestion": "sins are gone once.",
+        "start": 129.382,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Don't hold your breath don't waste your time",
+        "suggestion": "You're the son.",
+        "start": 134.49,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "You can't touch me for I am the child in the dark",
+        "suggestion": "You're king. You're the son.",
+        "start": 138.112,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Be careless and I will haunt you in the dark",
+        "suggestion": "and I will haunt you in the dark.",
+        "start": 144.475,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I keep your secrets in locks and keys",
+        "suggestion": "keep your secrets and locks and keys",
+        "start": 153.53,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Thunder of Code Crimson",
+        "suggestion": "of cold crimson.",
+        "start": 160.029,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "a203b02d-d32a-46ab-8fc7-6e96e47aab14",
@@ -1604,7 +1448,152 @@
     "id": "f7232f0b-042e-45a4-bc03-5a9b28e7f13f",
     "title": "Boom Kittys Return",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "Back with a vengeance",
+        "suggestion": "with the bad, you're a bitch.",
+        "start": 0.975,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Back and I'm not holding back",
+        "suggestion": "in the back, hold your back.",
+        "start": 7.152,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Came out the shadows quiet as a ghost",
+        "suggestion": "Came out the shadows, wide as the ghost, Now",
+        "start": 12.725,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Now the whole place shaking when I step up to the post",
+        "suggestion": "ghost, Now the whole place shaking when I step into the post,",
+        "start": 15.665,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "You counted me out you made a big mistake",
+        "suggestion": "You're counting me out, you made a big mistake.",
+        "start": 19.365,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I been sharpening my claws for goodness sake",
+        "suggestion": "I'll be stomping in my cloth for witness sake.",
+        "start": 22.802,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Everybody talking like I faded away",
+        "suggestion": "Everybody talking like a faded way.",
+        "start": 26.006,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "But I sharpened every tooth and I came back to stay",
+        "suggestion": "But I sharpen every tooth and I came back and stay Boom,",
+        "start": 29.164,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Boom boom back with a vengeance",
+        "suggestion": "stay Boom, boom visually, boom,",
+        "start": 31.634,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Boom boom back with a vengeance",
+        "suggestion": "Boom, boom visually, boom,",
+        "start": 38.406,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Everybody move when the bass go crack",
+        "suggestion": "move when the place go crack",
+        "start": 41.657,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I don't need permission I don't need a sign",
+        "suggestion": "don't need permission. don't need to sign.",
+        "start": 70.496,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Paws on the pavement every single spine",
+        "suggestion": "Balls on the pavement, every single spot.",
+        "start": 73.979,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "You want a rival come and take a swing",
+        "suggestion": "You want a rival, come and take me swing.",
+        "start": 77.036,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I'm the storm the thunder and the everything",
+        "suggestion": "I'm the stone of thunder in the everything.",
+        "start": 80.062,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Left me for dead in a shallow ditch",
+        "suggestion": "me forget in the shallow ditch.",
+        "start": 83.406,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Now they screaming my name with a nervous twitch",
+        "suggestion": "Now they screaming my name with a nervous switch.",
+        "start": 85.542,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Back with a vengeance",
+        "suggestion": "Back with the fear, yeah.",
+        "start": 90.093,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Back with a vengeance",
+        "suggestion": "Back with the fear, everything, yeah.",
+        "start": 96.363,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Back with a vengeance)",
+        "suggestion": "Back with the fear, yeah.",
+        "start": 102.725,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(Back and I'm not holding back)",
+        "suggestion": "yeah. Back and I'm not holding back.",
+        "start": 104.815,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Buried the doubt buried the shame",
+        "suggestion": "Buried the doubt, buried the shame. Litters my",
+        "start": 109.087,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Lit a small fire and I fed it my name",
+        "suggestion": "Litters my fire and I fed it my name.",
+        "start": 110.759,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Now the whole crowd knowing that the cat is here",
+        "suggestion": "the fear. No wonder the cat is here.",
+        "start": 113.394,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "affb6f46-e7f5-4ede-b3a0-da1f8ac85486",
@@ -1616,7 +1605,110 @@
     "id": "23376ffd-4672-48a0-ad80-0c7afaaf0b0c",
     "title": "Bass Tester",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "Feel it in your chest",
+        "suggestion": "Nuh Nuh, Nuh",
+        "start": 0.139,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Low low low",
+        "suggestion": "sinking",
+        "start": 12.864,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sinking through the pavement the ice and the snow",
+        "suggestion": "sinking through the pyramid ,닺 I sink out smoke,",
+        "start": 13.978,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Down where the sewers keep humming",
+        "suggestion": "Down where the suckers keep humming.",
+        "start": 17.508,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Deeper than the cellar beneath the row",
+        "suggestion": "It's not a day to go",
+        "start": 50.387,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Tell me how low can you go",
+        "suggestion": "not a day to go",
+        "start": 57.121,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel it in your chest",
+        "suggestion": "real.",
+        "start": 63.669,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Down past the roots and the iron",
+        "suggestion": "Look, look, look down past the roots in the higher",
+        "start": 84.892,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Past the quiet worms in the frozen ground",
+        "suggestion": "Past the firewaves in the frozen ground",
+        "start": 96.595,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I don't flinch I don't shiver",
+        "suggestion": "I don't fish, I don't shiver",
+        "start": 100.171,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "When the pressure starts to push me around",
+        "suggestion": "the freshness starts to push me around",
+        "start": 103.227,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Deeper than the cellar beneath the row",
+        "suggestion": "Illa",
+        "start": 133.7,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Tell me how low can you go",
+        "suggestion": "Illa Okườrrotto!",
+        "start": 140.063,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Tell me how low can you go",
+        "suggestion": "Oh, yeah. Oh, yeah.",
+        "start": 160.729,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel it in your chest",
+        "suggestion": "Oh,",
+        "start": 174.386,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel it in your chest",
+        "suggestion": "Oh, yeah. Oh, yeah. Oh, Oh, yeah. Oh, yeah. Oh, yeah. yeah. yeah. Oh, Oh, Oh, Oh, yeah. Oh, Oh, Oh,",
+        "start": 174.66,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Tell me how low can you go",
+        "suggestion": "yeah. Oh, Oh, Oh, yeah. Oh, yeah. Oh, yeah. Sing, sing!",
+        "start": 188.237,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "f9fac050-98a4-46b5-93c6-93696cb9a555",
