@@ -353,8 +353,8 @@
       }
     ],
     "lyrics": "$23",
-    "likes": 23,
-    "plays": 317,
+    "likes": 22,
+    "plays": 322,
     "comments": 5,
     "url": "https://treblo.com/song/dd41af05-c469-44eb-b2a2-6aec61ecca00"
   },
@@ -1065,8 +1065,8 @@
       }
     ],
     "lyrics": "$25",
-    "likes": 14,
-    "plays": 89,
+    "likes": 13,
+    "plays": 90,
     "comments": 1,
     "url": "https://treblo.com/song/1d219994-0fe7-46e6-808f-84709e68ea49"
   },
@@ -1335,10 +1335,63 @@
       }
     ],
     "lyrics": "$26",
-    "likes": 26,
-    "plays": 201,
+    "likes": 25,
+    "plays": 207,
     "comments": 5,
     "url": "https://treblo.com/song/1ded9062-b267-49bf-87d3-4d009b423320"
+  },
+  {
+    "id": "3629b1ed-a304-4c74-aeba-a1a64ce57a55",
+    "title": "Thalassa (Daughter of the Deep)",
+    "artist": "darkprincess",
+    "audio": "https://cdn.treblo.com/generations3/audio_1a45e09a-819f-4946-932b-fc185ea2cb19_0.ogg",
+    "artwork": "https://scdn.treblo.com/images/uploadart-3ec088c6-3a30-4602-b881-d6fe0bf244d1.jpg",
+    "duration": 213,
+    "tags": [
+      "space",
+      "experimental electronic",
+      "fugue",
+      "fm synthesis",
+      "string synthesizer",
+      "modular synth",
+      "futuresynth",
+      "analog synth",
+      "deep techno",
+      "electronic",
+      "acid",
+      "moog",
+      "vintage synths",
+      "spacesynth",
+      "vocal harmonies",
+      "vocoder",
+      "modular",
+      "hypnotic techno",
+      "futuristic",
+      "ethereal",
+      "female vocalist"
+    ],
+    "alignedLyrics": [
+      {
+        "end": 41.702,
+        "text": "～ 〰 ～ 🫧 · 〰 ~ ≈ ～ ≈ ～ ~ ≈ ～ ≈ ～ ≈ ≈ ～ 〰 ～ ~ ～ · ～\n🫧 ≈ 〰 ～ ～ ～ ≈ ~ ～ 〰 ~ ～ ≈ ~ ～ ≈ ≈ · ≈ ≈ · 🫧 ～ ≈ ≈\n≈ ～ ～ ～ ～ ~ 〰 ~ ≈ ≈ ～ ～ ～ 🫧 ～ ～ 〰 ~ 〰 · ≈ ～ ～ · ≈\n～ ～ 〰 ～ 〰 ～ 〰 · · ～ ～ ～ ～ ~ 〰 ～ 〰 〰 ~ · · 〰 ≈\n≈ ～ ~ ～ ≈ ～ ≈ ~ ～ · · ≈ ≈ ～ ～ ～ · ～ · 🫧 ≈ ～ ≈ ·\n· ○ ～ ◦ · · ○ · · · ◦ ≈ · ◦ ◦ ◦ · ◦ · · ～ · · · ·\n○ ○ · ～ 🐟 ≈ ◦ ◦ · ◦ ◦ ◦ ◦ ○ ○ ◦ · ≈ · ～ ≈ ◦\n～ · ◦ ≈ ≈ · · · ○ ≈ ～ ○ · 🪼 ≈ ○ · ≈ ◦ · ○ ～ · ◦ ～ · ～ ○",
+        "start": 1.98
+      },
+      {
+        "end": 182.471,
+        "text": "○ ◦ · ≈ · 🐬 ○ ◦ · · 🫧 ～ ◦ ◦ ◦ 🐬 ≈ · · ○ ≈ · ○ ○ ○ ○ 🐟\n≈ ◦ ◦ 🐟 · 🫧 · ◦ · · ～ ○ 🐬 · ～ ◦ · ◦ · ～ ○ ○ · ◦ ·\n◦ · ○ · · · ≈ ○ ◦ ○ ○ · ◦ · · ≈ ○ ○ ◦ · ◦ · · ◦\n· ◦ ◦ ◦ · ◦ ≈ ◦ ◦ · ○ ○ ◦ · ◦ ～ · ◦ · · ◦ ○ ○ ≈ ◦\n· · · ◦ ≈ ◦ ◦ ≈ ○ ≈ 🐬 ≈ · · · · ～ · ○ 🫧 ○ ○ ○ 🫧 · ≈\n◦ ≈ · ◦ ◦ ○ ◦ · ≈ ◦ 🐬 ◦ · ○ ◦ ◦ · · · ～ ～ ○ ～ · ·\n· ○ · ◦ 🐠 🐙 ◦ ○ · · · ○ ◦ ◦ · 🐟 · · ○ · · 🐟 · · ○ ·\n◦ 🐟 ○ ○ · · · ◦ · ◦ · ◦ · ◦ ◦ · · · ○ · ◯ ·\n· ◦ · · · 🐟 ◦ · ○ · ◯ · · ◦ · · ◦ ◯ ◦ · ○ ◯ ◦ 🫧 · ·\n◦ ◦ ◦ · · ◦ · ◦ ◦ · · ○ ◦ ◦ · · ◦ · · ◦ ○ ◦ · ○",
+        "start": 42.423
+      },
+      {
+        "end": 210.273,
+        "text": "◦ 🐙 ○ · ◦ ◦ ○ ◦ ◦ · 🐟 ◦ · ◦ ◯ ○ ○ ◦ · · · · ◦\n· 🪼 🐟 ◯ ◯ ◯ · ◦ ◯ · ◯ · · 🪼 ◦ ◦ · · · · 🐟 · · ◦ · ◦\n· ◦ · ◦ · · · · ◦ · · · 🐙 🫧 ◦ ◦ ◦ 🐟 ◦ · · ◦ ◯ ·\n· ◯ · ○ 🐋 ◯ ◦ ○ ○ ○ · ◦ · ○ · ◯ ○ · ◦ · ◦ · ○ · ◦\n· ◦ ○ · 🐟 ◦ ◯ 🐠 ○ ◦ ◦ · · · ◯ 🪼 ○ ◦ · · ○ · ◦ · · ○\n. ∴ ⁘ . 🫧 · · ◦ ∴ . ◦ 🐙 · . . · . . . · . · · ·\n. . 🦀 . ◦ · ◦ 🫧 🐚 · . · . . ∴ . ⁘ · · ◦ . . ∴ .\n∴ . . ◦ ⁘ ⁘ ∴ 🐙 ∴ · 🫧 . . 🦀 · · ◦ . ◦ 🦀 · ⭐ . · ·\n◦ . · . ∴ 🐚 . . . · · ⁘ . . · ⁘ . ◦ ∴ ◦ ⁘ ∴ . ·\n. · . ⁘ ◦ . 🐚 . · ∴ ◦ ◦ ∴ ◦ · ◦ ◦ 🐚 · ⁘ ◦ · . · ·",
+        "start": 182.531
+      }
+    ],
+    "lyrics": "$27",
+    "likes": 10,
+    "plays": 42,
+    "comments": 2,
+    "url": "https://treblo.com/song/3629b1ed-a304-4c74-aeba-a1a64ce57a55"
   },
   {
     "id": "0cd29cd9-27c5-4252-bf09-23062aa931f0",
@@ -2536,7 +2589,7 @@
     "alignedLyrics": "$undefined",
     "lyrics": "",
     "likes": 26,
-    "plays": 254,
+    "plays": 256,
     "comments": 2,
     "url": "https://treblo.com/song/a6767a8e-213f-407c-95f0-dde8709ae346"
   },
@@ -3353,7 +3406,7 @@
     ],
     "lyrics": "$28",
     "likes": 17,
-    "plays": 213,
+    "plays": 214,
     "comments": 4,
     "url": "https://treblo.com/song/23376ffd-4672-48a0-ad80-0c7afaaf0b0c"
   },
@@ -4551,7 +4604,7 @@
     ],
     "lyrics": "$2b",
     "likes": 20,
-    "plays": 234,
+    "plays": 241,
     "comments": 2,
     "url": "https://treblo.com/song/b46879dc-cf28-45ec-b156-604cdcab0ebc"
   }

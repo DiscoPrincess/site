@@ -766,6 +766,19 @@
     ]
   },
   {
+    "id": "3629b1ed-a304-4c74-aeba-a1a64ce57a55",
+    "title": "Thalassa (Daughter of the Deep)",
+    "corrections": [],
+    "suggestions": [
+      {
+        "original": "◦ 🐙 ○ · ◦ ◦ ○ ◦ ◦ · 🐟 ◦ · ◦ ◯ ○ ○ ◦ · · · · ◦\n· 🪼 🐟 ◯ ◯ ◯ · ◦ ◯ · ◯ · · 🪼 ◦ ◦ · · · · 🐟 · · ◦ · ◦\n· ◦ · ◦ · · · · ◦ · · · 🐙 🫧 ◦ ◦ ◦ 🐟 ◦ · · ◦ ◯ ·\n· ◯ · ○ 🐋 ◯ ◦ ○ ○ ○ · ◦ · ○ · ◯ ○ · ◦ · ◦ · ○ · ◦\n· ◦ ○ · 🐟 ◦ ◯ 🐠 ○ ◦ ◦ · · · ◯ 🪼 ○ ◦ · · ○ · ◦ · · ○\n. ∴ ⁘ . 🫧 · · ◦ ∴ . ◦ 🐙 · . . · . . . · . · · ·\n. . 🦀 . ◦ · ◦ 🫧 🐚 · . · . . ∴ . ⁘ · · ◦ . . ∴ .\n∴ . . ◦ ⁘ ⁘ ∴ 🐙 ∴ · 🫧 . . 🦀 · · ◦ . ◦ 🦀 · ⭐ . · ·\n◦ . · . ∴ 🐚 . . . · · ⁘ . . · ⁘ . ◦ ∴ ◦ ⁘ ∴ . ·\n. · . ⁘ ◦ . 🐚 . · ∴ ◦ ◦ ∴ ◦ · ◦ ◦ 🐚 · ⁘ ◦ · . · ·",
+        "suggestion": "And you lead me home Carried on the tide By the princess royalty Of the night Saint Amita Lassa You like to sell You're on an easy swath Everything I carry, you can carry as well When I come on an echo of the end You take me in the way you'd greet an old friend There with the tide",
+        "start": 182.531,
+        "reason": "recognition-disagreement"
+      }
+    ]
+  },
+  {
     "id": "0cd29cd9-27c5-4252-bf09-23062aa931f0",
     "title": "Bow to the Bass #BassBattle",
     "corrections": [
@@ -1714,7 +1727,134 @@
     "id": "f9fac050-98a4-46b5-93c6-93696cb9a555",
     "title": "Take The Low #BASSBATTLE",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "Every speaker in the room is shaking",
+        "suggestion": "speaker in the room is shaking, I came for",
+        "start": 5.712,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I came for the tone",
+        "suggestion": "I came for the tone Now",
+        "start": 8.452,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Not for talking",
+        "suggestion": "Now for talking,",
+        "start": 10.124,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Something in the wiring knows my name",
+        "suggestion": "something in the wiring knows my name Turn",
+        "start": 11.192,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Give me the line that climbs",
+        "suggestion": "Give me the line of crimes,",
+        "start": 16.951,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Give me the weight beneath",
+        "suggestion": "me the way beneath",
+        "start": 19.691,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The weight beneath",
+        "suggestion": "The",
+        "start": 24.985,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The melody is where I live",
+        "suggestion": "The melody is where I live, the",
+        "start": 27.957,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The bass is where I stay",
+        "suggestion": "bass is where I stay",
+        "start": 30.975,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel the melody take the low",
+        "suggestion": "Me'll chill you out with",
+        "start": 50.991,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel the melody take the low",
+        "suggestion": "Fuel you out with Shojo!",
+        "start": 65.805,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Give me the weight beneath",
+        "suggestion": "Give me the weight beneath. Give me",
+        "start": 149.629,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Give me the line that climbs",
+        "suggestion": "Give me the line of the climbs.",
+        "start": 152.487,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The weight beneath",
+        "suggestion": "Go away, be me.",
+        "start": 154.922,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The melody is where I live",
+        "suggestion": "Now the day is where I live.",
+        "start": 157.989,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The bass is where I stay",
+        "suggestion": "The place is where I stay.",
+        "start": 160.729,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The melody is where I live",
+        "suggestion": "Now the day is where I live.",
+        "start": 163.608,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "The bass is where I stay",
+        "suggestion": "The place is where I stay.",
+        "start": 166.441,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel the melody take the low",
+        "suggestion": "The melody of the Double!",
+        "start": 213.159,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel the melody take the low",
+        "suggestion": "know it begins again!",
+        "start": 251.326,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel the melody take the low",
+        "suggestion": "know it begins again!",
+        "start": 251.379,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "4ace9453-7a81-4fa5-90e2-06fbaaf246df",
@@ -1732,7 +1872,284 @@
     "id": "24052074-bf8b-44e9-b22d-7ba9141f96cf",
     "title": "Bubblegum Bassquake",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "Turning tiny revelry into a carnival dark",
+        "suggestion": "20, I will reap into a carnival dawn",
+        "start": 30.418,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Oh-oh don't decelerate",
+        "suggestion": "I don't decelerate,",
+        "start": 33.715,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Spiral through the room at an accelerated rate",
+        "suggestion": "spirals in the room and I don't accelerate I",
+        "start": 35.944,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Hands aloft let the rafters quake",
+        "suggestion": "don't know what's going on, what's going",
+        "start": 39.149,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "One more pulse and we're gonna",
+        "suggestion": "What more will someone gonna",
+        "start": 41.517,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Vitiate the silence make the speakers boom",
+        "suggestion": "58, let's find a drink this cake is blue",
+        "start": 44.443,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bubblegum",
+        "suggestion": "Rubble come,",
+        "start": 47.415,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Subsonic thunder permeates the room",
+        "suggestion": "stop, stop, it's a funny ain't the road",
+        "start": 48.669,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sugar rush delirium lose control",
+        "suggestion": "You're the ruck delirium whose control",
+        "start": 53.174,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bassline burrowing straight into your soul",
+        "suggestion": "They slide burlings, stain them, do your soul",
+        "start": 55.96,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Drop drop",
+        "suggestion": "Rubble",
+        "start": 62.137,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bubblegum",
+        "suggestion": "come,",
+        "start": 63.576,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Unleash the pandemonium",
+        "suggestion": "unburd and dim only out Candy fragments,",
+        "start": 65.109,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Candy fragments flutter like confetti through the sky",
+        "suggestion": "Candy fragments, flutter like a fatty through the sky",
+        "start": 69.474,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Every little heartbeat getting gloriously loud",
+        "suggestion": "Every little hobby, getting glorious in lives",
+        "start": 78.065,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sweet-talk bassquake incandescent grin",
+        "suggestion": "We talk bass, play, ink and dance and grin,",
+        "start": 80.573,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Crank the machinery let the revelry begin",
+        "suggestion": "crack The machinery's with the rebel fleet again",
+        "start": 82.802,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Cotton-candy cumulonimbus cherry-colored moon",
+        "suggestion": "Cotton candy, cumulon and history, color",
+        "start": 85.775,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Everybody screaming when the bassline goes",
+        "suggestion": "Everybody's spinning with the bass Climb goes",
+        "start": 88.468,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Wait",
+        "suggestion": "wait, wait",
+        "start": 91.626,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Suspend the rhythm tantalize the beat",
+        "suggestion": "Suspend the rhythm, tantalize the beat Feel the",
+        "start": 93.019,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Feel the subterranean thunder underneath your feet",
+        "suggestion": "the subterranean heat Your feet",
+        "start": 95.898,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Boom",
+        "suggestion": "gum",
+        "start": 102.214,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bubblegum ricocheting speakers convulsing",
+        "suggestion": "gum ricochets because convulsing,",
+        "start": 102.982,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bubblegum ricocheting heartbeats awakening",
+        "suggestion": "Bubble gum ricochets and hot beats awakening,",
+        "start": 108.298,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Candy-coated chaos tectonic vibrations shaking",
+        "suggestion": "county code to chaos, tectonic vibration shaking.",
+        "start": 111.131,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Drop it",
+        "suggestion": "toilet,",
+        "start": 114.335,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Unchain it",
+        "suggestion": "un -shake it.",
+        "start": 115.775,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sweet little pandemonium louder and louder",
+        "suggestion": "Sleep in, watch out on me, I'm gonna run out. Don't decelerate, spiral through the room at an",
+        "start": 116.518,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bassline detonating like confectionary thunder",
+        "suggestion": "Don't decelerate, spiral through the room at an accelerated rate. Hands and love, let the raptors wake.",
+        "start": 118.979,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "If the night is spun from sugar",
+        "suggestion": "room at an accelerated rate. Hands and love, let the raptors wake. Walk more, hold some liquor, bubble gum. Scandals, we can burn",
+        "start": 122.23,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "We'll pirouette across the sky",
+        "suggestion": "accelerated rate. Hands and love, let the raptors wake. Walk more, hold some liquor, bubble gum.",
+        "start": 123.112,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "If the music makes us delirious",
+        "suggestion": "Hands and love, let the raptors wake. Walk more, hold some liquor, bubble gum. Scandals, we can burn",
+        "start": 124.552,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Subsonic thunder permeates the room",
+        "suggestion": "we can burn Bubblegum, can",
+        "start": 134.211,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Sugar rush delirium lose control",
+        "suggestion": "Blueberry, we lose control",
+        "start": 137.927,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bassline burrowing straight into your soul",
+        "suggestion": "Bayslide furrows, we skate into your soul",
+        "start": 141.549,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Whoa-oh-oh",
+        "suggestion": "Bubblegum, we can of",
+        "start": 146.75,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Drop drop",
+        "suggestion": "Bubblegum, we can of London, we can burn",
+        "start": 147.632,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bubblegum",
+        "suggestion": "we can of London, we can burn Bubblegum,",
+        "start": 149.954,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Pop pop pop",
+        "suggestion": "we can of London, we can burn",
+        "start": 150.651,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Let the centrifugal madness never stop",
+        "suggestion": "can of London, we can burn Bubblegum, we can burn RIRERKEungaría",
+        "start": 151.301,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Boom boom boom",
+        "suggestion": "RIRERKEungaría",
+        "start": 158.174,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Candy-colored pandemonium",
+        "suggestion": "RIRERKEungaría",
+        "start": 159.66,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Drop-drop-drop",
+        "suggestion": "Youtube concert",
+        "start": 167.323,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bubblegum never stops",
+        "suggestion": "Youtube concert Youtube Internet",
+        "start": 167.88,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Amplify the bass",
+        "suggestion": "the bass",
+        "start": 89.66,
+        "reason": "recognition-disagreement"
+      }
+    ]
   },
   {
     "id": "12c2b8fc-a3ad-4bde-bef8-47e03fea699b",

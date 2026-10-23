@@ -56,6 +56,22 @@
     "warnings": []
   },
   {
+    "id": "3629b1ed-a304-4c74-aeba-a1a64ce57a55",
+    "title": "Thalassa (Daughter of the Deep)",
+    "status": "retry-needed",
+    "lines": 1,
+    "alignedWords": 0,
+    "totalWords": 246,
+    "baselineWords": 0,
+    "coverage": 0.0,
+    "mode": "line",
+    "corrections": 0,
+    "reviewSuggestions": 1,
+    "warnings": [
+      "Command '['/opt/hostedtoolcache/Python/3.12.15/x64/bin/python', '/home/runner/work/site/site/.artist-core/actions/analyze/../../scripts/enhance_lyrics.py', '/home/runner/work/site/site/.cache/lyrics-v3/52c384d65356987fbabc128c48f909425b0028b3ecad8fcf50f656e86475d445.input.json', '/home/runner/work/site/site/.cache/lyrics-v3/52c384d65356987fbabc128c48f909425b0028b3ecad8fcf50f656e86475d445.result.json']' returned non-zero exit status 1."
+    ]
+  },
+  {
     "id": "0cd29cd9-27c5-4252-bf09-23062aa931f0",
     "title": "Bow to the Bass #BassBattle",
     "status": "cached",
@@ -142,7 +158,7 @@
   {
     "id": "2425cecf-babd-4e94-b3ef-eba6eddeae19",
     "title": "Child in the Dark",
-    "status": "processed",
+    "status": "cached",
     "lines": 32,
     "alignedWords": 135,
     "totalWords": 228,
@@ -170,7 +186,7 @@
   {
     "id": "f7232f0b-042e-45a4-bc03-5a9b28e7f13f",
     "title": "Boom Kittys Return",
-    "status": "processed",
+    "status": "cached",
     "lines": 38,
     "alignedWords": 205,
     "totalWords": 265,
@@ -198,7 +214,7 @@
   {
     "id": "23376ffd-4672-48a0-ad80-0c7afaaf0b0c",
     "title": "Bass Tester",
-    "status": "processed",
+    "status": "cached",
     "lines": 39,
     "alignedWords": 157,
     "totalWords": 236,
@@ -212,15 +228,15 @@
   {
     "id": "f9fac050-98a4-46b5-93c6-93696cb9a555",
     "title": "Take The Low #BASSBATTLE",
-    "status": "queued",
+    "status": "processed",
     "lines": 41,
-    "alignedWords": 0,
+    "alignedWords": 160,
     "totalWords": 220,
-    "baselineWords": 0,
-    "coverage": 0.0,
-    "mode": "line",
+    "baselineWords": 119,
+    "coverage": 0.727,
+    "mode": "word",
     "corrections": 0,
-    "reviewSuggestions": 0,
+    "reviewSuggestions": 21,
     "warnings": []
   },
   {
@@ -254,15 +270,15 @@
   {
     "id": "24052074-bf8b-44e9-b22d-7ba9141f96cf",
     "title": "Bubblegum Bassquake",
-    "status": "queued",
-    "lines": 78,
-    "alignedWords": 0,
-    "totalWords": 293,
-    "baselineWords": 0,
-    "coverage": 0.0,
-    "mode": "line",
+    "status": "processed",
+    "lines": 79,
+    "alignedWords": 171,
+    "totalWords": 296,
+    "baselineWords": 59,
+    "coverage": 0.578,
+    "mode": "word",
     "corrections": 0,
-    "reviewSuggestions": 0,
+    "reviewSuggestions": 46,
     "warnings": []
   },
   {
