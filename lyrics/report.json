@@ -228,7 +228,7 @@
   {
     "id": "f9fac050-98a4-46b5-93c6-93696cb9a555",
     "title": "Take The Low #BASSBATTLE",
-    "status": "processed",
+    "status": "cached",
     "lines": 41,
     "alignedWords": 160,
     "totalWords": 220,
@@ -270,7 +270,7 @@
   {
     "id": "24052074-bf8b-44e9-b22d-7ba9141f96cf",
     "title": "Bubblegum Bassquake",
-    "status": "processed",
+    "status": "cached",
     "lines": 79,
     "alignedWords": 171,
     "totalWords": 296,
@@ -298,15 +298,15 @@
   {
     "id": "b46879dc-cf28-45ec-b156-604cdcab0ebc",
     "title": "Get Funky With Me",
-    "status": "queued",
+    "status": "processed",
     "lines": 47,
-    "alignedWords": 0,
+    "alignedWords": 247,
     "totalWords": 289,
-    "baselineWords": 0,
-    "coverage": 0.0,
-    "mode": "line",
+    "baselineWords": 209,
+    "coverage": 0.855,
+    "mode": "word",
     "corrections": 0,
-    "reviewSuggestions": 0,
+    "reviewSuggestions": 39,
     "warnings": []
   }
 ]

@@ -2161,6 +2161,241 @@
     "id": "b46879dc-cf28-45ec-b156-604cdcab0ebc",
     "title": "Get Funky With Me",
     "corrections": [],
-    "suggestions": []
+    "suggestions": [
+      {
+        "original": "(get funky)",
+        "suggestion": "funky. Why",
+        "start": 6.223,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Why don't you get funky, yeah, get funky with me",
+        "suggestion": "don't you get funky now? Get funky with me.",
+        "start": 7.799,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Let's get funky, funky, as funky as can be",
+        "suggestion": "Let the funky funky ask funky as can be.",
+        "start": 16.393,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(funky as can be)",
+        "suggestion": "Funky! Ask and me.",
+        "start": 20.666,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Clap on the two and the four, then freeze",
+        "suggestion": "on the two and the four men friends. Pop",
+        "start": 24.474,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Pop it, lock it, do it with ease",
+        "suggestion": "Pop it like it. Do it with ease.",
+        "start": 28.932,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Saturday night at the roller rink",
+        "suggestion": "Sonny I'm at the rolling.",
+        "start": 40.774,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Disco ball spinning in purple and pink",
+        "suggestion": "Just go ball spinning with herbal and tea.",
+        "start": 44.907,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "DJ in the booth with a vocoder voice",
+        "suggestion": "DJing in the group with a broken boy.",
+        "start": 48.948,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Bleeps on the speakers and you got no choice",
+        "suggestion": "We're all the speakers and you've got no choice.",
+        "start": 52.988,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "I saw you rolling with your laces untied",
+        "suggestion": "I saw you wrote it with your laces on time.",
+        "start": 56.64,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Leg warmers up and a wink on the side",
+        "suggestion": "Let me warm her up and a week on the side.",
+        "start": 61.115,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "So I skate on over with a cassette in hand",
+        "suggestion": "So I stayed over with a cassette in hand.",
+        "start": 64.923,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Mixtape for you with the best in the land",
+        "suggestion": "It's too for you. We're the best in the land.",
+        "start": 69.195,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(best in the land)",
+        "suggestion": "In the land.",
+        "start": 73.461,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Why don't you get funky, yeah, get funky with me",
+        "suggestion": "Why don't you get on to the island? Do me",
+        "start": 77.506,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(funky with me)",
+        "suggestion": "Do it me",
+        "start": 81.595,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Let's get funky, funky, as funky as can be",
+        "suggestion": "it",
+        "start": 85.589,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(funky as can be)",
+        "suggestion": "with",
+        "start": 89.675,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Clap on the two and the four, then freeze",
+        "suggestion": "Clap all the two and the four Then frame",
+        "start": 93.669,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Pop it, lock it, do it with ease",
+        "suggestion": "Do it with me Do it",
+        "start": 97.988,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(do it with ease)",
+        "suggestion": "it with me",
+        "start": 102.168,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Boombox up on a shoulder pad",
+        "suggestion": "Do it Boombox up on",
+        "start": 105.976,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Biggest on the block, it's the loudest we had",
+        "suggestion": "Biggest on the block is the loudest we have",
+        "start": 109.923,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Cardboard down on the parking lot",
+        "suggestion": "Clawed down on the parking lot",
+        "start": 114.01,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Windmill, headspin, giving it all we got",
+        "suggestion": "Winfield has been giving it all we got",
+        "start": 118.05,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Talkbox talking like a toaster with a crush",
+        "suggestion": "Talked box, talked it like a toaster with a crush",
+        "start": 122.091,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Synth bass bouncing and it hits like a rush",
+        "suggestion": "Synth -based bouncing and it hits like a rush",
+        "start": 126.084,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Arcade screen flickers, high score blinking",
+        "suggestion": "Our paid spankers high score bleeding",
+        "start": 130.31,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Your initials on the top and I can't stop thinking",
+        "suggestion": "Your initials on the clock and I can't stop thinking",
+        "start": 134.118,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Lock",
+        "suggestion": "Now",
+        "start": 179.214,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Do the robot round the clock",
+        "suggestion": "Now",
+        "start": 183.252,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(lock)",
+        "suggestion": "Now",
+        "start": 183.298,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Now the tape's run out, but the groove won't quit",
+        "suggestion": "the taste run out but the brew won't quit.",
+        "start": 195.373,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Rewind it with a pencil, play another bit",
+        "suggestion": "We're wired with a pencil by another bed.",
+        "start": 199.459,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Funky, funky, till the batteries die",
+        "suggestion": "Funky, funky! Well, the fairy's done. The",
+        "start": 203.5,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "(batteries die)",
+        "suggestion": "The fairy's done!",
+        "start": 207.481,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "Two on the skates and the streetlights fly by",
+        "suggestion": "fairy's done! Two on the stage, and the street was blown away.",
+        "start": 208.004,
+        "reason": "recognition-disagreement"
+      },
+      {
+        "original": "\"Created by DarkPrincess -- Royalty of the night\"",
+        "suggestion": "Created by Dark Princess. Royalty of the night.",
+        "start": 217.525,
+        "reason": "recognition-disagreement"
+      }
+    ]
   }
 ]
