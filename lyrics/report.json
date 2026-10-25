@@ -298,7 +298,7 @@
   {
     "id": "b46879dc-cf28-45ec-b156-604cdcab0ebc",
     "title": "Get Funky With Me",
-    "status": "processed",
+    "status": "cached",
     "lines": 47,
     "alignedWords": 247,
     "totalWords": 289,
