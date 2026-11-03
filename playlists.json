@@ -5,7 +5,7 @@
     "description": "",
     "artwork": "https://scdn.treblo.com/images/uploadart-2ea35a87-e48a-4824-aba4-5f8489808cb8.jpg",
     "url": "https://treblo.com/playlist/263cdc48-365a-4272-9ef1-d09d95783ced",
-    "likes": 2,
+    "likes": 3,
     "comments": 0,
     "tracks": [
       {
@@ -362,8 +362,8 @@
           }
         ],
         "lyrics": "$22",
-        "likes": 22,
-        "plays": 331,
+        "likes": 24,
+        "plays": 332,
         "comments": 5,
         "url": "https://treblo.com/song/dd41af05-c469-44eb-b2a2-6aec61ecca00"
       },
@@ -1074,7 +1074,7 @@
           }
         ],
         "lyrics": "$24",
-        "likes": 13,
+        "likes": 14,
         "plays": 91,
         "comments": 1,
         "url": "https://treblo.com/song/1d219994-0fe7-46e6-808f-84709e68ea49"
@@ -1344,7 +1344,7 @@
           }
         ],
         "lyrics": "$25",
-        "likes": 31,
+        "likes": 33,
         "plays": 303,
         "comments": 6,
         "url": "https://treblo.com/song/1ded9062-b267-49bf-87d3-4d009b423320"
@@ -1397,7 +1397,7 @@
           }
         ],
         "lyrics": "$26",
-        "likes": 19,
+        "likes": 20,
         "plays": 141,
         "comments": 4,
         "url": "https://treblo.com/song/3629b1ed-a304-4c74-aeba-a1a64ce57a55"
@@ -1425,16 +1425,16 @@
         ],
         "alignedLyrics": "$undefined",
         "lyrics": "⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛\n🔊　　　🔊　　　🔊\n〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n　　　　　　　　🚂\n　　　　　　🚂💨\n　　　　🚂💨💨\n　　🚂💨💨💨\n🚂💨💨💨💨\n═══════════════\n🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️\n═══════════════\n🔩⚙️🔩⚙️🔩⚙️🔩⚙️🔩\n⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️\n🥁　🥁　🥁　🥁　🥁\n　🥁　🥁　🥁　🥁\n🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊\n〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n🚃🚃🚃🚃🚃🚃🚃🚂\n═══════════════\n🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️\n═══════════════\n💥　　　💥　　　💥\n⚙️🔩⚙️🔩⚙️🔩⚙️🔩⚙️\n🔊　🔊　🔊　🔊　🔊\n⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️\n🚧🚧🚧🚧🚧🚧🚧🚧🚧\n💨💨💨💨🚂🚃🚃🚃🚃\n═══════════════\n🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️\n═══════════════\n🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊\n⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛",
-        "likes": 29,
-        "plays": 241,
+        "likes": 30,
+        "plays": 247,
         "comments": 5,
         "url": "https://treblo.com/song/ed675bff-05ba-4680-a886-b3403892304f"
       }
     ],
     "trackCount": 6,
     "duration": 1347,
-    "trackLikes": 149,
-    "plays": 1322,
+    "trackLikes": 156,
+    "plays": 1329,
     "artists": 1
   },
   {
@@ -1827,7 +1827,7 @@
         "alignedLyrics": "$undefined",
         "lyrics": "",
         "likes": 8,
-        "plays": 79,
+        "plays": 80,
         "comments": 2,
         "url": "https://treblo.com/song/59c1f8b3-5113-49fc-bf54-03ad0aba3779"
       },
@@ -2624,7 +2624,7 @@
         ],
         "alignedLyrics": "$undefined",
         "lyrics": "",
-        "likes": 12,
+        "likes": 11,
         "plays": 103,
         "comments": 2,
         "url": "https://treblo.com/song/5960f8f2-900d-4f42-871a-d3340f646f11"
@@ -4656,16 +4656,16 @@
           }
         ],
         "lyrics": "$2a",
-        "likes": 20,
-        "plays": 245,
-        "comments": 2,
+        "likes": 23,
+        "plays": 246,
+        "comments": 3,
         "url": "https://treblo.com/song/b46879dc-cf28-45ec-b156-604cdcab0ebc"
       }
     ],
     "trackCount": 17,
     "duration": 3567,
-    "trackLikes": 177,
-    "plays": 1594,
+    "trackLikes": 179,
+    "plays": 1596,
     "artists": 12
   }
 ]
