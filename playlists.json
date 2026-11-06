@@ -361,7 +361,7 @@
             "start": 190.543
           }
         ],
-        "lyrics": "$24",
+        "lyrics": "$22",
         "likes": 24,
         "plays": 333,
         "comments": 5,
@@ -711,9 +711,9 @@
             "start": 263.825
           }
         ],
-        "lyrics": "$25",
+        "lyrics": "$23",
         "likes": 35,
-        "plays": 215,
+        "plays": 216,
         "comments": 4,
         "url": "https://treblo.com/song/bd189e63-98f6-4613-bb40-94a8d4e1ce4a"
       },
@@ -1073,7 +1073,7 @@
             "start": 168.948
           }
         ],
-        "lyrics": "$26",
+        "lyrics": "$24",
         "likes": 14,
         "plays": 91,
         "comments": 1,
@@ -1343,9 +1343,9 @@
             "start": 204.521
           }
         ],
-        "lyrics": "$27",
+        "lyrics": "$25",
         "likes": 33,
-        "plays": 303,
+        "plays": 304,
         "comments": 6,
         "url": "https://treblo.com/song/1ded9062-b267-49bf-87d3-4d009b423320"
       },
@@ -1396,9 +1396,9 @@
             "start": 182.531
           }
         ],
-        "lyrics": "$28",
+        "lyrics": "$26",
         "likes": 20,
-        "plays": 141,
+        "plays": 142,
         "comments": 4,
         "url": "https://treblo.com/song/3629b1ed-a304-4c74-aeba-a1a64ce57a55"
       },
@@ -1434,7 +1434,7 @@
     "trackCount": 6,
     "duration": 1347,
     "trackLikes": 156,
-    "plays": 1343,
+    "plays": 1346,
     "artists": 1
   },
   {
@@ -1803,8 +1803,8 @@
             "start": 214.088
           }
         ],
-        "lyrics": "$24",
-        "likes": 12,
+        "lyrics": "$22",
+        "likes": 11,
         "plays": 187,
         "comments": 5,
         "url": "https://treblo.com/song/0cd29cd9-27c5-4252-bf09-23062aa931f0"
@@ -1826,7 +1826,7 @@
         ],
         "alignedLyrics": "$undefined",
         "lyrics": "",
-        "likes": 8,
+        "likes": 7,
         "plays": 80,
         "comments": 2,
         "url": "https://treblo.com/song/59c1f8b3-5113-49fc-bf54-03ad0aba3779"
@@ -2271,7 +2271,7 @@
             "start": 249.893
           }
         ],
-        "lyrics": "$25",
+        "lyrics": "$23",
         "likes": 3,
         "plays": 33,
         "comments": 1,
@@ -2603,7 +2603,7 @@
             "start": 181.719
           }
         ],
-        "lyrics": "$26",
+        "lyrics": "$24",
         "likes": 4,
         "plays": 38,
         "comments": 0,
@@ -2871,7 +2871,7 @@
             "start": 160.078
           }
         ],
-        "lyrics": "$27",
+        "lyrics": "$25",
         "likes": 4,
         "plays": 37,
         "comments": 0,
@@ -2899,7 +2899,7 @@
         "alignedLyrics": "$undefined",
         "lyrics": "",
         "likes": 5,
-        "plays": 34,
+        "plays": 35,
         "comments": 0,
         "url": "https://treblo.com/song/a203b02d-d32a-46ab-8fc7-6e96e47aab14"
       },
@@ -3156,7 +3156,7 @@
             "start": 170.017
           }
         ],
-        "lyrics": "$28",
+        "lyrics": "$26",
         "likes": 11,
         "plays": 69,
         "comments": 0,
@@ -3457,7 +3457,7 @@
             "start": 175.125
           }
         ],
-        "lyrics": "$29",
+        "lyrics": "$27",
         "likes": 17,
         "plays": 215,
         "comments": 4,
@@ -3740,7 +3740,7 @@
             "start": 251.379
           }
         ],
-        "lyrics": "$2a",
+        "lyrics": "$28",
         "likes": 4,
         "plays": 36,
         "comments": 1,
@@ -4316,7 +4316,7 @@
             "start": 167.88
           }
         ],
-        "lyrics": "$2b",
+        "lyrics": "$29",
         "likes": 11,
         "plays": 34,
         "comments": 3,
@@ -4655,7 +4655,7 @@
             "start": 217.525
           }
         ],
-        "lyrics": "$2c",
+        "lyrics": "$2a",
         "likes": 23,
         "plays": 246,
         "comments": 3,
@@ -4664,8 +4664,8 @@
     ],
     "trackCount": 17,
     "duration": 3567,
-    "trackLikes": 179,
-    "plays": 1600,
+    "trackLikes": 177,
+    "plays": 1601,
     "artists": 12
   }
 ]
