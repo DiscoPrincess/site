@@ -1398,7 +1398,7 @@
         ],
         "lyrics": "$26",
         "likes": 20,
-        "plays": 142,
+        "plays": 143,
         "comments": 4,
         "url": "https://treblo.com/song/3629b1ed-a304-4c74-aeba-a1a64ce57a55"
       },
@@ -1434,7 +1434,7 @@
     "trackCount": 6,
     "duration": 1347,
     "trackLikes": 156,
-    "plays": 1350,
+    "plays": 1351,
     "artists": 1
   },
   {
@@ -3805,7 +3805,7 @@
         "alignedLyrics": "$undefined",
         "lyrics": "",
         "likes": 14,
-        "plays": 73,
+        "plays": 74,
         "comments": 6,
         "url": "https://treblo.com/song/fb80dd97-2106-4ccc-a211-857a11f3c668"
       },
@@ -4665,7 +4665,7 @@
     "trackCount": 17,
     "duration": 3567,
     "trackLikes": 177,
-    "plays": 1602,
+    "plays": 1603,
     "artists": 12
   }
 ]
