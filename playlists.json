@@ -5,7 +5,7 @@
     "description": "",
     "artwork": "https://scdn.treblo.com/images/uploadart-2ea35a87-e48a-4824-aba4-5f8489808cb8.jpg",
     "url": "https://treblo.com/playlist/263cdc48-365a-4272-9ef1-d09d95783ced",
-    "likes": 3,
+    "likes": 4,
     "comments": 0,
     "tracks": [
       {
@@ -712,7 +712,7 @@
           }
         ],
         "lyrics": "$25",
-        "likes": 36,
+        "likes": 37,
         "plays": 221,
         "comments": 4,
         "url": "https://treblo.com/song/bd189e63-98f6-4613-bb40-94a8d4e1ce4a"
@@ -1426,15 +1426,15 @@
         "alignedLyrics": "$undefined",
         "lyrics": "⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛\n🔊　　　🔊　　　🔊\n〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n　　　　　　　　🚂\n　　　　　　🚂💨\n　　　　🚂💨💨\n　　🚂💨💨💨\n🚂💨💨💨💨\n═══════════════\n🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️\n═══════════════\n🔩⚙️🔩⚙️🔩⚙️🔩⚙️🔩\n⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️\n🥁　🥁　🥁　🥁　🥁\n　🥁　🥁　🥁　🥁\n🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊\n〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️\n🚃🚃🚃🚃🚃🚃🚃🚂\n═══════════════\n🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️\n═══════════════\n💥　　　💥　　　💥\n⚙️🔩⚙️🔩⚙️🔩⚙️🔩⚙️\n🔊　🔊　🔊　🔊　🔊\n⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️⛓️\n🚧🚧🚧🚧🚧🚧🚧🚧🚧\n💨💨💨💨🚂🚃🚃🚃🚃\n═══════════════\n🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️🛤️\n═══════════════\n🔊🔊🔊🔊🔊🔊🔊🔊🔊🔊\n⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛",
         "likes": 30,
-        "plays": 271,
+        "plays": 272,
         "comments": 5,
         "url": "https://treblo.com/song/ed675bff-05ba-4680-a886-b3403892304f"
       }
     ],
     "trackCount": 6,
     "duration": 1347,
-    "trackLikes": 161,
-    "plays": 1384,
+    "trackLikes": 162,
+    "plays": 1385,
     "artists": 1
   },
   {
@@ -1804,7 +1804,7 @@
           }
         ],
         "lyrics": "$24",
-        "likes": 11,
+        "likes": 12,
         "plays": 190,
         "comments": 5,
         "url": "https://treblo.com/song/0cd29cd9-27c5-4252-bf09-23062aa931f0"
@@ -2632,7 +2632,7 @@
       {
         "id": "a6767a8e-213f-407c-95f0-dde8709ae346",
         "title": "𝙍𝙚𝙚𝙨𝙚’𝙨 ⓟⓘⓔⓒⓔⓢ #BassBattle (Need more Cowbell!)",
-        "artist": "everready0202",
+        "artist": "everready",
         "audio": "https://cdn.treblo.com/generations3/audio_6e1d67b9-a8eb-42a8-92a9-8e7c00e8e14a_1.ogg",
         "artwork": "https://scdn.treblo.com/images/uploadart-79acef30-8d74-4a1c-af5d-fa6a2dd09cba.png",
         "duration": 251,
@@ -2642,7 +2642,7 @@
         "alignedLyrics": "$undefined",
         "lyrics": "",
         "likes": 31,
-        "plays": 289,
+        "plays": 290,
         "comments": 4,
         "url": "https://treblo.com/song/a6767a8e-213f-407c-95f0-dde8709ae346"
       },
@@ -4352,7 +4352,7 @@
         "alignedLyrics": "$undefined",
         "lyrics": "",
         "likes": 3,
-        "plays": 17,
+        "plays": 18,
         "comments": 0,
         "url": "https://treblo.com/song/12c2b8fc-a3ad-4bde-bef8-47e03fea699b"
       },
@@ -4664,8 +4664,8 @@
     ],
     "trackCount": 17,
     "duration": 3567,
-    "trackLikes": 186,
-    "plays": 1627,
+    "trackLikes": 187,
+    "plays": 1629,
     "artists": 12
   }
 ]
